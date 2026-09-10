@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+*.swp
+.DS_Store
+
+# never commit game data
+*.iso
+*.ISO
+*.HAR
+*.har
+*.BIN
+everything/
+baseIso/
+unpacked*/
+extracted/
+patched/
+.nge_toolkit.json
