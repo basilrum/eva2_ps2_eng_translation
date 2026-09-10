@@ -36,7 +36,7 @@ md5  cbe94757814172a7f210ca167154db0a
 An xdelta applied to a different dump produces a corrupt image **and will not
 warn you** — the game simply hangs or shows a black screen. Check the md5.
 
-The result should come out to `ff651e1829a3dc025ba87f7f217ebba5`
+The result should come out to `aeb8ff32c5ccda4baae45f4f02ce29a2`
 (3,162,275,840 bytes). Both checksums are in [`patch/CHECKSUMS.txt`](patch/CHECKSUMS.txt),
 and this exact round-trip is verified before every release.
 
@@ -56,8 +56,9 @@ Play the result in PCSX2. No settings changes are needed.
 * The free-time conversation menus and replies.
 * System messages: controller check, memory card, save warnings.
 * **The developer debug menus**, in the executable and in every overlay —
-  521 menu labels plus 82 console/log strings, including the cut-scene tables
-  and the battle prompt bar.
+  555 menu labels plus 82 console/log strings, including the cut-scene tables
+  and the battle prompt bar. These are not reachable in normal play; they are
+  translated for completeness.
 
 Every menu is fully navigable in English.
 
