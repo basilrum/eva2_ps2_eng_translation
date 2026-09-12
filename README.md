@@ -36,7 +36,7 @@ md5  cbe94757814172a7f210ca167154db0a
 An xdelta applied to a different dump produces a corrupt image **and will not
 warn you** — the game simply hangs or shows a black screen. Check the md5.
 
-The result should come out to `aeb8ff32c5ccda4baae45f4f02ce29a2`
+The result should come out to `48d05ad18cfcb194b21d302a1ee07532`
 (3,162,275,840 bytes). Both checksums are in [`patch/CHECKSUMS.txt`](patch/CHECKSUMS.txt),
 and this exact round-trip is verified before every release.
 
