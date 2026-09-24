@@ -1,0 +1,71 @@
+name: Report a problem
+description: Untranslated text, text that does not fit, a typo, or a crash.
+title: "[report] "
+labels: ["report"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping finish this off. A screenshot is worth more than
+        any description, so please include one if you possibly can.
+
+  - type: dropdown
+    id: kind
+    attributes:
+      label: What kind of problem is it?
+      options:
+        - Still in Japanese
+        - Text runs off the box or is cut off
+        - Typo or awkward English
+        - Wrong name, item or number
+        - Crash, freeze or black screen
+        - Something else
+    validations:
+      required: true
+
+  - type: input
+    id: where
+    attributes:
+      label: Where in the game?
+      description: Whatever you can give — the menu, the scenario, the episode, who was speaking.
+      placeholder: e.g. Options > Sound, or the Ramiel battle briefing
+    validations:
+      required: true
+
+  - type: textarea
+    id: screenshot
+    attributes:
+      label: Screenshot
+      description: Drag the image straight into this box. In PCSX2, F8 takes a screenshot.
+      placeholder: Drop the image here.
+    validations:
+      required: false
+
+  - type: textarea
+    id: details
+    attributes:
+      label: What did you see, and what did you expect?
+      description: If it is a wording problem, quote the text exactly as it appears.
+    validations:
+      required: true
+
+  - type: input
+    id: build
+    attributes:
+      label: md5 of your patched ISO
+      description: >
+        Run `md5sum "NGE2 English.iso"` (Linux/macOS) or
+        `certutil -hashfile "NGE2 English.iso" MD5` (Windows).
+        It should be 48d05ad18cfcb194b21d302a1ee07532. A different value means
+        the patch was applied to a different dump, which causes its own errors.
+      placeholder: 48d05ad18cfcb194b21d302a1ee07532
+    validations:
+      required: false
+
+  - type: input
+    id: emulator
+    attributes:
+      label: Emulator or console
+      placeholder: e.g. PCSX2 2.0.2, or real PS2
+    validations:
+      required: false

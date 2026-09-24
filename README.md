@@ -3,9 +3,10 @@
 A complete English fan-translation of **Shin Seiki Evangelion 2 — Evangelions**
 (PlayStation 2, SLPS-252.99, Japan-only).
 
-I haven't fully beat the game it myself, as I've been too addicted to Mewgenics. 
+I haven't fully beat the game myself, as I've been too addicted to Mewgenics.
 If you encounter something untranslated, an error, or something else,
-please leave a detailed description of it and a screenshot :)
+please [open a report](https://github.com/basilrum/eva2_ps2_eng_translation/issues/new?template=report.yml) with a detailed description and a
+screenshot :)
 
 Distributed as an xdelta patch: it contains only the difference from the
 original disc, so you supply your own copy of the game. No copyrighted data is
@@ -65,6 +66,17 @@ Play the result in PCSX2. No settings changes are needed.
   translated for completeness.
 
 Every menu is fully navigable in English.
+
+---
+
+## Report a problem
+
+If something is still in Japanese, does not fit its box, reads badly, or the
+game misbehaves, please [open a report](https://github.com/basilrum/eva2_ps2_eng_translation/issues/new?template=report.yml).
+
+The form asks for a screenshot — drag the image straight into the box, and in
+PCSX2 <kbd>F8</kbd> takes one. Say roughly where in the game you were; that is
+usually enough to find the exact string.
 
 ---
 
