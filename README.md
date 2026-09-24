@@ -3,7 +3,7 @@
 A complete English fan-translation of **Shin Seiki Evangelion 2 — Evangelions**
 (PlayStation 2, SLPS-252.99, Japan-only).
 
-I haven't fully completed it myself, as I've been too addicted to Mewgenics. 
+I haven't fully beat the game it myself, as I've been too addicted to Mewgenics. 
 If you encounter something untranslated, an error, or something else,
 please leave a detailed description of it and a screenshot :)
 
