@@ -1,7 +1,0 @@
-SLPS_252.99: 2689 of 2992 ambiguous functions resolved (90%), 303 left with no call evidence
-prog/BATTLE.BIN: 1570 of 1828 ambiguous functions resolved (86%), 258 left with no call evidence
-prog/FREE.BIN: 1850 of 2583 ambiguous functions resolved (72%), 733 left with no call evidence
-
-TOTAL 6109 of 7403 resolved (83%), 1294 still ambiguous
-functions attributed to exactly one .c file: 7257/10252 (71%)   [1148 of them pinned by a __FILE__ ref]
-wrote /home/vasilije/Downloads/nge2_recomp/symbols/functions_split.json
