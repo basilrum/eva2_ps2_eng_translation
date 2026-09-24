@@ -108,6 +108,38 @@ constructions like "Is it not...?".
 
 ---
 
+## The reverse-engineering side — `recomp/`
+
+The same work, one layer down. Translating the game meant taking it apart, and
+`recomp/` is the map that came out of that: a named, attributed reconstruction
+of the code, built without a symbol table, because the ELF has none.
+
+    10,915  functions located
+     9,571  reachability-verified
+     7,731  attributed to a source file (80.5% of game code)
+     1,194  named
+       219  translation units bounded
+
+The way in is that the **asserts are still live** — 684 call sites keep their
+`__FILE__` and expression text, so the original translation-unit layout is
+recoverable from the addresses the code still loads.
+
+Two independent checks run on every rebuild, both on signals the attribution
+never consumes: assert line ordering (99.5%) and recovered names against their
+units (97.2%).
+
+`recomp/notes/` documents what was worked out along the way — the boot chain
+and memory layout, the mode manager and how overlays are loaded, the engine's
+object model and its command interpreter, the `.EVS` event-script format, the
+dormant developer switchboard the retail build still carries, and the
+per-scenario save format.
+
+**No game code or data is included.** The exports are addresses, names and
+confidence levels; every tool operates on a copy of the game you supply
+yourself.
+
+Run `recomp/rebuild.sh` to regenerate the whole map from your own copy.
+
 ## Credits and licence
 
 The reverse-engineering groundwork for the **PSP** version of this game

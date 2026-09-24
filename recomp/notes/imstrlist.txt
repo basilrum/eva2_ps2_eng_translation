@@ -1,0 +1,956 @@
+   0  Pick start pt
+   1  Normal move
+   2  Change subject
+   3  Ask
+   4  Ignore
+   5  Go Near
+   6  Get to Point
+   7  Curt reply
+   8  Scold them
+   9  End the talk
+  10  Answer
+  11  Silently ignore
+  12  Dodge the topic
+  13  Write off as dumb
+  14  So cold / say
+  15  Talk one-sided
+  16  Who's this guy? / Annoyed
+  17  Sulk
+  18  Look at chest
+  19  Unfazed
+  20  Look at hands
+  21  Look at them
+  22  gaze / Don't notice
+  23  Saw and Ignored
+  24  Return
+  25  Blush
+  26  Look pained
+  27  Gaze enraptured
+  28  Make a smug / face
+  29  Stop looking
+  30  About them / Think
+  31  Look away
+  32  Smile at them
+  33  Near
+  34  Say thanks
+  35  Enter mind maze
+  36  Give a negative / reply
+  37  Wonder
+  38  Smile gently
+  39  Thanks
+  40  Banter
+  41  Get annoyed
+  42  Repeat
+  43  Apologize
+  44  About secret info
+  45  A favor
+  46  Consult
+  47  Leave Cmdr office
+  48  Say you don't know
+  49  Warn
+  50  Accept
+  51  Refuse
+  52  Tease
+  53  (unused)
+  54  Give advice
+  55  Shocked
+  56  Say something rude
+  57  Cut talk short
+  58  Suddenly anger
+  59  Argue back
+  60  Stay silent
+  61  Agree
+  62  Soothe
+  63  Strained laugh
+  64  Berate
+  65  Share secret info
+  66  Scoff
+  67  Make excuses
+  68  Get awkward
+  69  Talk back
+  70  ...So?
+  71  Don't apologize / so easily
+  72  Ignore totally
+  73  Act angry
+  74  Shrug
+  75  Suddenly / Hug them
+  76  All right, all right / What is it?
+  77  You're annoying
+  78  Close your eyes
+  79  Recoil
+  80  (unused)
+  81  Pull away
+  82  Eyes up here / Pervert!
+  83  What's wrong?
+  84  Cover chest
+  85  (unused)
+  86  Tease
+  87  Raise your gaze
+  88  It's nothing
+  89  Look lower
+  90  (unused)
+  91  Kiss
+  92  Talk up close
+  93  Hug them
+  94  Hold hands
+  95  (unused)
+  96  Hand something
+  97  (unused)
+  98  Whisper
+  99  Hold them tight
+ 100  Yield to them
+ 101  Lace fingers
+ 102  Refuse
+ 103  What's wrong?
+ 104  Don't notice
+ 105  This?
+ 106  Say it's / Blush
+ 107  Admire
+ 108  Accept
+ 109  Suspect
+ 110  (unused)
+ 111  (unused)
+ 112  (unused)
+ 113  Do you like me?
+ 114  (unused)
+ 115  (unused)
+ 116  Why pull away?
+ 117  Don't answer
+ 118  Wait...not now
+ 119  Of course
+ 120  Who knows?
+ 121  I hate you
+ 122  I'm happy
+ 123  Liar
+ 124  Me too
+ 125  To them / Embrace
+ 126  Act delighted
+ 127  Chide them
+ 128  Ignore the hug
+ 129  Oh my
+ 130  Get conceited
+ 131  I'm beaten
+ 132  Talk to them / in high spirits
+ 133  How are you?
+ 134  Talk cheerfully
+ 135  Smile knowingly
+ 136  Act overfamiliar
+ 137  Curt reply
+ 138  Act surprised
+ 139  Cold reply
+ 140  W-what is it
+ 141  Tilt your head
+ 142  To them / Speak weakly
+ 143  What's wrong?
+ 144  Feel dubious / Observe
+ 145  Stay silent too
+ 146  Talk normally
+ 147  Snap back to it / Apologize
+ 148  Spacing out
+ 149  Near tears / face
+ 150  It's nothing
+ 151  Sigh
+ 152  Limp apology
+ 153  U-um, hey
+ 154  You're cold
+ 155  Not in the mood / for that
+ 156  Talk curtly
+ 157  What's with you
+ 158  Right?
+ 159  (unused)
+ 160  Get cheerful
+ 161  Play innocent
+ 162  Mockingly / Tease
+ 163  Laugh together
+ 164  After a pause / Nod
+ 165  Mm-hmm
+ 166  (unused)
+ 167  Act suspicious
+ 168  It's nothiiing
+ 169  Knowingly / Keep laughing
+ 170  Curious
+ 171  Aghast
+ 172  Play ignorant
+ 173  Comforting / Call out
+ 174  Make / a funny face
+ 175  Cheer
+ 176  Wipe tears
+ 177  Thank them
+ 178  Laugh in tears
+ 179  You needn't say
+ 180  no need
+ 181  Be sarcastic
+ 182  Stay silent
+ 183  As expected / It's nothing
+ 184  Worry
+ 185  Think: weirdo
+ 186  Warn them
+ 187  Sigh
+ 188  Push away
+ 189  Don't mind it
+ 190  Snap back
+ 191  As expected / It's nothing
+ 192  I see
+ 193  Pat shoulder
+ 194  It's true!
+ 195  Huh?
+ 196  Cling and sob
+ 197  What?
+ 198  ...Boring / seems like it
+ 199  Slip away subtly
+ 200  Take a bath
+ 201  Something wrong?
+ 202  No, / It's nothing
+ 203  Yeah, a little
+ 204  Oh.
+ 205  Tease
+ 206  Want to talk?
+ 207  No, it's fine
+ 208  Sitting
+ 209  Disrupt studying
+ 210  Complain
+ 211  Study quietly
+ 212  Sit on chair
+ 213  Now, now, / don't say that
+ 214  Sitting
+ 215  Stand up
+ 216  Need cap warn
+ 217  Oh, fine then
+ 218  No, / Go away
+ 219  That's more like it
+ 220  Okaaay...
+ 221  To them / Try talking
+ 222  Let's go / fish
+ 223  System: / Schoolwork
+ 224  System: / Idle at home
+ 225  (unused)
+ 226  Together with / Watch TV
+ 227  Change the / channel
+ 228  (unused)
+ 229  About the show / Complain
+ 230  Complain
+ 231  Watch TV quietly
+ 232  How's my / A.T. doing?
+ 233  How's my / It's dropped...
+ 234  How's my / Doing well
+ 235  Below target / Way too low...
+ 236  Idle chatter / Chat
+ 237  Chat along too
+ 238  Phone to check / their location
+ 239  Sit on chair
+ 240  Sitting
+ 241  Stand up
+ 242  Search the desk / and shelves
+ 243  NPC Maya Only / Give an item
+ 244  NPC Misato Only / Give an item
+ 245  NPC Ritsuko Only / Give an item
+ 246  NPC Fuyutsuki / Give an item
+ 247  Ask them about / school grades
+ 248  Leave it to me, / Nailed it
+ 249  So-so, I guess
+ 250  Maybe bad
+ 251  I'm falling behind
+ 252  Debug: / Mind's maze
+ 253  System: / Angel appears
+ 254  To them / Call out
+ 255  Mumble
+ 256  Chat
+ 257  Call them over
+ 258  Ugh
+ 259  Vague agreement
+ 260  Need something?
+ 261  Make excuses, / don't go
+ 262  I'm home
+ 263  Go get it
+ 264  Yes, yes
+ 265  No
+ 266  Mind others' / opinion
+ 267  Open Shinji's / paper door
+ 268  Open Asuka's / sliding door
+ 269  Open Shinji's / sliding door
+ 270  Open Misato's / sliding door
+ 271  curtain
+ 272  curtain
+ 273  Sulk
+ 274  (unused)
+ 275  (unused)
+ 276  Talk in sleep
+ 277  (unused)
+ 278  Smirk
+ 279  (unused)
+ 280  For now / Hug them
+ 281  For now / Hug back
+ 282  For now / Leave
+ 283  (unused)
+ 284  (unused)
+ 285  (unused)
+ 286  (unused)
+ 287  (unused)
+ 288  (unused)
+ 289  (unused)
+ 290  Normally / Say the unsaid
+ 291  Actually awake
+ 292  Sleeping soundly
+ 293  (unused)
+ 294  (unused)
+ 295  With them / Chat now
+ 296  Thank you
+ 297  Allowance pls
+ 298  That much? / Don't rush me
+ 299  Sorry, used it / Got attached...
+ 300  N-no way...
+ 301  Worry
+ 302  It'll be fine
+ 303  Say nothing / Act awkward
+ 304  Give them info / Ask to gather
+ 305  Got it, / Someday...
+ 306  Thank you
+ 307  No / (Hide feelings)
+ 308  Repay me later
+ 309  For your sake
+ 310  Lights on
+ 311  Refuse
+ 312  Lights off
+ 313  Whisper to Cmdr
+ 314  I suppose
+ 315  No worries, / As planned
+ 316  (unused)
+ 317  (unused)
+ 318  (unused)
+ 319  Any questions?
+ 320  Give opinion
+ 321  No objection
+ 322  Whisper opinion
+ 323  It's settled
+ 324  Talk back
+ 325  Guess I must...
+ 326  Change the plan
+ 327  (unused)
+ 328  (unused)
+ 329  Request sync / rate tuning
+ 330  Sure
+ 331  System: / After harmonics
+ 332  (unused)
+ 333  (unused)
+ 334  (unused)
+ 335  (unused)
+ 336  (unused)
+ 337  (unused)
+ 338  (unused)
+ 339  (unused)
+ 340  (unused)
+ 341  Sit and eat
+ 342  (unused)
+ 343  (unused)
+ 344  (unused)
+ 345  Eat together, / May I?
+ 346  Ah, go ahead
+ 347  Excuse me
+ 348  No
+ 349  Sulk
+ 350  Resume meal
+ 351  Tutorial IM 01
+ 352  Tutorial IM 02
+ 353  Tutorial IM 03
+ 354  Tutorial IM 04
+ 355  Tutorial IM 05
+ 356  (unused)
+ 357  (unused)
+ 358  Pilot / I'll stop
+ 359  Oh...
+ 360  Really?
+ 361  System: / Exit/return
+ 362  Yes, I mean it
+ 363  Lie
+ 364  Anger
+ 365  Hey, are / you down?
+ 366  NPC reply / It's nothing
+ 367  NPC reply / A.T. is low...
+ 368  Spur a thirst / for knowledge
+ 369  Advise on / relations
+ 370  Advise them to / focus on work
+ 371  I-I see...
+ 372  NPC reply / Ambition up
+ 373  NPC reply / Rapport up
+ 374  NPC reply / Justice up
+ 375  NPC reply / Even so...
+ 376  (unused)
+ 377  (unused)
+ 378  Gripe to them
+ 379  Stay silent
+ 380  Agree
+ 381  Yeah?
+ 382  Keep griping
+ 383  Stay silent too
+ 384  See?!
+ 385  That's right!
+ 386  Flat reply
+ 387  Stay silent
+ 388  Get irritated
+ 389  Parting shot
+ 390  Do you / want the truth?
+ 391  Yes
+ 392  No
+ 393  Really?
+ 394  Jokingly / Dodge it
+ 395  Surely
+ 396  I see
+ 397  (unused)
+ 398  (unused)
+ 399  (unused)
+ 400  To them / Hand proposal
+ 401  I'll look / it over
+ 402  Tear it up flatly
+ 403  Say it as a joke
+ 404  Please
+ 405  Please
+ 406  Understood / I'll try
+ 407  No
+ 408  (unused)
+ 409  (unused)
+ 410  (unused)
+ 411  Apologize
+ 412  Give advice
+ 413  Even a monkey / can say sorry
+ 414  Snap
+ 415  Soothe
+ 416  Can't take this
+ 417  Hush
+ 418  Leave them be
+ 419  Anger
+ 420  Ignore and go
+ 421  ...S-sorry
+ 422  Unconvinced
+ 423  NPC Asuka Only / Close to Hikari 1
+ 424  NPC Asuka Only / Close to Hikari 2
+ 425  NPC Asuka Only / Close to Hikari 3
+ 426  NPC Misato Only / Close to Asuka 1
+ 427  NPC Misato Only / Close to Asuka 2
+ 428  NPC Misato Only / Close to Asuka 3
+ 429  NPC Fuyutsuki / Ikari Close 1
+ 430  NPC Fuyutsuki / Ikari Close 2
+ 431  NPC Fuyutsuki / Ikari Close 3
+ 432  NPC Ritsuko Only / Close to Misato 1
+ 433  NPC Ritsuko Only / Close to Misato 2
+ 434  NPC Ritsuko Only / Close to Misato 3
+ 435  NPC Maya Only / Close to Ritsuko 1
+ 436  NPC Maya Only / Close to Ritsuko 2
+ 437  NPC Maya Only / Close to Ritsuko 3
+ 438  NPC Hikari Only / Close to Asuka 1
+ 439  NPC Hikari Only / Close to Asuka 2
+ 440  NPC Hikari Only / Close to Asuka 3
+ 441  NPC Toji Only / Close to Aida 1
+ 442  NPC Toji Only / Close to Aida 2
+ 443  NPC Toji Only / Close to Aida 3
+ 444  NPC Aida only / Close to Toji 1
+ 445  NPC Aida only / Close to Toji 2
+ 446  NPC Aida only / Close to Toji 3
+ 447  NPC Asuka Only / Kaji AT 1
+ 448  NPC Asuka Only / Kaji AT 2
+ 449  NPC Asuka Only / Kaji AT 3
+ 450  NPC Misato Only / Rei AT 1
+ 451  NPC Misato Only / Rei AT 2
+ 452  NPC Misato Only / Rei AT 3
+ 453  NPC Fuyutsuki / Gendo AT 1
+ 454  NPC Fuyutsuki / Gendo AT 2
+ 455  NPC Fuyutsuki / Gendo AT 3
+ 456  NPC Ritsuko Only / Misato AT 1
+ 457  NPC Ritsuko Only / Misato AT 2
+ 458  NPC Ritsuko Only / Misato AT 3
+ 459  NPC Maya Only / Ritsuko AT 1
+ 460  NPC Maya Only / Ritsuko AT 2
+ 461  NPC Maya Only / Ritsuko AT 3
+ 462  NPC Hikari Only / Asuka AT 1
+ 463  NPC Hikari Only / Asuka AT 2
+ 464  NPC Hikari Only / Asuka AT 3
+ 465  NPC Toji Only / Aida AT 1
+ 466  NPC Toji Only / Aida AT 2
+ 467  NPC Toji Only / Aida AT 3
+ 468  NPC Aida only / Toji AT 1
+ 469  NPC Aida only / Toji AT 2
+ 470  NPC Aida only / Toji AT 3
+ 471  (unused)
+ 472  (unused)
+ 473  (unused)
+ 474  (unused)
+ 475  (unused)
+ 476  Review Report
+ 477  (unused)
+ 478  (unused)
+ 479  Just Ignore
+ 480  Sad Pen Pen
+ 481  Work at home?
+ 482  Yeah, / swamped here
+ 483  Hey, / don't bug me
+ 484  Back to Work
+ 485  Off to school
+ 486  Sure
+ 487  No way
+ 488  Off to school
+ 489  Sure
+ 490  No way
+ 491  Wanna study?
+ 492  Sure
+ 493  No way
+ 494  Wanna study?
+ 495  Sure
+ 496  No way
+ 497  Wanna study?
+ 498  Sure
+ 499  No way
+ 500  Ask them to / study with me
+ 501  Sure
+ 502  No way
+ 503  Combat drill / Want to join?
+ 504  Sure
+ 505  No way
+ 506  Help them out
+ 507  Sure
+ 508  Not right now
+ 509  System: / Go to School
+ 510  Offer them / kind words
+ 511  Don't need / such words
+ 512  Say Nothing
+ 513  System: / NPC Go To School
+ 514  (unused)
+ 515  (unused)
+ 516  (unused)
+ 517  (unused)
+ 518  Them / Flatter
+ 519  Hey, / Get smug
+ 520  Be negative
+ 521  Flatter More
+ 522  Backfired...
+ 523  Snap back to it / Press
+ 524  more / Get smug
+ 525  Oh my
+ 526  Ah, what a / simple guy...
+ 527  (unused)
+ 528  Ask
+ 529  Answer
+ 530  Not like you
+ 531  I see, / Impressive
+ 532  Stay silent
+ 533  What's wrong?
+ 534  Laugh Coldly
+ 535  (unused)
+ 536  (unused)
+ 537  (unused)
+ 538  (unused)
+ 539  (unused)
+ 540  (unused)
+ 541  (unused)
+ 542  (unused)
+ 543  (unused)
+ 544  (unused)
+ 545  (unused)
+ 546  (unused)
+ 547  (unused)
+ 548  (unused)
+ 549  (unused)
+ 550  (unused)
+ 551  (unused)
+ 552  (unused)
+ 553  (unused)
+ 554  (unused)
+ 555  (unused)
+ 556  (unused)
+ 557  (unused)
+ 558  (unused)
+ 559  Watch them
+ 560  (unused)
+ 561  (unused)
+ 562  (unused)
+ 563  (unused)
+ 564  Keep sleeping
+ 565  (unused)
+ 566  (unused)
+ 567  (unused)
+ 568  (unused)
+ 569  (unused)
+ 570  (unused)
+ 571  (unused)
+ 572  (unused)
+ 573  (unused)
+ 574  (unused)
+ 575  Use Bathroom
+ 576  Ring the Bell
+ 577  Push the Plan
+ 578  Use Bathroom
+ 579  (unused)
+ 580  Sorta
+ 581  (unused)
+ 582  (unused)
+ 583  Watch TV
+ 584  Open Fridge
+ 585  Hit the Wall
+ 586  Eat a Meal
+ 587  (unused)
+ 588  Join in the / meal
+ 589  (unused)
+ 590  (unused)
+ 591  Reflect
+ 592  Use Bathroom
+ 593  Sleep
+ 594  (unused)
+ 595  Take a Bath
+ 596  Study
+ 597  Study
+ 598  Run Away
+ 599  Asleep
+ 600  Watch others, / take note
+ 601  Use Bathroom
+ 602  Keep quiet, / ignore them
+ 603  Toilet
+ 604  (unused)
+ 605  Ring the Bell
+ 606  Let them in
+ 607  Don't answer
+ 608  Say you're busy / and refuse
+ 609  (unused)
+ 610  Walk Away
+ 611  Knock Again
+ 612  Don't say that, / just open up
+ 613  Say you get it / Go Home Upset
+ 614  Excuse me
+ 615  Open Grudgingly
+ 616  No, go home
+ 617  (unused)
+ 618  (unused)
+ 619  (unused)
+ 620  (unused)
+ 621  (unused)
+ 622  (unused)
+ 623  (unused)
+ 624  (unused)
+ 625  (unused)
+ 626  (unused)
+ 627  Use an Item
+ 628  (unused)
+ 629  (unused)
+ 630  (unused)
+ 631  (unused)
+ 632  (unused)
+ 633  (unused)
+ 634  Offer them / an item
+ 635  What?
+ 636  Don't want it
+ 637  Gift was
+ 638  just showing
+ 639  So fast!
+ 640  Nobody ever / they didn't
+ 641  Thanks, / I'm happy
+ 642  Don't want it
+ 643  Fish for Info
+ 644  Be Delighted
+ 645  Don't / say that
+ 646  Play Dumb
+ 647  Say thanks
+ 648  Secretly glad
+ 649  Act Pleased
+ 650  Don't want it
+ 651  Well then, / I'll take it
+ 652  Sulk
+ 653  Be Delighted
+ 654  Secretly glad
+ 655  Oh.
+ 656  Just kidding, / It's a gift
+ 657  Oh dear...
+ 658  Just say so / right away
+ 659  Oh.
+ 660  Battle … / ...An Angel?
+ 661  Head to HQ / to fight
+ 662  Keep sleeping
+ 663  What is it?
+ 664  Cmdr calls
+ 665  No summons
+ 666  Send me out
+ 667  The pilot... / how about it?
+ 668  If it's support / I can do that
+ 669  Deploy them
+ 670  Go All Out
+ 671  Won't go
+ 672  Tell them they / were discharged
+ 673  Welcome them / Show concern
+ 674  How's it going
+ 675  I'm fine
+ 676  Was it rough?
+ 677  I'm the Nth
+ 678  Not so great
+ 679  Pretty good
+ 680  Don't / worry now
+ 681  Smile
+ 682  Take care
+ 683  That's not so
+ 684  Hey, / Too harsh?
+ 685  W-what about?
+ 686  Be Stunned
+ 687  Talk about / current events
+ 688  Nod Silently
+ 689  Don't worry
+ 690  Say nothing / Act awkward
+ 691  Be mysterious
+ 692  Stay silent
+ 693  So that's it
+ 694  Cryptic thing / Talk back
+ 695  Be critical / Say
+ 696  To them / "Eating?"
+ 697  How are you?
+ 698  Eat what?
+ 699  Sometime soon / Wanna hang out?
+ 700  Well…
+ 701  Ignore
+ 702  What do I do?
+ 703  So-so
+ 704  Meaning?
+ 705  I see
+ 706  Hush
+ 707  No, nothing
+ 708  Sulk
+ 709  Is that good?
+ 710  Quite
+ 711  I wouldn't
+ 712  You'd get fat
+ 713  Tasty things / There's a lot
+ 714  That's right
+ 715  ……
+ 716  Yeah
+ 717  R-really?
+ 718  At that time / Call out
+ 719  Come on now
+ 720  Why?
+ 721  No
+ 722  Ah, no, / How to say…
+ 723  Flinch
+ 724  Sulk
+ 725  Eva & support /  status
+ 726  (unused)
+ 727  (unused)
+ 728  (unused)
+ 729  (unused)
+ 730  (unused)
+ 731  (unused)
+ 732  (unused)
+ 733  (unused)
+ 734  (unused)
+ 735  (unused)
+ 736  (unused)
+ 737  Sit at Table
+ 738  Stand up
+ 739  (unused)
+ 740  Excuse me / Done!
+ 741  To them / Greet Lightly
+ 742  Ignore
+ 743  Respond
+ 744  To them / Pay Allowance
+ 745  Shop
+ 746  Talk to Clerk
+ 747  Settle up
+ 748  (unused)
+ 749  (unused)
+ 750  (unused)
+ 751  (unused)
+ 752  (unused)
+ 753  (unused)
+ 754  (unused)
+ 755  (unused)
+ 756  (unused)
+ 757  (unused)
+ 758  (unused)
+ 759  (unused)
+ 760  (unused)
+ 761  (unused)
+ 762  (unused)
+ 763  (unused)
+ 764  (unused)
+ 765  Overtime home / Tidy up
+ 766  File a report
+ 767  Eva / Upkeep budget
+ 768  Support base / Repair budget
+ 769  Dummy Plug / study
+ 770  Uptime / further study
+ 771  AT Field / Shift test
+ 772  AT Field / Amp test
+ 773  Operator duty
+ 774  Cmdr work
+ 775  Vice Cmdr work
+ 776  Forged docs, / Make a Card
+ 777  At the PC / Hack
+ 778  Buy a Drink
+ 779  (unused)
+ 780  To Pen-Pen / Play with
+ 781  Puzzled / doing
+ 782  Ignore and go
+ 783  (unused)
+ 784  There, there / Pat Head
+ 785  Be sarcastic
+ 786  (unused)
+ 787  (unused)
+ 788  (unused)
+ 789  (unused)
+ 790  (unused)
+ 791  (unused)
+ 792  Tilt Head
+ 793  A bit lonely
+ 794  About Pen-Pen / Leave alone
+ 795  To them / Nuzzle up
+ 796  What's wrong?
+ 797  Squawk
+ 798  Cute gesture
+ 799  (unused)
+ 800  Say cute
+ 801  Seems clueless
+ 802  (unused)
+ 803  To them / Give message
+ 804  What message?
+ 805  The message / Tell
+ 806  Thanks
+ 807  Oh.
+ 808  Hush
+ 809  Found data...
+ 810  Thanks for docs
+ 811  Found intel...
+ 812  Thanks for info
+ 813  Say something
+ 814  Chat / Take a break
+ 815  Say nothing
+ 816  Warn them off / Warn
+ 817  (unused)
+ 818  (unused)
+ 819  (unused)
+ 820  (unused)
+ 821  (unused)
+ 822  (unused)
+ 823  (unused)
+ 824  (unused)
+ 825  (unused)
+ 826  (unused)
+ 827  (unused)
+ 828  (unused)
+ 829  (unused)
+ 830  (unused)
+ 831  (unused)
+ 832  (unused)
+ 833  (unused)
+ 834  (unused)
+ 835  (unused)
+ 836  (unused)
+ 837  (unused)
+ 838  (unused)
+ 839  (unused)
+ 840  (unused)
+ 841  (unused)
+ 842  (unused)
+ 843  (unused)
+ 844  (unused)
+ 845  (unused)
+ 846  (unused)
+ 847  (unused)
+ 848  Them / Glare angrily
+ 849  Glare back
+ 850  Look away
+ 851  Them / Insult them
+ 852  Talk back
+ 853  Stay silent
+ 854  (unused)
+ 855  (unused)
+ 856  (unused)
+ 857  (unused)
+ 858  (unused)
+ 859  (unused)
+ 860  (unused)
+ 861  (unused)
+ 862  (unused)
+ 863  (unused)
+ 864  (unused)
+ 865  (unused)
+ 866  Looks pleasant
+ 867  (unused)
+ 868  (unused)
+ 869  (unused)
+ 870  Draft a report
+ 871  (unused)
+ 872  (unused)
+ 873  (unused)
+ 874  (unused)
+ 875  Review Report
+ 876  (unused)
+ 877  (unused)
+ 878  At MAGI term. / Hack
+ 879  (unused)
+ 880  (unused)
+ 881  (unused)
+ 882  (unused)
+ 883  Intel training
+ 884  Combat training
+ 885  Well? / How's work?
+ 886  Going smoothly
+ 887  Not making progress
+ 888  (unused)
+ 889  Working hard / seems so
+ 890  Sorta
+ 891  If this continues / Well, but…
+ 892  Sorry, / Seems I intruded
+ 893  Oh, rough
+ 894  Angels won't / wait for us…
+ 895  (unused)
+ 896  (unused)
+ 897  (unused)
+ 898  (unused)
+ 899  To them / Idle chat
+ 900  To them / Idle chat
+ 901  To them / Idle chat
+ 902  Ask the other
+ 903  Goes Near Them
+ 904  (unused)
+ 905  Welcome them / Show concern
+ 906  Operator duty
+ 907  Operator duty
+ 908  (unused)
+ 909  Shower
+ 910  (unused)
+ 911  Their / Cut into talk
+ 912  Their / Interrupt
+ 913  Cut into their / hostile talk
+ 914  Disrupt their / serious talk
+ 915  Their work / Cut into talk
+ 916  (unused)
+ 917  To them / "Looking at who?"
+ 918  To them / "Someone sees us"
+ 919  Complement: Toilet
+ 920  Fill: Sleep
+ 921  Fill: Water
+ 922  Fill: Bath
+ 923  Fill: Meal
+ 924  Fill: Alone
+ 925  Fill: TV
+ 926  (unused)
+ 927  Draft a report
+ 928  Review Report
+ 929  (unused)
+ 930  (unused)
+ 931  01: EVA Structure
+ 932  ０２: EVA Unit-01
+ 933  03: Second Child
+ 934  04: Yui Ikari
+ 935  05: Gendo Ikari
+ 936  06: NERV Agency
+ 937  07: Marduk Inst.
+ 938  08: Gendo's Aim
+ 939  09: NERV History
+ 940  10: Instrumentality
+ 941  11: Gehirn
+ 942  １２: SEELE
+ 943  13: A.T. Field
+ 944  １４: S2 Engine
+ 945  １５: Angel
+ 946  １６: Adam
+ 947  17: Scrolls
+ 948  18: First Ancestor
+ 949  19: 2nd Angel
+ 950  20: Second Impact
+ 951  21: Third Impact
+ 952  ２２: Lance of Longinus
+ 953  23: Dummy Plug
+ 954  ２４: Geofront
+ 955  (runaway /  suit memory)

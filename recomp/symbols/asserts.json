@@ -1,0 +1,5901 @@
+{
+ "SLPS_252.99": [
+  {
+   "site": 1068320,
+   "file": "kanoh.c",
+   "line": 994,
+   "expr": "hface>=0",
+   "func": 1067824,
+   "unit": "kanoh.c"
+  },
+  {
+   "site": 1069308,
+   "file": "debug.c",
+   "line": 103,
+   "expr": "strlen(argv[2])+1<sizeof(cdimg)",
+   "func": 1069072,
+   "unit": "debug.c"
+  },
+  {
+   "site": 1070260,
+   "file": "debug.c",
+   "line": 483,
+   "expr": "0",
+   "func": 1070000,
+   "unit": "debug.c"
+  },
+  {
+   "site": 1078576,
+   "file": "cdfile.c",
+   "line": 90,
+   "expr": "ret==SCECdComplete",
+   "func": 1078512,
+   "unit": "cdfile.c"
+  },
+  {
+   "site": 1079644,
+   "file": "cdfile.c",
+   "line": 264,
+   "expr": "buff!=NULL",
+   "func": 1079584,
+   "unit": "cdfile.c"
+  },
+  {
+   "site": 1081012,
+   "file": "cddir.c",
+   "line": 179,
+   "expr": "dir_max<DIR_TABLE_MAX",
+   "func": 1080712,
+   "unit": "cddir.c"
+  },
+  {
+   "site": 1081356,
+   "file": "cddir.c",
+   "line": 222,
+   "expr": "p<buf+SECTOR_SIZE*DISKINFO_SIZE",
+   "func": 1081248,
+   "unit": "cddir.c"
+  },
+  {
+   "site": 1081436,
+   "file": "cddir.c",
+   "line": 224,
+   "expr": "p+dir_size <=buf+DISKINFO_SIZE*SECTOR_SIZE",
+   "func": 1081248,
+   "unit": "cddir.c"
+  },
+  {
+   "site": 1081564,
+   "file": "cddir.c",
+   "line": 236,
+   "expr": "file_max<FILE_TABLE_MAX",
+   "func": 1081248,
+   "unit": "cddir.c"
+  },
+  {
+   "site": 1083552,
+   "file": "pcfile.c",
+   "line": 93,
+   "expr": "size>=0",
+   "func": 1083456,
+   "unit": "pcfile.c"
+  },
+  {
+   "site": 1084096,
+   "file": "pcfile.c",
+   "line": 171,
+   "expr": "fd>=0",
+   "func": 1083600,
+   "unit": "pcfile.c"
+  },
+  {
+   "site": 1084160,
+   "file": "pcfile.c",
+   "line": 173,
+   "expr": "ret>=0",
+   "func": 1083600,
+   "unit": "pcfile.c"
+  },
+  {
+   "site": 1084264,
+   "file": "pcfile.c",
+   "line": 198,
+   "expr": "buff!=NULL",
+   "func": 1084200,
+   "unit": "pcfile.c"
+  },
+  {
+   "site": 1084308,
+   "file": "pcfile.c",
+   "line": null,
+   "expr": null,
+   "func": 1084200,
+   "unit": "pcfile.c"
+  },
+  {
+   "site": 1085084,
+   "file": "hig.c",
+   "line": 56,
+   "expr": null,
+   "func": 1085016,
+   "unit": "hig.c"
+  },
+  {
+   "site": 1085128,
+   "file": "hig.c",
+   "line": 61,
+   "expr": null,
+   "func": 1085016,
+   "unit": "hig.c"
+  },
+  {
+   "site": 1085136,
+   "file": "hig.c",
+   "line": 61,
+   "expr": null,
+   "func": 1085016,
+   "unit": "hig.c"
+  },
+  {
+   "site": 1085176,
+   "file": "hig.c",
+   "line": 69,
+   "expr": null,
+   "func": 1085016,
+   "unit": "hig.c"
+  },
+  {
+   "site": 1085212,
+   "file": "hig.c",
+   "line": 80,
+   "expr": null,
+   "func": 1085016,
+   "unit": "hig.c"
+  },
+  {
+   "site": 1085260,
+   "file": "hig.c",
+   "line": 88,
+   "expr": null,
+   "func": 1085016,
+   "unit": "hig.c"
+  },
+  {
+   "site": 1086860,
+   "file": "higdma.c",
+   "line": 319,
+   "expr": null,
+   "func": 1086824,
+   "unit": "higdma.c"
+  },
+  {
+   "site": 1089688,
+   "file": "dbbuf.c",
+   "line": 126,
+   "expr": "(size&15)==0",
+   "func": 1089648,
+   "unit": "dbbuf.c"
+  },
+  {
+   "site": 1089756,
+   "file": "dbbuf.c",
+   "line": 127,
+   "expr": "dbbuf<=dbend",
+   "func": 1089648,
+   "unit": "dbbuf.c"
+  },
+  {
+   "site": 1089824,
+   "file": "dbbuf.c",
+   "line": 141,
+   "expr": "(size&15)==0",
+   "func": 1089784,
+   "unit": "dbbuf.c"
+  },
+  {
+   "site": 1089892,
+   "file": "dbbuf.c",
+   "line": 142,
+   "expr": "dbbuf<=dbend",
+   "func": 1089784,
+   "unit": "dbbuf.c"
+  },
+  {
+   "site": 1089984,
+   "file": "dbbuf.c",
+   "line": 166,
+   "expr": "p<=dbend",
+   "func": 1089936,
+   "unit": "dbbuf.c"
+  },
+  {
+   "site": 1090036,
+   "file": "dbbuf.c",
+   "line": 166,
+   "expr": "p<=dbend",
+   "func": 1090016,
+   "unit": "texture.c"
+  },
+  {
+   "site": 1090420,
+   "file": "texture.c",
+   "line": 200,
+   "expr": "mFree_idx<mFREE_SIZE",
+   "func": 1090184,
+   "unit": "texture.c"
+  },
+  {
+   "site": 1091324,
+   "file": "texture.c",
+   "line": 423,
+   "expr": "strncmp(pp,\"PP\",2)==0",
+   "func": 1091112,
+   "unit": "texture.c"
+  },
+  {
+   "site": 1091336,
+   "file": "texture.c",
+   "line": 423,
+   "expr": "strncmp(pp,\"PP\",2)==0",
+   "func": 1091112,
+   "unit": "texture.c"
+  },
+  {
+   "site": 1091480,
+   "file": "texture.c",
+   "line": 441,
+   "expr": "(info->psm)==SCE_GS_PSMCT32 || (info->psm)==SCE_GS_PSMCT24 || (info->psm)==SCE_GS_PSMCT16 || (info->psm)==SCE_GS_PSMT8 || (info->psm)==SCE_GS_PSMT4",
+   "func": 1091112,
+   "unit": "texture.c"
+  },
+  {
+   "site": 1091556,
+   "file": "texture.c",
+   "line": 447,
+   "expr": "info->mPix!=NULL",
+   "func": 1091112,
+   "unit": "texture.c"
+  },
+  {
+   "site": 1091724,
+   "file": "texture.c",
+   "line": 463,
+   "expr": "(info->cpsm)==SCE_GS_PSMCT32 || (info->cpsm)==SCE_GS_PSMCT16",
+   "func": 1091112,
+   "unit": "texture.c"
+  },
+  {
+   "site": 1091796,
+   "file": "texture.c",
+   "line": 465,
+   "expr": "info->mClut!=NULL",
+   "func": 1091112,
+   "unit": "texture.c"
+  },
+  {
+   "site": 1092080,
+   "file": "texture.c",
+   "line": 524,
+   "expr": "(info->psm)==SCE_GS_PSMCT32 || (info->psm)==SCE_GS_PSMCT24 || (info->psm)==SCE_GS_PSMCT16 || (info->psm)==SCE_GS_PSMT8 || (info->psm)==SCE_GS_PSMT4",
+   "func": 1091112,
+   "unit": "texture.c"
+  },
+  {
+   "site": 1092136,
+   "file": "texture.c",
+   "line": 527,
+   "expr": "strncmp(dh->id,PDHDR_ID,sizeof(dh->id))==0",
+   "func": 1091112,
+   "unit": "texture.c"
+  },
+  {
+   "site": 1092248,
+   "file": "texture.c",
+   "line": 540,
+   "expr": "info->mPix!=NULL",
+   "func": 1091112,
+   "unit": "texture.c"
+  },
+  {
+   "site": 1092412,
+   "file": "texture.c",
+   "line": 556,
+   "expr": "(info->cpsm)==SCE_GS_PSMCT32 || (info->cpsm)==SCE_GS_PSMCT16",
+   "func": 1091112,
+   "unit": "texture.c"
+  },
+  {
+   "site": 1092464,
+   "file": "texture.c",
+   "line": 559,
+   "expr": "strncmp(dh->id,PDHDR_ID,sizeof(dh->id))==0",
+   "func": 1091112,
+   "unit": "texture.c"
+  },
+  {
+   "site": 1092500,
+   "file": "texture.c",
+   "line": 560,
+   "expr": "dh->psm==info->cpsm",
+   "func": 1091112,
+   "unit": "texture.c"
+  },
+  {
+   "site": 1092536,
+   "file": "texture.c",
+   "line": 561,
+   "expr": "dh->wid==info->cw",
+   "func": 1091112,
+   "unit": "texture.c"
+  },
+  {
+   "site": 1092576,
+   "file": "texture.c",
+   "line": 562,
+   "expr": "dh->hei==info->ch",
+   "func": 1091112,
+   "unit": "texture.c"
+  },
+  {
+   "site": 1092656,
+   "file": "texture.c",
+   "line": 564,
+   "expr": "info->mClut!=NULL",
+   "func": 1091112,
+   "unit": "texture.c"
+  },
+  {
+   "site": 1092920,
+   "file": "texture.c",
+   "line": 621,
+   "expr": "info->mPix!=NULL",
+   "func": 1092752,
+   "unit": "texture.c"
+  },
+  {
+   "site": 1093104,
+   "file": "texture.c",
+   "line": 643,
+   "expr": "info->mClut!=NULL",
+   "func": 1092752,
+   "unit": "texture.c"
+  },
+  {
+   "site": 1093368,
+   "file": "texture.c",
+   "line": 706,
+   "expr": "info->mPix!=NULL",
+   "func": 1093320,
+   "unit": "texture.c"
+  },
+  {
+   "site": 1093436,
+   "file": "texture.c",
+   "line": 713,
+   "expr": "info->gPix!=NULL",
+   "func": 1093320,
+   "unit": "texture.c"
+  },
+  {
+   "site": 1093748,
+   "file": "texture.c",
+   "line": 756,
+   "expr": "info->stat&TEXSTAT_CLUT",
+   "func": 1093696,
+   "unit": "texture.c"
+  },
+  {
+   "site": 1093784,
+   "file": "texture.c",
+   "line": 757,
+   "expr": "info->mClut!=NULL",
+   "func": 1093696,
+   "unit": "texture.c"
+  },
+  {
+   "site": 1093852,
+   "file": "texture.c",
+   "line": 764,
+   "expr": "info->gClut!=NULL",
+   "func": 1093696,
+   "unit": "texture.c"
+  },
+  {
+   "site": 1094040,
+   "file": "texture.c",
+   "line": 786,
+   "expr": "0",
+   "func": 1093968,
+   "unit": "texture.c"
+  },
+  {
+   "site": 1095064,
+   "file": "texture.c",
+   "line": 980,
+   "expr": "0",
+   "func": 1094920,
+   "unit": "texture.c"
+  },
+  {
+   "site": 1095768,
+   "file": "texture.c",
+   "line": 1169,
+   "expr": "i==blk",
+   "func": 1095328,
+   "unit": "texture.c"
+  },
+  {
+   "site": 1095776,
+   "file": "texture.c",
+   "line": 1169,
+   "expr": "i==blk",
+   "func": 1095328,
+   "unit": "texture.c"
+  },
+  {
+   "site": 1096208,
+   "file": "texture.c",
+   "line": 1229,
+   "expr": "gPix!=NULL",
+   "func": 1096080,
+   "unit": "texture.c"
+  },
+  {
+   "site": 1096252,
+   "file": "texture.c",
+   "line": 1229,
+   "expr": "gPix!=NULL",
+   "func": 1096080,
+   "unit": "texture.c"
+  },
+  {
+   "site": 1096420,
+   "file": "texture.c",
+   "line": 1280,
+   "expr": "lod>=0 && lod<=6",
+   "func": 1096336,
+   "unit": "texture.c"
+  },
+  {
+   "site": 1096476,
+   "file": "texture.c",
+   "line": 1280,
+   "expr": "lod>=0 && lod<=6",
+   "func": 1096336,
+   "unit": "texture.c"
+  },
+  {
+   "site": 1097240,
+   "file": "texture.c",
+   "line": 1422,
+   "expr": "i==blk",
+   "func": 1096808,
+   "unit": "texture.c"
+  },
+  {
+   "site": 1097248,
+   "file": "texture.c",
+   "line": 1422,
+   "expr": "i==blk",
+   "func": 1096808,
+   "unit": "texture.c"
+  },
+  {
+   "site": 1097432,
+   "file": "texture.c",
+   "line": 1472,
+   "expr": "qsize<NLOOP_MAX",
+   "func": 1097328,
+   "unit": "texture.c"
+  },
+  {
+   "site": 1098348,
+   "file": "texture.c",
+   "line": 1629,
+   "expr": "info->gClut!=NULL",
+   "func": 1098248,
+   "unit": "texture.c"
+  },
+  {
+   "site": 1098876,
+   "file": "gsmem.c",
+   "line": 134,
+   "expr": "0",
+   "func": 1098696,
+   "unit": "gsmem.c"
+  },
+  {
+   "site": 1098960,
+   "file": "gsmem.c",
+   "line": 139,
+   "expr": "0",
+   "func": 1098696,
+   "unit": "gsmem.c"
+  },
+  {
+   "site": 1099488,
+   "file": "gsmem.c",
+   "line": 296,
+   "expr": "tbl->next!=NULL",
+   "func": 1099400,
+   "unit": "gsmem.c"
+  },
+  {
+   "site": 1100144,
+   "file": "gsbuf.c",
+   "line": 122,
+   "expr": "size<=TEXSIZE",
+   "func": 1099976,
+   "unit": "gsbuf.c"
+  },
+  {
+   "site": 1101372,
+   "file": "misc.c",
+   "line": 127,
+   "expr": "x!=0",
+   "func": 1101264,
+   "unit": "misc.c"
+  },
+  {
+   "site": 1102504,
+   "file": "sound.c",
+   "line": 265,
+   "expr": "ret==0",
+   "func": 1102440,
+   "unit": "sound.c"
+  },
+  {
+   "site": 1102512,
+   "file": "sound.c",
+   "line": 265,
+   "expr": "ret==0",
+   "func": 1102440,
+   "unit": "sound.c"
+  },
+  {
+   "site": 1102692,
+   "file": "sound.c",
+   "line": 293,
+   "expr": "strlen(name)<sizeof(fname)-8",
+   "func": 1102576,
+   "unit": "sound.c"
+  },
+  {
+   "site": 1103544,
+   "file": "sound.c",
+   "line": 404,
+   "expr": "ret==0",
+   "func": 1103464,
+   "unit": "sound.c"
+  },
+  {
+   "site": 1103640,
+   "file": "sound.c",
+   "line": 412,
+   "expr": "0",
+   "func": 1103464,
+   "unit": "sound.c"
+  },
+  {
+   "site": 1103680,
+   "file": "sound.c",
+   "line": 416,
+   "expr": "ret==0",
+   "func": 1103464,
+   "unit": "sound.c"
+  },
+  {
+   "site": 1103720,
+   "file": "sound.c",
+   "line": 418,
+   "expr": "ret==0",
+   "func": 1103464,
+   "unit": "sound.c"
+  },
+  {
+   "site": 1103764,
+   "file": "sound.c",
+   "line": 422,
+   "expr": "ret==0",
+   "func": 1103464,
+   "unit": "sound.c"
+  },
+  {
+   "site": 1103804,
+   "file": "sound.c",
+   "line": 424,
+   "expr": "ret==0",
+   "func": 1103464,
+   "unit": "sound.c"
+  },
+  {
+   "site": 1103856,
+   "file": "sound.c",
+   "line": 428,
+   "expr": "ret==0",
+   "func": 1103464,
+   "unit": "sound.c"
+  },
+  {
+   "site": 1103896,
+   "file": "sound.c",
+   "line": 430,
+   "expr": "ret==0",
+   "func": 1103464,
+   "unit": "sound.c"
+  },
+  {
+   "site": 1103948,
+   "file": "sound.c",
+   "line": 437,
+   "expr": "ret==0",
+   "func": 1103464,
+   "unit": "sound.c"
+  },
+  {
+   "site": 1104056,
+   "file": "sound.c",
+   "line": 452,
+   "expr": "ret==0",
+   "func": 1103464,
+   "unit": "sound.c"
+  },
+  {
+   "site": 1104128,
+   "file": "sound.c",
+   "line": 459,
+   "expr": "ret==0",
+   "func": 1103464,
+   "unit": "sound.c"
+  },
+  {
+   "site": 1104280,
+   "file": "sound.c",
+   "line": 498,
+   "expr": "data!=NULL",
+   "func": 1104168,
+   "unit": "sound.c"
+  },
+  {
+   "site": 1104348,
+   "file": "sound.c",
+   "line": 510,
+   "expr": "0",
+   "func": 1104168,
+   "unit": "sound.c"
+  },
+  {
+   "site": 1104400,
+   "file": "sound.c",
+   "line": 517,
+   "expr": "(int)spu_buf>=0",
+   "func": 1104168,
+   "unit": "sound.c"
+  },
+  {
+   "site": 1104408,
+   "file": "sound.c",
+   "line": 517,
+   "expr": "(int)spu_buf>=0",
+   "func": 1104168,
+   "unit": "sound.c"
+  },
+  {
+   "site": 1104480,
+   "file": "sound.c",
+   "line": 528,
+   "expr": "iop_buf!=NULL",
+   "func": 1104168,
+   "unit": "sound.c"
+  },
+  {
+   "site": 1104788,
+   "file": "sound.c",
+   "line": 597,
+   "expr": "tfr->data!=NULL",
+   "func": 1104712,
+   "unit": "sound.c"
+  },
+  {
+   "site": 1104800,
+   "file": "sound.c",
+   "line": null,
+   "expr": "tfr->data!=NULL",
+   "func": 1104712,
+   "unit": "sound.c"
+  },
+  {
+   "site": 1104884,
+   "file": "sound.c",
+   "line": 607,
+   "expr": "0",
+   "func": 1104712,
+   "unit": "sound.c"
+  },
+  {
+   "site": 1104952,
+   "file": "sound.c",
+   "line": 615,
+   "expr": "tfr->addr!=NULL",
+   "func": 1104712,
+   "unit": "sound.c"
+  },
+  {
+   "site": 1105136,
+   "file": "sound.c",
+   "line": 660,
+   "expr": "sema_sdcom_read>=0",
+   "func": 1105064,
+   "unit": "sound.c"
+  },
+  {
+   "site": 1105180,
+   "file": "sound.c",
+   "line": 661,
+   "expr": "sema_sdcom_write>=0",
+   "func": 1105064,
+   "unit": "sound.c"
+  },
+  {
+   "site": 1105284,
+   "file": "sound.c",
+   "line": 671,
+   "expr": "thid_sound>=0",
+   "func": 1105064,
+   "unit": "sound.c"
+  },
+  {
+   "site": 1105416,
+   "file": "sound.c",
+   "line": 689,
+   "expr": "ret==thid_sound",
+   "func": 1105360,
+   "unit": "sound.c"
+  },
+  {
+   "site": 1105460,
+   "file": "sound.c",
+   "line": 691,
+   "expr": "ret==thid_sound",
+   "func": 1105360,
+   "unit": "sound.c"
+  },
+  {
+   "site": 1105512,
+   "file": "sound.c",
+   "line": 693,
+   "expr": "ret==sema_sdcom_read",
+   "func": 1105360,
+   "unit": "sound.c"
+  },
+  {
+   "site": 1111184,
+   "file": "sound.c",
+   "line": 1511,
+   "expr": "0",
+   "func": 1111112,
+   "unit": "sound.c"
+  },
+  {
+   "site": 1112148,
+   "file": "soundse.c",
+   "line": 221,
+   "expr": "blk>=1 && blk<(int)(sizeof(seblock)/sizeof(seblock[0]))",
+   "func": 1112088,
+   "unit": "soundse.c"
+  },
+  {
+   "site": 1113108,
+   "file": "soundse.c",
+   "line": 388,
+   "expr": "0",
+   "func": 1113008,
+   "unit": "soundse.c"
+  },
+  {
+   "site": 1113380,
+   "file": "soundse.c",
+   "line": 421,
+   "expr": "0",
+   "func": 1113320,
+   "unit": "soundse.c"
+  },
+  {
+   "site": 1113916,
+   "file": "soundse.c",
+   "line": 526,
+   "expr": "0",
+   "func": 1113824,
+   "unit": "soundse.c"
+  },
+  {
+   "site": 1114024,
+   "file": "soundse.c",
+   "line": 535,
+   "expr": "se1_avail!=eSE_NO_BLOCK",
+   "func": 1113824,
+   "unit": "soundse.c"
+  },
+  {
+   "site": 1114096,
+   "file": "soundse.c",
+   "line": 539,
+   "expr": "se2_avail!=eSE_NO_BLOCK",
+   "func": 1113824,
+   "unit": "soundse.c"
+  },
+  {
+   "site": 1114168,
+   "file": "soundse.c",
+   "line": 543,
+   "expr": "se3_avail!=eSE_NO_BLOCK",
+   "func": 1113824,
+   "unit": "soundse.c"
+  },
+  {
+   "site": 1114276,
+   "file": "soundse.c",
+   "line": 557,
+   "expr": "0",
+   "func": 1114216,
+   "unit": "soundse.c"
+  },
+  {
+   "site": 1114452,
+   "file": "soundse.c",
+   "line": 595,
+   "expr": "id>=0 && id<SEREC_SIZE",
+   "func": 1114400,
+   "unit": "soundse.c"
+  },
+  {
+   "site": 1114504,
+   "file": "soundse.c",
+   "line": 597,
+   "expr": "rec->use!=0",
+   "func": 1114400,
+   "unit": "soundse.c"
+  },
+  {
+   "site": 1115044,
+   "file": "soundse.c",
+   "line": 665,
+   "expr": "0",
+   "func": 1114912,
+   "unit": "soundse.c"
+  },
+  {
+   "site": 1118620,
+   "file": "soundstr.c",
+   "line": 490,
+   "expr": "spu2_addr>=0 && \"No Enough memory in SPU2\"",
+   "func": 1118416,
+   "unit": "soundstr.c"
+  },
+  {
+   "site": 1118628,
+   "file": "soundstr.c",
+   "line": 490,
+   "expr": "spu2_addr>=0 && \"No Enough memory in SPU2\"",
+   "func": 1118416,
+   "unit": "soundstr.c"
+  },
+  {
+   "site": 1118708,
+   "file": "soundstr.c",
+   "line": 508,
+   "expr": "iop_addr!=NULL && \"No enough memory in IOP\"",
+   "func": 1118416,
+   "unit": "soundstr.c"
+  },
+  {
+   "site": 1118776,
+   "file": "soundstr.c",
+   "line": 521,
+   "expr": "iop_addr!=NULL && \"No enough memory in IOP\"",
+   "func": 1118416,
+   "unit": "soundstr.c"
+  },
+  {
+   "site": 1118796,
+   "file": "soundstr.c",
+   "line": 521,
+   "expr": "iop_addr!=NULL && \"No enough memory in IOP\"",
+   "func": 1118416,
+   "unit": "soundstr.c"
+  },
+  {
+   "site": 1121220,
+   "file": "../hahig/hhcamera.c",
+   "line": 223,
+   "expr": "self != NULL",
+   "func": 1121152,
+   "unit": "../hahig/hhcamera.c"
+  },
+  {
+   "site": 1121256,
+   "file": "../hahig/hhcamera.c",
+   "line": 225,
+   "expr": "self->objtype == HHCA_OBJTYPE",
+   "func": 1121152,
+   "unit": "../hahig/hhcamera.c"
+  },
+  {
+   "site": 1121440,
+   "file": "../hahig/hhcamera.c",
+   "line": 260,
+   "expr": "self->objtype == HHCA_OBJTYPE",
+   "func": 1121320,
+   "unit": "../hahig/hhcamera.c"
+  },
+  {
+   "site": 1121484,
+   "file": "../hahig/hhcamera.c",
+   "line": 260,
+   "expr": "self->objtype == HHCA_OBJTYPE",
+   "func": 1121320,
+   "unit": "../hahig/hhcamera.c"
+  },
+  {
+   "site": 1121668,
+   "file": "../hahig/hhcamera.c",
+   "line": 288,
+   "expr": "self->objtype == HHCA_OBJTYPE",
+   "func": 1121592,
+   "unit": "../hahig/hhcamera.c"
+  },
+  {
+   "site": 1124316,
+   "file": "../hahig/hhcamera.c",
+   "line": 587,
+   "expr": "self != 0 && \"hh_camera_world_screen_matrix_get: null object passed\"",
+   "func": 1124280,
+   "unit": "../hahig/hhcamera.c"
+  },
+  {
+   "site": 1124352,
+   "file": "../hahig/hhcamera.c",
+   "line": 589,
+   "expr": "self->objtype == HHCA_OBJTYPE",
+   "func": 1124280,
+   "unit": "../hahig/hhcamera.c"
+  },
+  {
+   "site": 1124420,
+   "file": "../hahig/hhcamera.c",
+   "line": 602,
+   "expr": "self != 0 && \"hh_camera_world_clip_matrix_get: null object passed\"",
+   "func": 1124384,
+   "unit": "../hahig/hhcamera.c"
+  },
+  {
+   "site": 1124456,
+   "file": "../hahig/hhcamera.c",
+   "line": 604,
+   "expr": "self->objtype == HHCA_OBJTYPE",
+   "func": 1124384,
+   "unit": "../hahig/hhcamera.c"
+  },
+  {
+   "site": 1124524,
+   "file": "../hahig/hhcamera.c",
+   "line": 617,
+   "expr": "self != 0 && \"hh_camera_clip_screen_matrix_get: null object passed\"",
+   "func": 1124488,
+   "unit": "../hahig/hhcamera.c"
+  },
+  {
+   "site": 1124560,
+   "file": "../hahig/hhcamera.c",
+   "line": 619,
+   "expr": "self->objtype == HHCA_OBJTYPE",
+   "func": 1124488,
+   "unit": "../hahig/hhcamera.c"
+  },
+  {
+   "site": 1124628,
+   "file": "../hahig/hhcamera.c",
+   "line": 633,
+   "expr": "self != 0 && \"hh_camera_world_view_matrix_get: null object passed\"",
+   "func": 1124592,
+   "unit": "../hahig/hhcamera.c"
+  },
+  {
+   "site": 1124664,
+   "file": "../hahig/hhcamera.c",
+   "line": 635,
+   "expr": "self->objtype == HHCA_OBJTYPE",
+   "func": 1124592,
+   "unit": "../hahig/hhcamera.c"
+  },
+  {
+   "site": 1124732,
+   "file": "../hahig/hhcamera.c",
+   "line": 649,
+   "expr": "self != NULL",
+   "func": 1124696,
+   "unit": "../hahig/hhcamera.c"
+  },
+  {
+   "site": 1124768,
+   "file": "../hahig/hhcamera.c",
+   "line": 651,
+   "expr": "self->objtype == HHCA_OBJTYPE",
+   "func": 1124696,
+   "unit": "../hahig/hhcamera.c"
+  },
+  {
+   "site": 1124836,
+   "file": "../hahig/hhcamera.c",
+   "line": 665,
+   "expr": "self != NULL",
+   "func": 1124800,
+   "unit": "../hahig/hhcamera.c"
+  },
+  {
+   "site": 1124872,
+   "file": "../hahig/hhcamera.c",
+   "line": 667,
+   "expr": "self->objtype == HHCA_OBJTYPE",
+   "func": 1124800,
+   "unit": "../hahig/hhcamera.c"
+  },
+  {
+   "site": 1124944,
+   "file": "../hahig/hhcamera.c",
+   "line": null,
+   "expr": "self->objtype == HHCA_OBJTYPE",
+   "func": 1124904,
+   "unit": "../hahig/hhcamera.c"
+  },
+  {
+   "site": 1124984,
+   "file": "../hahig/hhcamera.c",
+   "line": null,
+   "expr": null,
+   "func": 1124904,
+   "unit": "../hahig/hhcamera.c"
+  },
+  {
+   "site": 1125608,
+   "file": "../hahig/hhcamera.c",
+   "line": 833,
+   "expr": "self != NULL",
+   "func": 1125560,
+   "unit": "../hahig/hhcamera.c"
+  },
+  {
+   "site": 1125644,
+   "file": "../hahig/hhcamera.c",
+   "line": 835,
+   "expr": "self->objtype == HHCA_OBJTYPE",
+   "func": 1125560,
+   "unit": "../hahig/hhcamera.c"
+  },
+  {
+   "site": 1125720,
+   "file": "../hahig/hhcamera.c",
+   "line": 835,
+   "expr": "self->objtype == HHCA_OBJTYPE",
+   "func": 1125560,
+   "unit": "../hahig/hhcamera.c"
+  },
+  {
+   "site": 1125836,
+   "file": "../hahig/hhcamera.c",
+   "line": 863,
+   "expr": "self != NULL",
+   "func": 1125792,
+   "unit": "../hahig/hhcamera.c"
+  },
+  {
+   "site": 1125872,
+   "file": "../hahig/hhcamera.c",
+   "line": 865,
+   "expr": "self->objtype == HHCA_OBJTYPE",
+   "func": 1125792,
+   "unit": "../hahig/hhcamera.c"
+  },
+  {
+   "site": 1126116,
+   "file": "../hahig/hhcamera.c",
+   "line": 941,
+   "expr": "self != NULL",
+   "func": 1126048,
+   "unit": "../hahig/hhcamera.c"
+  },
+  {
+   "site": 1126152,
+   "file": "../hahig/hhcamera.c",
+   "line": 943,
+   "expr": "self->objtype == HHCA_OBJTYPE",
+   "func": 1126048,
+   "unit": "../hahig/hhcamera.c"
+  },
+  {
+   "site": 1126264,
+   "file": "../hahig/hhcamera.c",
+   "line": 962,
+   "expr": "self != NULL",
+   "func": 1126216,
+   "unit": "../hahig/hhcamera.c"
+  },
+  {
+   "site": 1126300,
+   "file": "../hahig/hhcamera.c",
+   "line": 964,
+   "expr": "self->objtype == HHCA_OBJTYPE",
+   "func": 1126216,
+   "unit": "../hahig/hhcamera.c"
+  },
+  {
+   "site": 1126344,
+   "file": "../hahig/hhcamera.c",
+   "line": 964,
+   "expr": "self->objtype == HHCA_OBJTYPE",
+   "func": 1126216,
+   "unit": "../hahig/hhcamera.c"
+  },
+  {
+   "site": 1126428,
+   "file": "../hahig/hhcamera.c",
+   "line": 982,
+   "expr": "self != NULL",
+   "func": 1126392,
+   "unit": "../hahig/hhcamera.c"
+  },
+  {
+   "site": 1126464,
+   "file": "../hahig/hhcamera.c",
+   "line": 984,
+   "expr": "self->objtype == HHCA_OBJTYPE",
+   "func": 1126392,
+   "unit": "../hahig/hhcamera.c"
+  },
+  {
+   "site": 1129484,
+   "file": "../hahig/hhfile.c",
+   "line": 286,
+   "expr": "pinfo->size != -1 && \"hhFileClose: invalid file handle passed\"",
+   "func": 1129432,
+   "unit": "../hahig/hhfile.c"
+  },
+  {
+   "site": 1129612,
+   "file": "../hahig/hhfile.c",
+   "line": 308,
+   "expr": "pinfo->buf!=NULL",
+   "func": 1129520,
+   "unit": "../hahig/hhfile.c"
+  },
+  {
+   "site": 1134104,
+   "file": "../hahig/hhfile.c",
+   "line": 1195,
+   "expr": "0 && \"hhFileArchiveLoad: archive load limit exceeded\"",
+   "func": 1133680,
+   "unit": "../hahig/hhfile.c"
+  },
+  {
+   "site": 1164072,
+   "file": "../hahig/hhmodel.c",
+   "line": 1584,
+   "expr": "self != NULL",
+   "func": 1164024,
+   "unit": "../hahig/hhmodel.c"
+  },
+  {
+   "site": 1164108,
+   "file": "../hahig/hhmodel.c",
+   "line": 1585,
+   "expr": "self->objtype == HHMO_OBJTYPE",
+   "func": 1164024,
+   "unit": "../hahig/hhmodel.c"
+  },
+  {
+   "site": 1166016,
+   "file": "../hahig/hhmodel.c",
+   "line": 2850,
+   "expr": "md != NULL",
+   "func": 1165936,
+   "unit": "../hahig/hhmodel.c"
+  },
+  {
+   "site": 1166052,
+   "file": "../hahig/hhmodel.c",
+   "line": 2852,
+   "expr": "self->objtype == HHMO_OBJTYPE",
+   "func": 1165936,
+   "unit": "../hahig/hhmodel.c"
+  },
+  {
+   "site": 1171348,
+   "file": "../hahig/hhmodel.c",
+   "line": 3697,
+   "expr": "fh != -1",
+   "func": 1171288,
+   "unit": "../hahig/hhmodel.c"
+  },
+  {
+   "site": 1171468,
+   "file": "../hahig/hhmodel.c",
+   "line": 3713,
+   "expr": "fh != -1",
+   "func": 1171392,
+   "unit": "../hahig/hhmodel.c"
+  },
+  {
+   "site": 1178688,
+   "file": "../hahig/hhobject.c",
+   "line": 252,
+   "expr": "mhed->objcount<=MAXLOADOBJ",
+   "func": 1178344,
+   "unit": "../hahig/hhobject.c"
+  },
+  {
+   "site": 1192324,
+   "file": "../hahig/hhobject.c",
+   "line": 2422,
+   "expr": "master3 != NULL",
+   "func": 1192208,
+   "unit": "../hahig/hhobject.c"
+  },
+  {
+   "site": 1238204,
+   "file": "../hahig/hhprofil.c",
+   "line": 302,
+   "expr": "g_samples[i].iOpenProfiles == 1",
+   "func": 1238032,
+   "unit": "../hahig/hhprofil.c"
+  },
+  {
+   "site": 1239304,
+   "file": "../hahig/hhprofil.c",
+   "line": 435,
+   "expr": "!\"ProfileEnd() called without a ProfileBegin()\"",
+   "func": 1239072,
+   "unit": "../hahig/hhprofil.c"
+  },
+  {
+   "site": 1239356,
+   "file": "../hahig/hhprofil.c",
+   "line": 438,
+   "expr": "!\"ProfileBegin() called without a ProfileEnd()\"",
+   "func": 1239072,
+   "unit": "../hahig/hhprofil.c"
+  },
+  {
+   "site": 1241916,
+   "file": "../hahig/hhprofil.c",
+   "line": 686,
+   "expr": "!\"Exceeded Max Available Profile Samples!\"",
+   "func": 1241496,
+   "unit": "../hahig/hhprofil.c"
+  },
+  {
+   "site": 1245212,
+   "file": "../hahig/hhtex.c",
+   "line": 103,
+   "expr": "fh != -1",
+   "func": 1245072,
+   "unit": "../hahig/hhtex.c"
+  },
+  {
+   "site": 1245256,
+   "file": "../hahig/hhtex.c",
+   "line": 106,
+   "expr": "sz != 0",
+   "func": 1245072,
+   "unit": "../hahig/hhtex.c"
+  },
+  {
+   "site": 1245328,
+   "file": "../hahig/hhtex.c",
+   "line": 115,
+   "expr": "headersize > 0",
+   "func": 1245072,
+   "unit": "../hahig/hhtex.c"
+  },
+  {
+   "site": 1245336,
+   "file": "../hahig/hhtex.c",
+   "line": 115,
+   "expr": "headersize > 0",
+   "func": 1245072,
+   "unit": "../hahig/hhtex.c"
+  },
+  {
+   "site": 1245360,
+   "file": "../hahig/hhtex.c",
+   "line": null,
+   "expr": "headersize > 0",
+   "func": 1245072,
+   "unit": "../hahig/hhtex.c"
+  },
+  {
+   "site": 1245492,
+   "file": "../hahig/hhtex.c",
+   "line": 131,
+   "expr": "hbuf != NULL",
+   "func": 1245072,
+   "unit": "../hahig/hhtex.c"
+  },
+  {
+   "site": 1245564,
+   "file": "../hahig/hhtex.c",
+   "line": 141,
+   "expr": "memsize > 0",
+   "func": 1245072,
+   "unit": "../hahig/hhtex.c"
+  },
+  {
+   "site": 1245572,
+   "file": "../hahig/hhtex.c",
+   "line": 141,
+   "expr": "memsize > 0",
+   "func": 1245072,
+   "unit": "../hahig/hhtex.c"
+  },
+  {
+   "site": 1245596,
+   "file": "../hahig/hhtex.c",
+   "line": null,
+   "expr": "memsize > 0",
+   "func": 1245072,
+   "unit": "../hahig/hhtex.c"
+  },
+  {
+   "site": 1245716,
+   "file": "../hahig/hhtex.c",
+   "line": 156,
+   "expr": "tbuf != NULL",
+   "func": 1245072,
+   "unit": "../hahig/hhtex.c"
+  },
+  {
+   "site": 1246428,
+   "file": "../hahig/hhtex.c",
+   "line": 277,
+   "expr": "0",
+   "func": 1245072,
+   "unit": "../hahig/hhtex.c"
+  },
+  {
+   "site": 1290776,
+   "file": "../hahig/hhpartic.c",
+   "line": 1057,
+   "expr": "pd != NULL",
+   "func": 1290712,
+   "unit": "../hahig/hhpartic.c"
+  },
+  {
+   "site": 1290812,
+   "file": "../hahig/hhpartic.c",
+   "line": 1058,
+   "expr": "self->objtype == HHPA_OBJTYPE",
+   "func": 1290712,
+   "unit": "../hahig/hhpartic.c"
+  },
+  {
+   "site": 1291408,
+   "file": "../hahig/hhpartic.c",
+   "line": 1261,
+   "expr": "pd != NULL",
+   "func": 1291344,
+   "unit": "../hahig/hhpartic.c"
+  },
+  {
+   "site": 1291444,
+   "file": "../hahig/hhpartic.c",
+   "line": 1262,
+   "expr": "self->objtype == HHPA_OBJTYPE",
+   "func": 1291344,
+   "unit": "../hahig/hhpartic.c"
+  },
+  {
+   "site": 1295348,
+   "file": "../hahig/hhmesh.c",
+   "line": 113,
+   "expr": "fh!=-1",
+   "func": 1295256,
+   "unit": "../hahig/hhmesh.c"
+  },
+  {
+   "site": 1295540,
+   "file": "../hahig/hhmesh.c",
+   "line": 159,
+   "expr": "tbl!=NULL",
+   "func": 1295488,
+   "unit": "../hahig/hhmesh.c"
+  },
+  {
+   "site": 1295884,
+   "file": "../hahig/hhmesh.c",
+   "line": 212,
+   "expr": "idx<meshtbl_num",
+   "func": 1295784,
+   "unit": "../hahig/hhmesh.c"
+  },
+  {
+   "site": 1295916,
+   "file": "../hahig/hhmesh.c",
+   "line": 213,
+   "expr": "meshtbl_num>0",
+   "func": 1295784,
+   "unit": "../hahig/hhmesh.c"
+  },
+  {
+   "site": 1298228,
+   "file": "../hahig/hhprim3d.c",
+   "line": 395,
+   "expr": "pd != NULL",
+   "func": 1298160,
+   "unit": "../hahig/hhprim3d.c"
+  },
+  {
+   "site": 1298264,
+   "file": "../hahig/hhprim3d.c",
+   "line": 396,
+   "expr": "self->objtype == HHP3_OBJTYPE",
+   "func": 1298160,
+   "unit": "../hahig/hhprim3d.c"
+  },
+  {
+   "site": 1306528,
+   "file": "gsprim.c",
+   "line": 111,
+   "expr": "reg<0x0e",
+   "func": 1306480,
+   "unit": "gsprim.c"
+  },
+  {
+   "site": 1306980,
+   "file": "gsprim2.c",
+   "line": 99,
+   "expr": "pr->nloop<0x7fff",
+   "func": 1306912,
+   "unit": "gsprim2.c"
+  },
+  {
+   "site": 1307604,
+   "file": "gsenv.c",
+   "line": 102,
+   "expr": "0",
+   "func": 1307176,
+   "unit": "gsenv.c"
+  },
+  {
+   "site": 1313980,
+   "file": "memcard.c",
+   "line": 203,
+   "expr": "cmd==my.func",
+   "func": 1313760,
+   "unit": "memcard.c"
+  },
+  {
+   "site": 1314108,
+   "file": "memcard.c",
+   "line": 232,
+   "expr": "ret==0",
+   "func": 1314032,
+   "unit": "memcard.c"
+  },
+  {
+   "site": 1314224,
+   "file": "memcard.c",
+   "line": 258,
+   "expr": "my.file>=0",
+   "func": 1314176,
+   "unit": "memcard.c"
+  },
+  {
+   "site": 1314272,
+   "file": "memcard.c",
+   "line": 260,
+   "expr": "ret==0",
+   "func": 1314176,
+   "unit": "memcard.c"
+  },
+  {
+   "site": 1314408,
+   "file": "memcard.c",
+   "line": 287,
+   "expr": "ret==0",
+   "func": 1314336,
+   "unit": "memcard.c"
+  },
+  {
+   "site": 1314520,
+   "file": "memcard.c",
+   "line": 313,
+   "expr": "my.file>=0",
+   "func": 1314472,
+   "unit": "memcard.c"
+  },
+  {
+   "site": 1314568,
+   "file": "memcard.c",
+   "line": 315,
+   "expr": "ret==0",
+   "func": 1314472,
+   "unit": "memcard.c"
+  },
+  {
+   "site": 1314700,
+   "file": "memcard.c",
+   "line": 342,
+   "expr": "ret==0",
+   "func": 1314632,
+   "unit": "memcard.c"
+  },
+  {
+   "site": 1314852,
+   "file": "memcard.c",
+   "line": 372,
+   "expr": "ret==0",
+   "func": 1314768,
+   "unit": "memcard.c"
+  },
+  {
+   "site": 1314992,
+   "file": "memcard.c",
+   "line": 399,
+   "expr": "ret==0",
+   "func": 1314920,
+   "unit": "memcard.c"
+  },
+  {
+   "site": 1315152,
+   "file": "memcard.c",
+   "line": 428,
+   "expr": "ret==0",
+   "func": 1315056,
+   "unit": "memcard.c"
+  },
+  {
+   "site": 1315244,
+   "file": "memcard.c",
+   "line": 439,
+   "expr": "ret==0",
+   "func": 1315056,
+   "unit": "memcard.c"
+  },
+  {
+   "site": 1315252,
+   "file": "memcard.c",
+   "line": 439,
+   "expr": "ret==0",
+   "func": 1315056,
+   "unit": "memcard.c"
+  },
+  {
+   "site": 1315424,
+   "file": "memcard.c",
+   "line": 485,
+   "expr": "ret==0",
+   "func": 1315352,
+   "unit": "memcard.c"
+  },
+  {
+   "site": 1315564,
+   "file": "memcard.c",
+   "line": 513,
+   "expr": "ret==0",
+   "func": 1315488,
+   "unit": "memcard.c"
+  },
+  {
+   "site": 1315692,
+   "file": "memcard.c",
+   "line": 541,
+   "expr": "my.file>=0",
+   "func": 1315632,
+   "unit": "memcard.c"
+  },
+  {
+   "site": 1315744,
+   "file": "memcard.c",
+   "line": 543,
+   "expr": "ret==0",
+   "func": 1315632,
+   "unit": "memcard.c"
+  },
+  {
+   "site": 1315892,
+   "file": "memcard.c",
+   "line": 571,
+   "expr": "ret==0",
+   "func": 1315816,
+   "unit": "memcard.c"
+  },
+  {
+   "site": 1316020,
+   "file": "memcard.c",
+   "line": 598,
+   "expr": "my.file>=0",
+   "func": 1315960,
+   "unit": "memcard.c"
+  },
+  {
+   "site": 1316072,
+   "file": "memcard.c",
+   "line": 600,
+   "expr": "ret==0",
+   "func": 1315960,
+   "unit": "memcard.c"
+  },
+  {
+   "site": 1316224,
+   "file": "memcard.c",
+   "line": 629,
+   "expr": "ret==0",
+   "func": 1316144,
+   "unit": "memcard.c"
+  },
+  {
+   "site": 1316356,
+   "file": "memcard.c",
+   "line": 656,
+   "expr": "ret==0",
+   "func": 1316288,
+   "unit": "memcard.c"
+  },
+  {
+   "site": 1316484,
+   "file": "memcard.c",
+   "line": 683,
+   "expr": "my.file>=0",
+   "func": 1316424,
+   "unit": "memcard.c"
+  },
+  {
+   "site": 1316536,
+   "file": "memcard.c",
+   "line": 685,
+   "expr": "ret==0",
+   "func": 1316424,
+   "unit": "memcard.c"
+  },
+  {
+   "site": 1316656,
+   "file": "adpcm.c",
+   "line": 98,
+   "expr": "TaskIsRun()",
+   "func": 1316608,
+   "unit": "adpcm.c"
+  },
+  {
+   "site": 1316672,
+   "file": "adpcm.c",
+   "line": 98,
+   "expr": "TaskIsRun()",
+   "func": 1316608,
+   "unit": "adpcm.c"
+  },
+  {
+   "site": 1316680,
+   "file": "adpcm.c",
+   "line": 98,
+   "expr": "TaskIsRun()",
+   "func": 1316608,
+   "unit": "adpcm.c"
+  },
+  {
+   "site": 1316768,
+   "file": "adpcm.c",
+   "line": 120,
+   "expr": "TaskIsRun()",
+   "func": 1316712,
+   "unit": "adpcm.c"
+  },
+  {
+   "site": 1316784,
+   "file": "adpcm.c",
+   "line": 120,
+   "expr": "TaskIsRun()",
+   "func": 1316712,
+   "unit": "adpcm.c"
+  },
+  {
+   "site": 1316792,
+   "file": "adpcm.c",
+   "line": 120,
+   "expr": "TaskIsRun()",
+   "func": 1316712,
+   "unit": "adpcm.c"
+  },
+  {
+   "site": 1316892,
+   "file": "adpcm.c",
+   "line": 143,
+   "expr": "TaskIsRun()",
+   "func": 1316824,
+   "unit": "adpcm.c"
+  },
+  {
+   "site": 1316912,
+   "file": "adpcm.c",
+   "line": 143,
+   "expr": "TaskIsRun()",
+   "func": 1316824,
+   "unit": "adpcm.c"
+  },
+  {
+   "site": 1317108,
+   "file": "adpcm.c",
+   "line": 178,
+   "expr": "0",
+   "func": 1316960,
+   "unit": "adpcm.c"
+  },
+  {
+   "site": 1319016,
+   "file": "adpcm.c",
+   "line": 651,
+   "expr": "!(command & eaST)",
+   "func": 1318968,
+   "unit": "adpcm.c"
+  },
+  {
+   "site": 1327176,
+   "file": "inrecv.c",
+   "line": 48,
+   "expr": "size>=0",
+   "func": 1327088,
+   "unit": "inrecv.c"
+  },
+  {
+   "site": 1337648,
+   "file": "bind.c",
+   "line": 258,
+   "expr": "my.slot[sno]",
+   "func": 1337584,
+   "unit": "bind.c"
+  },
+  {
+   "site": 1337956,
+   "file": "bind.c",
+   "line": 336,
+   "expr": "strlen(filename)<EXTENDSIZE",
+   "func": 1337872,
+   "unit": "bind.c"
+  },
+  {
+   "site": 1338256,
+   "file": "bind.c",
+   "line": 377,
+   "expr": "my.slot[sno]->name!=NULL",
+   "func": 1338160,
+   "unit": "bind.c"
+  },
+  {
+   "site": 1340660,
+   "file": "text.c",
+   "line": 258,
+   "expr": "word!=NULL",
+   "func": 1340584,
+   "unit": "text.c"
+  },
+  {
+   "site": 1340760,
+   "file": "text.c",
+   "line": 264,
+   "expr": "i<MAXWORD",
+   "func": 1340584,
+   "unit": "text.c"
+  },
+  {
+   "site": 1343788,
+   "file": "code.c",
+   "line": 230,
+   "expr": "filesize>0",
+   "func": 1343656,
+   "unit": "code.c"
+  },
+  {
+   "site": 1344684,
+   "file": "code.c",
+   "line": 444,
+   "expr": "code->func<my.size",
+   "func": 1344536,
+   "unit": "code.c"
+  },
+  {
+   "site": 1352452,
+   "file": "malloc.c",
+   "line": 199,
+   "expr": "my.heapadrs",
+   "func": 1352368,
+   "unit": "malloc.c"
+  },
+  {
+   "site": 1353656,
+   "file": "malloc.c",
+   "line": 591,
+   "expr": "line<=MEMORY_ALIGN",
+   "func": 1353616,
+   "unit": "malloc.c"
+  },
+  {
+   "site": 1366112,
+   "file": "choose.c",
+   "line": 150,
+   "expr": "slot->tail+strlen(src)<&slot->buff[MAXBUFF]",
+   "func": 1366008,
+   "unit": "choose.c"
+  },
+  {
+   "site": 1366208,
+   "file": "choose.c",
+   "line": 163,
+   "expr": "ino<MAXITEM",
+   "func": 1366008,
+   "unit": "choose.c"
+  },
+  {
+   "site": 1366316,
+   "file": "choose.c",
+   "line": 183,
+   "expr": "ino<MAXITEM",
+   "func": 1366008,
+   "unit": "choose.c"
+  },
+  {
+   "site": 1367508,
+   "file": "choose.c",
+   "line": 372,
+   "expr": "strlen(buff)<sizeof(buff)",
+   "func": 1367376,
+   "unit": "choose.c"
+  },
+  {
+   "site": 1369920,
+   "file": "choose.c",
+   "line": 956,
+   "expr": "num<MAXITEM",
+   "func": 1369840,
+   "unit": "choose.c"
+  },
+  {
+   "site": 1370048,
+   "file": "choose.c",
+   "line": 1005,
+   "expr": "num<MAXITEM",
+   "func": 1369968,
+   "unit": "choose.c"
+  },
+  {
+   "site": 1370164,
+   "file": "choose.c",
+   "line": 1029,
+   "expr": "num<MAXITEM",
+   "func": 1370096,
+   "unit": "choose.c"
+  },
+  {
+   "site": 1370928,
+   "file": "choose.c",
+   "line": 1195,
+   "expr": "my.slot[sno]->max>0",
+   "func": 1370856,
+   "unit": "choose.c"
+  },
+  {
+   "site": 1371072,
+   "file": "choose.c",
+   "line": 1216,
+   "expr": "my.slot[sno]->max>0",
+   "func": 1371000,
+   "unit": "choose.c"
+  },
+  {
+   "site": 1382484,
+   "file": "gmmemory.c",
+   "line": 269,
+   "expr": "index >= 0",
+   "func": 1381800,
+   "unit": "gmmemory.c"
+  },
+  {
+   "site": 1382568,
+   "file": "gmmemory.c",
+   "line": 269,
+   "expr": "index >= 0",
+   "func": 1382560,
+   "unit": null
+  },
+  {
+   "site": 1388044,
+   "file": "cpget.c",
+   "line": 129,
+   "expr": "rank>0",
+   "func": 1388000,
+   "unit": "cpget.c"
+  },
+  {
+   "site": 1388300,
+   "file": "cpparams.c",
+   "line": 55,
+   "expr": "cid >= PID_BEGIN && cid < PID_MAX",
+   "func": 1388248,
+   "unit": "cpparams.c"
+  },
+  {
+   "site": 1388612,
+   "file": "cpparams.c",
+   "line": 92,
+   "expr": "cid >= PID_BEGIN && cid < PID_MAX",
+   "func": 1388560,
+   "unit": "cpparams.c"
+  },
+  {
+   "site": 1391724,
+   "file": "cpparams.c",
+   "line": 367,
+   "expr": "cid >= PID_BEGIN && cid < PID_MAX",
+   "func": 1391680,
+   "unit": "cpparams.c"
+  },
+  {
+   "site": 1391780,
+   "file": "cpparams.c",
+   "line": 367,
+   "expr": "cid >= PID_BEGIN && cid < PID_MAX",
+   "func": 1391768,
+   "unit": "cpparams.c"
+  },
+  {
+   "site": 1409996,
+   "file": "cpconst.c",
+   "line": 48,
+   "expr": "cid >= PID_BEGIN && cid < PID_MAX",
+   "func": 1409952,
+   "unit": null
+  },
+  {
+   "site": 1410084,
+   "file": "cpconst.c",
+   "line": 61,
+   "expr": "cid >= PID_BEGIN && cid < PID_MAX",
+   "func": 1410040,
+   "unit": "cpconst.c"
+  },
+  {
+   "site": 1410232,
+   "file": "cpconst.c",
+   "line": 85,
+   "expr": "cid >= PID_BEGIN && cid < PID_MAX",
+   "func": 1410128,
+   "unit": "cpconst.c"
+  },
+  {
+   "site": 1410516,
+   "file": "cpconst.c",
+   "line": 187,
+   "expr": "cid >= PID_BEGIN && cid < PID_MAX",
+   "func": 1410472,
+   "unit": "cpconst.c"
+  },
+  {
+   "site": 1410604,
+   "file": "cpconst.c",
+   "line": 199,
+   "expr": "cid >= PID_BEGIN && cid < PID_MAX",
+   "func": 1410560,
+   "unit": "cpconst.c"
+  },
+  {
+   "site": 1410692,
+   "file": "cpconst.c",
+   "line": 211,
+   "expr": "cid >= PID_BEGIN && cid < PID_MAX",
+   "func": 1410648,
+   "unit": "cpconst.c"
+  },
+  {
+   "site": 1413872,
+   "file": "gmchara.c",
+   "line": 352,
+   "expr": "offset <= GM_MEMORY_AREA_MAX",
+   "func": 1413736,
+   "unit": null
+  },
+  {
+   "site": 1414952,
+   "file": "gmchara.c",
+   "line": 720,
+   "expr": "cid >= PID_BEGIN && cid < PID_MAX",
+   "func": 1414904,
+   "unit": "gmchara.c"
+  },
+  {
+   "site": 1414996,
+   "file": "gmchara.c",
+   "line": 721,
+   "expr": "_memory_offset_table[ 0 ] == 0xa1fa",
+   "func": 1414904,
+   "unit": "gmchara.c"
+  },
+  {
+   "site": 1416716,
+   "file": "gmsave.c",
+   "line": 309,
+   "expr": "chank->header.type < Arraysize(datainitalfunclist)",
+   "func": 1416616,
+   "unit": "gmsave.c"
+  },
+  {
+   "site": 1422208,
+   "file": "gmdebug.c",
+   "line": 205,
+   "expr": "user < Arraysize(_gmprintfconf)",
+   "func": 1422120,
+   "unit": "gmdebug.c"
+  },
+  {
+   "site": 1423288,
+   "file": "gmdebug.c",
+   "line": 355,
+   "expr": "ret<Arraysize(message)-1",
+   "func": 1423168,
+   "unit": "gmdebug.c"
+  },
+  {
+   "site": 1427264,
+   "file": "gmmain.c",
+   "line": 283,
+   "expr": "step >= 0 && step < Arraysize(heapstat)",
+   "func": 1427224,
+   "unit": "gmmain.c"
+  },
+  {
+   "site": 1427368,
+   "file": "gmmain.c",
+   "line": 301,
+   "expr": "step >= 0 && step < Arraysize(hhmemstat)",
+   "func": 1427328,
+   "unit": "gmmain.c"
+  },
+  {
+   "site": 1427448,
+   "file": "gmmain.c",
+   "line": 301,
+   "expr": "step >= 0 && step < Arraysize(hhmemstat)",
+   "func": 1427440,
+   "unit": null
+  },
+  {
+   "site": 1428744,
+   "file": "gmbattle.c",
+   "line": 121,
+   "expr": "0",
+   "func": 1428672,
+   "unit": "gmbattle.c"
+  },
+  {
+   "site": 1428840,
+   "file": "gmbattle.c",
+   "line": 121,
+   "expr": "0",
+   "func": 1428792,
+   "unit": "gmbattle.c"
+  },
+  {
+   "site": 1428880,
+   "file": "gmbattle.c",
+   "line": 140,
+   "expr": "0",
+   "func": 1428792,
+   "unit": "gmbattle.c"
+  },
+  {
+   "site": 1428980,
+   "file": "gmbattle.c",
+   "line": 163,
+   "expr": "uid>=uid_Unit00 && uid<uid_Unit00+Arraysize(unitdata)",
+   "func": 1428936,
+   "unit": "gmbattle.c"
+  },
+  {
+   "site": 1429056,
+   "file": "gmbattle.c",
+   "line": 163,
+   "expr": "uid>=uid_Unit00 && uid<uid_Unit00+Arraysize(unitdata)",
+   "func": 1429048,
+   "unit": "gmbattle.c"
+  },
+  {
+   "site": 1429208,
+   "file": "gmbattle.c",
+   "line": 225,
+   "expr": "idx>=eEVAWORK0 && idx<=eEVAWORK4",
+   "func": 1429168,
+   "unit": "gmbattle.c"
+  },
+  {
+   "site": 1429376,
+   "file": "gmbattle.c",
+   "line": 234,
+   "expr": "0",
+   "func": 1429368,
+   "unit": "gmbattle.c"
+  },
+  {
+   "site": 1429416,
+   "file": "gmbattle.c",
+   "line": 234,
+   "expr": "0",
+   "func": 1429408,
+   "unit": "gmbattle.c"
+  },
+  {
+   "site": 1429664,
+   "file": "gmbattle.c",
+   "line": 401,
+   "expr": "ud->stamina!=0",
+   "func": 1429592,
+   "unit": "gmbattle.c"
+  },
+  {
+   "site": 1430120,
+   "file": "gmbattle.c",
+   "line": 499,
+   "expr": "0",
+   "func": 1430040,
+   "unit": "gmbattle.c"
+  },
+  {
+   "site": 1430376,
+   "file": "gmbattle.c",
+   "line": 544,
+   "expr": "0",
+   "func": 1430328,
+   "unit": "gmbattle.c"
+  },
+  {
+   "site": 1430924,
+   "file": "gmbattle.c",
+   "line": 636,
+   "expr": "per>=0",
+   "func": 1430888,
+   "unit": "gmbattle.c"
+  },
+  {
+   "site": 1430960,
+   "file": "gmbattle.c",
+   "line": 637,
+   "expr": "per<=100",
+   "func": 1430888,
+   "unit": "gmbattle.c"
+  },
+  {
+   "site": 1432840,
+   "file": "memstr.c",
+   "line": 393,
+   "expr": "condition >= 0 && condition < Arraysize(memorysearchlist)",
+   "func": 1432760,
+   "unit": "memstr.c"
+  },
+  {
+   "site": 1436240,
+   "file": "memfind.c",
+   "line": 34,
+   "expr": "memlist!=NULL",
+   "func": 1436184,
+   "unit": "memfind.c"
+  },
+  {
+   "site": 1436364,
+   "file": "memfind.c",
+   "line": 49,
+   "expr": "memlist->count<=GM_MEMORY_SIZE_MAX",
+   "func": 1436304,
+   "unit": "memfind.c"
+  },
+  {
+   "site": 1454644,
+   "file": "face.c",
+   "line": 789,
+   "expr": "my.slot[sno]!=NULL",
+   "func": 1454576,
+   "unit": "face.c"
+  },
+  {
+   "site": 1457924,
+   "file": "faceplt.c",
+   "line": 358,
+   "expr": "self->animeindex<table_count",
+   "func": 1457376,
+   "unit": "face.c"
+  },
+  {
+   "site": 1459256,
+   "file": "faceplt.c",
+   "line": 620,
+   "expr": "lpparam->kao>=eFACE_EXP_BEGIN",
+   "func": 1459160,
+   "unit": "faceplt.c"
+  },
+  {
+   "site": 1459296,
+   "file": "faceplt.c",
+   "line": 621,
+   "expr": "lpparam->kao<eFACE_EXP_END",
+   "func": 1459160,
+   "unit": "faceplt.c"
+  },
+  {
+   "site": 1459412,
+   "file": "faceplt.c",
+   "line": 640,
+   "expr": "hhFileSizeGetByName(archivename)>0 && \"archive does not exist\"",
+   "func": 1459160,
+   "unit": "faceplt.c"
+  },
+  {
+   "site": 1464240,
+   "file": "cpmoney.c",
+   "line": 33,
+   "expr": "person",
+   "func": 1464192,
+   "unit": "cpmoney.c"
+  },
+  {
+   "site": 1464560,
+   "file": "cpskill.c",
+   "line": 32,
+   "expr": "person",
+   "func": 1464512,
+   "unit": "cpskill.c"
+  },
+  {
+   "site": 1464664,
+   "file": "cpskill.c",
+   "line": 73,
+   "expr": "sno<eCharaSkillMax",
+   "func": 1464616,
+   "unit": "cpskill.c"
+  },
+  {
+   "site": 1464768,
+   "file": "cpskill.c",
+   "line": 97,
+   "expr": "sno<eCharaSkillMax",
+   "func": 1464712,
+   "unit": "cpskill.c"
+  },
+  {
+   "site": 1464800,
+   "file": "cpskill.c",
+   "line": 98,
+   "expr": "lev>=MINLEVEL",
+   "func": 1464712,
+   "unit": "cpskill.c"
+  },
+  {
+   "site": 1464832,
+   "file": "cpskill.c",
+   "line": 99,
+   "expr": "lev<=MAXLEVEL",
+   "func": 1464712,
+   "unit": "cpskill.c"
+  },
+  {
+   "site": 1465232,
+   "file": "cpitem.c",
+   "line": 29,
+   "expr": "person",
+   "func": 1465184,
+   "unit": "cpitem.c"
+  },
+  {
+   "site": 1465272,
+   "file": "cpitem.c",
+   "line": 29,
+   "expr": "person",
+   "func": 1465264,
+   "unit": "cpitem.c"
+  },
+  {
+   "site": 1465540,
+   "file": "cpitem.c",
+   "line": 104,
+   "expr": "sno<item->size",
+   "func": 1465480,
+   "unit": "cpitem.c"
+  },
+  {
+   "site": 1465636,
+   "file": "cpitem.c",
+   "line": 127,
+   "expr": "sno<item->size",
+   "func": 1465576,
+   "unit": "cpitem.c"
+  },
+  {
+   "site": 1465732,
+   "file": "cpitem.c",
+   "line": 150,
+   "expr": "sno<item->size",
+   "func": 1465672,
+   "unit": "cpitem.c"
+  },
+  {
+   "site": 1465828,
+   "file": "cpitem.c",
+   "line": 173,
+   "expr": "sno<item->size",
+   "func": 1465768,
+   "unit": "cpitem.c"
+  },
+  {
+   "site": 1468932,
+   "file": "cpitem.c",
+   "line": 891,
+   "expr": "sno>=0",
+   "func": 1468880,
+   "unit": "cpitem.c"
+  },
+  {
+   "site": 1469280,
+   "file": "cpstate.c",
+   "line": 26,
+   "expr": "person",
+   "func": 1469232,
+   "unit": "cpstate.c"
+  },
+  {
+   "site": 1469320,
+   "file": "cpstate.c",
+   "line": 26,
+   "expr": "person",
+   "func": 1469312,
+   "unit": null
+  },
+  {
+   "site": 1469356,
+   "file": "cpstate.c",
+   "line": 26,
+   "expr": "person",
+   "func": 1469344,
+   "unit": null
+  },
+  {
+   "site": 1470752,
+   "file": "cpmyster.c",
+   "line": 30,
+   "expr": "person",
+   "func": 1470704,
+   "unit": "cpmyster.c"
+  },
+  {
+   "site": 1470796,
+   "file": "cpmyster.c",
+   "line": 30,
+   "expr": "person",
+   "func": 1470784,
+   "unit": null
+  },
+  {
+   "site": 1470852,
+   "file": "cpmyster.c",
+   "line": 30,
+   "expr": "person",
+   "func": 1470832,
+   "unit": null
+  },
+  {
+   "site": 1471280,
+   "file": "cpmess.c",
+   "line": 25,
+   "expr": "person",
+   "func": 1471232,
+   "unit": "cpmess.c"
+  },
+  {
+   "site": 1471340,
+   "file": "cpmess.c",
+   "line": 25,
+   "expr": "person",
+   "func": 1471312,
+   "unit": null
+  },
+  {
+   "site": 1471536,
+   "file": "cpflag.c",
+   "line": 25,
+   "expr": "person",
+   "func": 1471488,
+   "unit": "cpflag.c"
+  },
+  {
+   "site": 1471588,
+   "file": "cpflag.c",
+   "line": 25,
+   "expr": "person",
+   "func": 1471568,
+   "unit": null
+  },
+  {
+   "site": 1472704,
+   "file": "cpreport.c",
+   "line": 25,
+   "expr": "person",
+   "func": 1472656,
+   "unit": "cpreport.c"
+  },
+  {
+   "site": 1472744,
+   "file": "cpreport.c",
+   "line": 25,
+   "expr": "person",
+   "func": 1472736,
+   "unit": "cpreport.c"
+  },
+  {
+   "site": 1472780,
+   "file": "cpreport.c",
+   "line": 25,
+   "expr": "person",
+   "func": 1472768,
+   "unit": "cpreport.c"
+  },
+  {
+   "site": 1472980,
+   "file": "cpreport.c",
+   "line": 151,
+   "expr": "report->size<REPORT_MAX",
+   "func": 1472920,
+   "unit": "cpreport.c"
+  },
+  {
+   "site": 1473044,
+   "file": "cpreport.c",
+   "line": 151,
+   "expr": "report->size<REPORT_MAX",
+   "func": 1473032,
+   "unit": "cpreport.c"
+  },
+  {
+   "site": 1473084,
+   "file": "cpreport.c",
+   "line": 174,
+   "expr": "report->size>0",
+   "func": 1473032,
+   "unit": "cpreport.c"
+  },
+  {
+   "site": 1475672,
+   "file": "bumpu.c",
+   "line": 95,
+   "expr": "my.maxslot<MAXSLOT",
+   "func": 1475600,
+   "unit": "bumpu.c"
+  },
+  {
+   "site": 1476416,
+   "file": "im.c",
+   "line": 163,
+   "expr": "code->buffer==NULL",
+   "func": 1476304,
+   "unit": "im.c"
+  },
+  {
+   "site": 1476452,
+   "file": "im.c",
+   "line": 164,
+   "expr": "code->handle==-1",
+   "func": 1476304,
+   "unit": "im.c"
+  },
+  {
+   "site": 1476712,
+   "file": "im.c",
+   "line": 239,
+   "expr": "text->buffer==NULL",
+   "func": 1476632,
+   "unit": "im.c"
+  },
+  {
+   "site": 1476748,
+   "file": "im.c",
+   "line": 240,
+   "expr": "text->handle==-1",
+   "func": 1476632,
+   "unit": "im.c"
+  },
+  {
+   "site": 1487728,
+   "file": "window.c",
+   "line": 421,
+   "expr": "sno!=-1",
+   "func": 1487624,
+   "unit": "window.c"
+  },
+  {
+   "site": 1495436,
+   "file": "restore.c",
+   "line": 462,
+   "expr": "now<=max",
+   "func": 1495280,
+   "unit": "restore.c"
+  },
+  {
+   "site": 1496184,
+   "file": "restore.c",
+   "line": 592,
+   "expr": "now<=max",
+   "func": 1496056,
+   "unit": "restore.c"
+  },
+  {
+   "site": 1496228,
+   "file": "restore.c",
+   "line": 592,
+   "expr": "now<=max",
+   "func": 1496056,
+   "unit": "restore.c"
+  },
+  {
+   "site": 1496684,
+   "file": "restore.c",
+   "line": 771,
+   "expr": "now<=max",
+   "func": 1496552,
+   "unit": "restore.c"
+  },
+  {
+   "site": 1509652,
+   "file": "evseq.c",
+   "line": 2601,
+   "expr": "FALSE && \"Operation ID is invalid, or operation is failed...\"",
+   "func": 1509584,
+   "unit": "evseq.c"
+  },
+  {
+   "site": 1509672,
+   "file": "evseq.c",
+   "line": 2601,
+   "expr": "FALSE && \"Operation ID is invalid, or operation is failed...\"",
+   "func": 1509584,
+   "unit": "evseq.c"
+  },
+  {
+   "site": 1509680,
+   "file": "evseq.c",
+   "line": 2601,
+   "expr": "FALSE && \"Operation ID is invalid, or operation is failed...\"",
+   "func": 1509584,
+   "unit": "evseq.c"
+  },
+  {
+   "site": 1553700,
+   "file": "option.c",
+   "line": 185,
+   "expr": "ret!=NULL",
+   "func": 1553608,
+   "unit": "option.c"
+  },
+  {
+   "site": 1557604,
+   "file": "option.c",
+   "line": 642,
+   "expr": "type<eOptionMax",
+   "func": 1557560,
+   "unit": "option.c"
+  },
+  {
+   "site": 1557792,
+   "file": "option.c",
+   "line": 666,
+   "expr": "0",
+   "func": 1557696,
+   "unit": "option.c"
+  },
+  {
+   "site": 1557884,
+   "file": "option.c",
+   "line": 682,
+   "expr": "type<eOptionMax",
+   "func": 1557832,
+   "unit": "option.c"
+  },
+  {
+   "site": 1557988,
+   "file": "option.c",
+   "line": 691,
+   "expr": "type<eOptionMax",
+   "func": 1557928,
+   "unit": "option.c"
+  },
+  {
+   "site": 1568188,
+   "file": "saveload.c",
+   "line": 2688,
+   "expr": "filesize==ICON1_ICO",
+   "func": 1568016,
+   "unit": "saveload.c"
+  },
+  {
+   "site": 1568356,
+   "file": "saveload.c",
+   "line": 2703,
+   "expr": "filesize==ICON2_ICO",
+   "func": 1568016,
+   "unit": "saveload.c"
+  },
+  {
+   "site": 1568508,
+   "file": "saveload.c",
+   "line": 2718,
+   "expr": "filesize==ICON3_ICO",
+   "func": 1568016,
+   "unit": "saveload.c"
+  },
+  {
+   "site": 1570916,
+   "file": "gmbtlmap.c",
+   "line": 107,
+   "expr": "num>=0",
+   "func": 1570880,
+   "unit": "gmbtlmap.c"
+  },
+  {
+   "site": 1570996,
+   "file": "gmbtlmap.c",
+   "line": 107,
+   "expr": "num>=0",
+   "func": 1570960,
+   "unit": "gmbtlmap.c"
+  },
+  {
+   "site": 1571220,
+   "file": "gmbtlmap.c",
+   "line": 163,
+   "expr": "per>=0",
+   "func": 1571184,
+   "unit": "gmbtlmap.c"
+  },
+  {
+   "site": 1571256,
+   "file": "gmbtlmap.c",
+   "line": 164,
+   "expr": "per<=100",
+   "func": 1571184,
+   "unit": "gmbtlmap.c"
+  },
+  {
+   "site": 1571404,
+   "file": "gmbtlmap.c",
+   "line": 199,
+   "expr": "id>=0",
+   "func": 1571304,
+   "unit": "gmbtlmap.c"
+  },
+  {
+   "site": 1571440,
+   "file": "gmbtlmap.c",
+   "line": 200,
+   "expr": "id<Arraysize(btlmap0)",
+   "func": 1571304,
+   "unit": "gmbtlmap.c"
+  },
+  {
+   "site": 1571524,
+   "file": "gmbtlmap.c",
+   "line": 207,
+   "expr": "order!=NULL",
+   "func": 1571304,
+   "unit": "gmbtlmap.c"
+  },
+  {
+   "site": 1571716,
+   "file": "gmbtlmap.c",
+   "line": 215,
+   "expr": "0",
+   "func": 1571304,
+   "unit": "gmbtlmap.c"
+  },
+  {
+   "site": 1573248,
+   "file": "cprecord.c",
+   "line": 26,
+   "expr": "person",
+   "func": 1573200,
+   "unit": "cprecord.c"
+  },
+  {
+   "site": 1573288,
+   "file": "cprecord.c",
+   "line": 26,
+   "expr": "person",
+   "func": 1573280,
+   "unit": null
+  },
+  {
+   "site": 1573568,
+   "file": "cpsatis.c",
+   "line": 25,
+   "expr": "person",
+   "func": 1573520,
+   "unit": "cpsatis.c"
+  },
+  {
+   "site": 1573644,
+   "file": "cpsatis.c",
+   "line": null,
+   "expr": null,
+   "func": 1573632,
+   "unit": "cpsatis.c"
+  },
+  {
+   "site": 1584092,
+   "file": "gmaround.c",
+   "line": 215,
+   "expr": "__CharaIsLeaveHome(cid)",
+   "func": 1583968,
+   "unit": null
+  },
+  {
+   "site": 1584384,
+   "file": "gmaround.c",
+   "line": 257,
+   "expr": "cid==chr_Rei",
+   "func": 1584344,
+   "unit": "gmaround.c"
+  },
+  {
+   "site": 1584500,
+   "file": "gmaround.c",
+   "line": 280,
+   "expr": "day>0",
+   "func": 1584456,
+   "unit": "gmaround.c"
+  },
+  {
+   "site": 1586116,
+   "file": "daysdisp.c",
+   "line": 66,
+   "expr": "ret!=NULL",
+   "func": 1586040,
+   "unit": "daysdisp.c"
+  },
+  {
+   "site": 1597288,
+   "file": "chara.c",
+   "line": 75,
+   "expr": "ret>0",
+   "func": 1597160,
+   "unit": "chara.c"
+  }
+ ],
+ "prog/BATTLE.BIN": [
+  {
+   "site": 32508368,
+   "file": "btflow.c",
+   "line": 141,
+   "expr": "0",
+   "func": 32507944,
+   "unit": "btflow.c"
+  },
+  {
+   "site": 32509252,
+   "file": "btflow.c",
+   "line": 299,
+   "expr": "0",
+   "func": 32509160,
+   "unit": "btflow.c"
+  },
+  {
+   "site": 32509260,
+   "file": "btflow.c",
+   "line": 299,
+   "expr": "0",
+   "func": 32509160,
+   "unit": "btflow.c"
+  },
+  {
+   "site": 32509280,
+   "file": "btflow.c",
+   "line": 299,
+   "expr": "0",
+   "func": 32509160,
+   "unit": "btflow.c"
+  },
+  {
+   "site": 32509632,
+   "file": "btflow.c",
+   "line": 375,
+   "expr": "0",
+   "func": 32509552,
+   "unit": "btflow.c"
+  },
+  {
+   "site": 32509736,
+   "file": "btflow.c",
+   "line": 400,
+   "expr": "0",
+   "func": 32509672,
+   "unit": "btflow.c"
+  },
+  {
+   "site": 32509960,
+   "file": "btflow.c",
+   "line": 449,
+   "expr": "from==FROM_BEGIN",
+   "func": 32509896,
+   "unit": "btflow.c"
+  },
+  {
+   "site": 32509968,
+   "file": "btflow.c",
+   "line": 449,
+   "expr": "from==FROM_BEGIN",
+   "func": 32509896,
+   "unit": "btflow.c"
+  },
+  {
+   "site": 32510140,
+   "file": "btflow.c",
+   "line": 484,
+   "expr": "from==FROM_BEGIN",
+   "func": 32510104,
+   "unit": "btflow.c"
+  },
+  {
+   "site": 32515644,
+   "file": "btopera1.c",
+   "line": 95,
+   "expr": "ew->list_num>0 && ew->list_num<=PILOT_MAX",
+   "func": 32515560,
+   "unit": "btopera1.c"
+  },
+  {
+   "site": 32519444,
+   "file": "btopera2.c",
+   "line": 195,
+   "expr": "j<btENTRY_SIZE",
+   "func": 32518936,
+   "unit": "btopera2.c"
+  },
+  {
+   "site": 32519724,
+   "file": "btopera2.c",
+   "line": 212,
+   "expr": "0",
+   "func": 32518936,
+   "unit": "btopera2.c"
+  },
+  {
+   "site": 32520820,
+   "file": "btopera2.c",
+   "line": 416,
+   "expr": "0",
+   "func": 32520736,
+   "unit": "btopera2.c"
+  },
+  {
+   "site": 32521244,
+   "file": "btopera2.c",
+   "line": 496,
+   "expr": "target!=NULL",
+   "func": 32521168,
+   "unit": "btopera2.c"
+  },
+  {
+   "site": 32521996,
+   "file": "btopera2.c",
+   "line": 589,
+   "expr": "0",
+   "func": 32521912,
+   "unit": "btopera2.c"
+  },
+  {
+   "site": 32522436,
+   "file": "btopera2.c",
+   "line": 647,
+   "expr": "0",
+   "func": 32522160,
+   "unit": "btopera2.c"
+  },
+  {
+   "site": 32523708,
+   "file": "btopera2.c",
+   "line": 884,
+   "expr": "0",
+   "func": 32523592,
+   "unit": "btopera2.c"
+  },
+  {
+   "site": 32525340,
+   "file": "btopera3.c",
+   "line": 122,
+   "expr": "eva!=NULL",
+   "func": 32525264,
+   "unit": "btopera3.c"
+  },
+  {
+   "site": 32526144,
+   "file": "btoperat.c",
+   "line": 72,
+   "expr": "0",
+   "func": 32525928,
+   "unit": null
+  },
+  {
+   "site": 32527444,
+   "file": "btoperat.c",
+   "line": 268,
+   "expr": "0",
+   "func": 32527400,
+   "unit": "btoperat.c"
+  },
+  {
+   "site": 32531900,
+   "file": "btplay.c",
+   "line": 121,
+   "expr": "0",
+   "func": 32531624,
+   "unit": "btplay.c"
+  },
+  {
+   "site": 32531960,
+   "file": "btplay.c",
+   "line": 121,
+   "expr": "0",
+   "func": 32531952,
+   "unit": "btplay.c"
+  },
+  {
+   "site": 32531968,
+   "file": "btplay.c",
+   "line": 121,
+   "expr": "0",
+   "func": 32531952,
+   "unit": "btplay.c"
+  },
+  {
+   "site": 32531976,
+   "file": "btplay.c",
+   "line": 121,
+   "expr": "0",
+   "func": 32531952,
+   "unit": "btplay.c"
+  },
+  {
+   "site": 32531984,
+   "file": "btplay.c",
+   "line": 121,
+   "expr": "0",
+   "func": 32531952,
+   "unit": "btplay.c"
+  },
+  {
+   "site": 32533212,
+   "file": "btplay.c",
+   "line": 330,
+   "expr": "0",
+   "func": 32532960,
+   "unit": "btplay.c"
+  },
+  {
+   "site": 32533484,
+   "file": "btplay.c",
+   "line": 377,
+   "expr": "unit!=NULL",
+   "func": 32533336,
+   "unit": "btplay.c"
+  },
+  {
+   "site": 32535692,
+   "file": "btgeofro.c",
+   "line": 276,
+   "expr": "pow_size>=env->evacnt",
+   "func": 32535576,
+   "unit": "btgeofro.c"
+  },
+  {
+   "site": 32536292,
+   "file": "btgeofro.c",
+   "line": 342,
+   "expr": "0",
+   "func": 32536056,
+   "unit": "btgeofro.c"
+  },
+  {
+   "site": 32537064,
+   "file": "btgeofro.c",
+   "line": 436,
+   "expr": "env->nerv==NULL",
+   "func": 32537016,
+   "unit": "btgeofro.c"
+  },
+  {
+   "site": 32537600,
+   "file": "btvirtua.c",
+   "line": 159,
+   "expr": "str1<0x8000",
+   "func": 32537504,
+   "unit": "btvirtua.c"
+  },
+  {
+   "site": 32537648,
+   "file": "btvirtua.c",
+   "line": 160,
+   "expr": "str2<0x8000",
+   "func": 32537504,
+   "unit": "btvirtua.c"
+  },
+  {
+   "site": 32540252,
+   "file": "btauto1.c",
+   "line": 62,
+   "expr": "sort_cid_num>=2",
+   "func": 32540104,
+   "unit": "btauto1.c"
+  },
+  {
+   "site": 32540260,
+   "file": "btauto1.c",
+   "line": 62,
+   "expr": "sort_cid_num>=2",
+   "func": 32540104,
+   "unit": "btauto1.c"
+  },
+  {
+   "site": 32540816,
+   "file": "btauto1.c",
+   "line": 158,
+   "expr": "0 && \"No pilot\"",
+   "func": 32540104,
+   "unit": "btauto1.c"
+  },
+  {
+   "site": 32543060,
+   "file": "btauto3.c",
+   "line": 107,
+   "expr": "ret!=0",
+   "func": 32542888,
+   "unit": "btauto3.c"
+  },
+  {
+   "site": 32544728,
+   "file": "btauto3.c",
+   "line": 350,
+   "expr": "ret",
+   "func": 32544528,
+   "unit": "btauto3.c"
+  },
+  {
+   "site": 32550704,
+   "file": "btviewer.c",
+   "line": 354,
+   "expr": "0",
+   "func": 32550608,
+   "unit": "btviewer.c"
+  },
+  {
+   "site": 32557712,
+   "file": "btenv.c",
+   "line": 288,
+   "expr": "0",
+   "func": 32557608,
+   "unit": "btenv.c"
+  },
+  {
+   "site": 32558480,
+   "file": "btenv.c",
+   "line": 458,
+   "expr": "sight_mode >=btENV_SIGHT_M && sight_mode<=btENV_SIGHT_C",
+   "func": 32558424,
+   "unit": "btenv.c"
+  },
+  {
+   "site": 32558544,
+   "file": "btenv.c",
+   "line": 465,
+   "expr": "0",
+   "func": 32558424,
+   "unit": "btenv.c"
+  },
+  {
+   "site": 32558808,
+   "file": "btenv.c",
+   "line": 505,
+   "expr": "sight_mode >=btENV_SIGHT_M && sight_mode<=btENV_SIGHT_C",
+   "func": 32558760,
+   "unit": "btenv.c"
+  },
+  {
+   "site": 32558836,
+   "file": "btenv.c",
+   "line": null,
+   "expr": "sight_mode >=btENV_SIGHT_M && sight_mode<=btENV_SIGHT_C",
+   "func": 32558760,
+   "unit": "btenv.c"
+  },
+  {
+   "site": 32558924,
+   "file": "btenv.c",
+   "line": null,
+   "expr": "sight_mode >=btENV_SIGHT_M && sight_mode<=btENV_SIGHT_C",
+   "func": 32558880,
+   "unit": "btenv.c"
+  },
+  {
+   "site": 32559112,
+   "file": "btenv.c",
+   "line": 565,
+   "expr": "mode>=0 && mode<Arraysize(sightparam)",
+   "func": 32559072,
+   "unit": "btenv.c"
+  },
+  {
+   "site": 32562460,
+   "file": "btenv2.c",
+   "line": 297,
+   "expr": "env->evacnt<btENV_EVA_SIZE",
+   "func": 32562336,
+   "unit": "btenv2.c"
+  },
+  {
+   "site": 32562528,
+   "file": "btenv2.c",
+   "line": 300,
+   "expr": "env->aglcnt<btENV_AGL_SIZE",
+   "func": 32562336,
+   "unit": "btenv2.c"
+  },
+  {
+   "site": 32563720,
+   "file": "btenv3.c",
+   "line": 73,
+   "expr": "0",
+   "func": 32563480,
+   "unit": "btenv3.c"
+  },
+  {
+   "site": 32564212,
+   "file": "btenv3.c",
+   "line": 160,
+   "expr": "0",
+   "func": 32564024,
+   "unit": "btenv3.c"
+  },
+  {
+   "site": 32564668,
+   "file": "btenv3.c",
+   "line": 258,
+   "expr": "0",
+   "func": 32564616,
+   "unit": "btenv3.c"
+  },
+  {
+   "site": 32569780,
+   "file": "btenv8.c",
+   "line": 18,
+   "expr": "0",
+   "func": 32569712,
+   "unit": "btenv8.c"
+  },
+  {
+   "site": 32569800,
+   "file": "btenv8.c",
+   "line": 18,
+   "expr": "0",
+   "func": 32569712,
+   "unit": "btenv8.c"
+  },
+  {
+   "site": 32570128,
+   "file": "btenv9.c",
+   "line": 25,
+   "expr": "0",
+   "func": 32570040,
+   "unit": "btenv9.c"
+  },
+  {
+   "site": 32571224,
+   "file": "btenv11.c",
+   "line": 17,
+   "expr": "env->mmdl==NULL",
+   "func": 32571184,
+   "unit": "btenv11.c"
+  },
+  {
+   "site": 32571232,
+   "file": "btenv11.c",
+   "line": 17,
+   "expr": "env->mmdl==NULL",
+   "func": 32571184,
+   "unit": "btenv11.c"
+  },
+  {
+   "site": 32573968,
+   "file": "btsimula.c",
+   "line": 225,
+   "expr": "0",
+   "func": 32573832,
+   "unit": null
+  },
+  {
+   "site": 32577220,
+   "file": "bttabris.c",
+   "line": 76,
+   "expr": "0",
+   "func": 32577088,
+   "unit": "bttabris.c"
+  },
+  {
+   "site": 32582468,
+   "file": "bttabenv.c",
+   "line": 349,
+   "expr": "eva!=NULL",
+   "func": 32582360,
+   "unit": "bttabenv.c"
+  },
+  {
+   "site": 32582600,
+   "file": "bttabenv.c",
+   "line": 365,
+   "expr": "enemy!=NULL",
+   "func": 32582360,
+   "unit": "bttabenv.c"
+  },
+  {
+   "site": 32582712,
+   "file": "bttabenv.c",
+   "line": 379,
+   "expr": "angel!=NULL",
+   "func": 32582360,
+   "unit": "bttabenv.c"
+  },
+  {
+   "site": 32582996,
+   "file": "bttabenv.c",
+   "line": 431,
+   "expr": "tabenv->btkaworu!=NULL",
+   "func": 32582360,
+   "unit": "bttabenv.c"
+  },
+  {
+   "site": 32583152,
+   "file": "bttabenv.c",
+   "line": 455,
+   "expr": "handle!=-1",
+   "func": 32582360,
+   "unit": "bttabenv.c"
+  },
+  {
+   "site": 32583196,
+   "file": "bttabenv.c",
+   "line": 457,
+   "expr": "tabenv->map!=NULL",
+   "func": 32582360,
+   "unit": "bttabenv.c"
+  },
+  {
+   "site": 32586268,
+   "file": "btgendou.c",
+   "line": 205,
+   "expr": "eva!=NULL",
+   "func": 32586176,
+   "unit": "btgendou.c"
+  },
+  {
+   "site": 32590644,
+   "file": "btpcmis.c",
+   "line": 410,
+   "expr": "0",
+   "func": 32590472,
+   "unit": "btpcmis.c"
+  },
+  {
+   "site": 32591284,
+   "file": "btpcmis.c",
+   "line": 514,
+   "expr": "0",
+   "func": 32590912,
+   "unit": "btpcmis.c"
+  },
+  {
+   "site": 32591896,
+   "file": "btpcmis.c",
+   "line": 609,
+   "expr": "0",
+   "func": 32591800,
+   "unit": "btpcmis.c"
+  },
+  {
+   "site": 32595440,
+   "file": "btpcgen.c",
+   "line": 131,
+   "expr": "0",
+   "func": 32595176,
+   "unit": "btpcgen.c"
+  },
+  {
+   "site": 32608912,
+   "file": "btim319.c",
+   "line": 252,
+   "expr": "0",
+   "func": 32608416,
+   "unit": "btim319.c"
+  },
+  {
+   "site": 32610988,
+   "file": "btim319.c",
+   "line": 652,
+   "expr": "imid>0 && imid<Arraysize(imstrlist)",
+   "func": 32610936,
+   "unit": "btim319.c"
+  },
+  {
+   "site": 32612312,
+   "file": "btim.c",
+   "line": 93,
+   "expr": "btim->text!=-1",
+   "func": 32612216,
+   "unit": "btim.c"
+  },
+  {
+   "site": 32614464,
+   "file": "btim003.c",
+   "line": 379,
+   "expr": "0",
+   "func": 32614352,
+   "unit": "btim003.c"
+  },
+  {
+   "site": 32614648,
+   "file": "btim003.c",
+   "line": 406,
+   "expr": "0",
+   "func": 32614536,
+   "unit": "btim003.c"
+  },
+  {
+   "site": 32625904,
+   "file": "btevent1.c",
+   "line": 496,
+   "expr": "0",
+   "func": 32625752,
+   "unit": "btevent1.c"
+  },
+  {
+   "site": 32628568,
+   "file": "btevent1.c",
+   "line": 1373,
+   "expr": "0",
+   "func": 32628312,
+   "unit": "btevent1.c"
+  },
+  {
+   "site": 32629656,
+   "file": "btevent2.c",
+   "line": 136,
+   "expr": "0",
+   "func": 32629576,
+   "unit": "btevent2.c"
+  },
+  {
+   "site": 32634720,
+   "file": "btevent2.c",
+   "line": 1296,
+   "expr": "0",
+   "func": 32634496,
+   "unit": "btevent2.c"
+  },
+  {
+   "site": 32641156,
+   "file": "btevfunc.c",
+   "line": 565,
+   "expr": "pceva!=NULL",
+   "func": 32641104,
+   "unit": "btevfunc.c"
+  },
+  {
+   "site": 32641192,
+   "file": "btevfunc.c",
+   "line": 566,
+   "expr": "pceva->uobj!=NULL",
+   "func": 32641104,
+   "unit": "btevfunc.c"
+  },
+  {
+   "site": 32641232,
+   "file": "btevfunc.c",
+   "line": 567,
+   "expr": "pceva->uobj->fan1!=NULL",
+   "func": 32641104,
+   "unit": "btevfunc.c"
+  },
+  {
+   "site": 32646920,
+   "file": "btevfunc.c",
+   "line": 1456,
+   "expr": "env->aglcnt>0",
+   "func": 32646872,
+   "unit": "btevfunc.c"
+  },
+  {
+   "site": 32647212,
+   "file": "btevfunc.c",
+   "line": 1487,
+   "expr": "pceva!=NULL",
+   "func": 32647160,
+   "unit": "btevfunc.c"
+  },
+  {
+   "site": 32647248,
+   "file": "btevfunc.c",
+   "line": 1488,
+   "expr": "pceva->uobj!=NULL",
+   "func": 32647160,
+   "unit": "btevfunc.c"
+  },
+  {
+   "site": 32647288,
+   "file": "btevfunc.c",
+   "line": 1489,
+   "expr": "pceva->uobj->fan2!=NULL",
+   "func": 32647160,
+   "unit": "btevfunc.c"
+  },
+  {
+   "site": 32650552,
+   "file": "btdemot.c",
+   "line": 342,
+   "expr": "0",
+   "func": 32649848,
+   "unit": "btevfunc.c"
+  },
+  {
+   "site": 32661416,
+   "file": "btdemo.c",
+   "line": 777,
+   "expr": "mlcam != NULL",
+   "func": 32661264,
+   "unit": "btdemo.c"
+  },
+  {
+   "site": 32661468,
+   "file": "btdemo.c",
+   "line": 779,
+   "expr": "cam != NULL",
+   "func": 32661264,
+   "unit": "btdemo.c"
+  },
+  {
+   "site": 32661476,
+   "file": "btdemo.c",
+   "line": 779,
+   "expr": "cam != NULL",
+   "func": 32661264,
+   "unit": "btdemo.c"
+  },
+  {
+   "site": 32672656,
+   "file": "btdemoc.c",
+   "line": 113,
+   "expr": "0",
+   "func": 32672600,
+   "unit": "btdemoc.c"
+  },
+  {
+   "site": 32675336,
+   "file": "btmemory.c",
+   "line": 251,
+   "expr": "0",
+   "func": 32675184,
+   "unit": "btmemory.c"
+  },
+  {
+   "site": 32678356,
+   "file": "btmemory.c",
+   "line": 123,
+   "expr": "mno>0 && mno<Arraysize(memdata)+1",
+   "func": 32678304,
+   "unit": "btmemory.c"
+  },
+  {
+   "site": 32678836,
+   "file": "btmemory.c",
+   "line": 852,
+   "expr": "0",
+   "func": 32678632,
+   "unit": "btmemory.c"
+  },
+  {
+   "site": 32679768,
+   "file": "btmemory.c",
+   "line": 981,
+   "expr": "0",
+   "func": 32679704,
+   "unit": "btmemory.c"
+  },
+  {
+   "site": 32679996,
+   "file": "btmemory.c",
+   "line": 123,
+   "expr": "mno>0 && mno<Arraysize(memdata)+1",
+   "func": 32679920,
+   "unit": "btmemory.c"
+  },
+  {
+   "site": 32683532,
+   "file": "btkaworu.c",
+   "line": 182,
+   "expr": "!btFlagChk(kaworu->flag,KF_TERMINAL_DOGUMA)",
+   "func": 32683472,
+   "unit": "btkaworu.c"
+  },
+  {
+   "site": 32683772,
+   "file": "btkaworu.c",
+   "line": 214,
+   "expr": "0",
+   "func": 32683664,
+   "unit": "btkaworu.c"
+  },
+  {
+   "site": 32683780,
+   "file": "btkaworu.c",
+   "line": 214,
+   "expr": "0",
+   "func": 32683664,
+   "unit": "btkaworu.c"
+  },
+  {
+   "site": 32684980,
+   "file": "btkaworu.c",
+   "line": 443,
+   "expr": "idx>=1",
+   "func": 32684944,
+   "unit": "btkaworu.c"
+  },
+  {
+   "site": 32685016,
+   "file": "btkaworu.c",
+   "line": 444,
+   "expr": "idx<=Arraysize(imtbl)",
+   "func": 32684944,
+   "unit": "btkaworu.c"
+  },
+  {
+   "site": 32689152,
+   "file": "btim660.c",
+   "line": 244,
+   "expr": "cnt!=0",
+   "func": 32688960,
+   "unit": "btim660.c"
+  },
+  {
+   "site": 32693628,
+   "file": "btinfo.c",
+   "line": 320,
+   "expr": "0",
+   "func": 32693520,
+   "unit": "btinfo.c"
+  },
+  {
+   "site": 32694080,
+   "file": "btinfo2.c",
+   "line": 59,
+   "expr": "al->num>0",
+   "func": 32694016,
+   "unit": "btinfo2.c"
+  },
+  {
+   "site": 32695596,
+   "file": "btinfo2.c",
+   "line": 274,
+   "expr": "d-buf+9*2+1<size",
+   "func": 32695384,
+   "unit": "btinfo2.c"
+  },
+  {
+   "site": 32695812,
+   "file": "btinfo2.c",
+   "line": 290,
+   "expr": "d-buf+9*2+1<size",
+   "func": 32695384,
+   "unit": "btinfo2.c"
+  },
+  {
+   "site": 32696360,
+   "file": "btinfo2.c",
+   "line": 376,
+   "expr": "0",
+   "func": 32696232,
+   "unit": "btinfo2.c"
+  },
+  {
+   "site": 32696632,
+   "file": "btinfo2.c",
+   "line": 413,
+   "expr": "0",
+   "func": 32696512,
+   "unit": "btinfo2.c"
+  },
+  {
+   "site": 32700428,
+   "file": "btangel.c",
+   "line": 86,
+   "expr": "0",
+   "func": 32700176,
+   "unit": "btangel.c"
+  },
+  {
+   "site": 32702444,
+   "file": "btangel.c",
+   "line": 523,
+   "expr": "target!=NULL",
+   "func": 32702376,
+   "unit": "btangel.c"
+  },
+  {
+   "site": 32703672,
+   "file": "btangel.c",
+   "line": 752,
+   "expr": "agl->uid==uid_ Armisael",
+   "func": 32703584,
+   "unit": "btangel.c"
+  },
+  {
+   "site": 32704472,
+   "file": "btangel2.c",
+   "line": 41,
+   "expr": "0",
+   "func": 32704400,
+   "unit": "btangel2.c"
+  },
+  {
+   "site": 32705488,
+   "file": "btangel2.c",
+   "line": 241,
+   "expr": "agl->stamina!=0",
+   "func": 32705416,
+   "unit": "btangel2.c"
+  },
+  {
+   "site": 32706592,
+   "file": "btangel3.c",
+   "line": 42,
+   "expr": "0",
+   "func": 32706512,
+   "unit": "btangel3.c"
+  },
+  {
+   "site": 32708612,
+   "file": "btunitwk.c",
+   "line": 47,
+   "expr": "bt_unitwork_num<btUNITWORK_SIZE",
+   "func": 32708552,
+   "unit": "btunitwk.c"
+  },
+  {
+   "site": 32715284,
+   "file": "btnpceva.c",
+   "line": 144,
+   "expr": "0",
+   "func": 32714896,
+   "unit": "btnpceva.c"
+  },
+  {
+   "site": 32717120,
+   "file": "btnpceva.c",
+   "line": 533,
+   "expr": "0",
+   "func": 32717008,
+   "unit": "btnpceva.c"
+  },
+  {
+   "site": 32724108,
+   "file": "btnpcmis.c",
+   "line": 70,
+   "expr": "0",
+   "func": 32723968,
+   "unit": "btnpcmis.c"
+  },
+  {
+   "site": 32726412,
+   "file": "btisrafe.c",
+   "line": 154,
+   "expr": "env->evacnt>=1",
+   "func": 32726264,
+   "unit": "btisrafe.c"
+  },
+  {
+   "site": 32728612,
+   "file": "btunit.c",
+   "line": 204,
+   "expr": "0",
+   "func": 32728408,
+   "unit": "btunit.c"
+  },
+  {
+   "site": 32731072,
+   "file": "btunit.c",
+   "line": 659,
+   "expr": "free!=NULL",
+   "func": 32731024,
+   "unit": "btunit.c"
+  },
+  {
+   "site": 32741628,
+   "file": "btbuild.c",
+   "line": 94,
+   "expr": "sizeofBTBUILD(wid,hei)<=btBUILD_SIZE",
+   "func": 32741496,
+   "unit": "btbuild.c"
+  },
+  {
+   "site": 32741756,
+   "file": "btbuild.c",
+   "line": 113,
+   "expr": "build->pow_num<=btPOW_SIZE",
+   "func": 32741496,
+   "unit": "btbuild.c"
+  },
+  {
+   "site": 32741984,
+   "file": "btbuild.c",
+   "line": 157,
+   "expr": "0",
+   "func": 32741848,
+   "unit": "btbuild.c"
+  },
+  {
+   "site": 32742392,
+   "file": "btbuild.c",
+   "line": 211,
+   "expr": "x>=0 && x<build->wid",
+   "func": 32742288,
+   "unit": "btbuild.c"
+  },
+  {
+   "site": 32742476,
+   "file": "btbuild.c",
+   "line": 213,
+   "expr": "z>=0 && z<build->hei",
+   "func": 32742288,
+   "unit": "btbuild.c"
+  },
+  {
+   "site": 32742692,
+   "file": "btbuild.c",
+   "line": 235,
+   "expr": "x>=0 && x<build->wid",
+   "func": 32742552,
+   "unit": "btbuild.c"
+  },
+  {
+   "site": 32742740,
+   "file": "btbuild.c",
+   "line": 236,
+   "expr": "z>=0 && z<build->hei",
+   "func": 32742552,
+   "unit": "btbuild.c"
+  },
+  {
+   "site": 32750476,
+   "file": "bteva.c",
+   "line": 314,
+   "expr": "btUnitIsPcEva(unit)",
+   "func": 32750336,
+   "unit": "bteva.c"
+  },
+  {
+   "site": 32751304,
+   "file": "bteva.c",
+   "line": 475,
+   "expr": "cable!=NULL",
+   "func": 32751256,
+   "unit": "bteva.c"
+  },
+  {
+   "site": 32751684,
+   "file": "bteva.c",
+   "line": 560,
+   "expr": "btUnitIsEva(eva)",
+   "func": 32751624,
+   "unit": "bteva.c"
+  },
+  {
+   "site": 32751972,
+   "file": "bteva.c",
+   "line": 604,
+   "expr": "btUnitIsEva(eva)",
+   "func": 32751920,
+   "unit": "bteva.c"
+  },
+  {
+   "site": 32753196,
+   "file": "bteva.c",
+   "line": 874,
+   "expr": "0",
+   "func": 32753112,
+   "unit": "bteva.c"
+  },
+  {
+   "site": 32756860,
+   "file": "bteva2.c",
+   "line": 115,
+   "expr": "0",
+   "func": 32756528,
+   "unit": "bteva2.c"
+  },
+  {
+   "site": 32757756,
+   "file": "bteva2.c",
+   "line": 228,
+   "expr": "0",
+   "func": 32756528,
+   "unit": "bteva2.c"
+  },
+  {
+   "site": 32757964,
+   "file": "bteva2.c",
+   "line": 266,
+   "expr": "0",
+   "func": 32756528,
+   "unit": "bteva2.c"
+  },
+  {
+   "site": 32758252,
+   "file": "bteva2.c",
+   "line": 315,
+   "expr": "0",
+   "func": 32756528,
+   "unit": "bteva2.c"
+  },
+  {
+   "site": 32761300,
+   "file": "btflag.c",
+   "line": 130,
+   "expr": "0",
+   "func": 32761256,
+   "unit": "btflag.c"
+  },
+  {
+   "site": 32762424,
+   "file": "btmmdl.c",
+   "line": 89,
+   "expr": "size<=(int)btMMDL_SIZE",
+   "func": 32762336,
+   "unit": "btmmdl.c"
+  },
+  {
+   "site": 32762536,
+   "file": "btmmdl.c",
+   "line": 108,
+   "expr": "mm->pvbuf!=NULL",
+   "func": 32762336,
+   "unit": "btmmdl.c"
+  },
+  {
+   "site": 32765124,
+   "file": "btmmdl.c",
+   "line": 426,
+   "expr": "mm->pvbuf_size<PVBUF_SIZE_LIMIT",
+   "func": 32765040,
+   "unit": "btmmdl.c"
+  },
+  {
+   "site": 32765184,
+   "file": "btmmdl.c",
+   "line": 428,
+   "expr": "mm->pvbuf!=NULL",
+   "func": 32765040,
+   "unit": "btmmdl.c"
+  },
+  {
+   "site": 32765364,
+   "file": "btmmdl.c",
+   "line": 486,
+   "expr": "bx>=0 && bx<mm->wid",
+   "func": 32765296,
+   "unit": "btmmdl.c"
+  },
+  {
+   "site": 32765412,
+   "file": "btmmdl.c",
+   "line": 487,
+   "expr": "bz>=0 && bz<mm->hei",
+   "func": 32765296,
+   "unit": "btmmdl.c"
+  },
+  {
+   "site": 32765924,
+   "file": "btmmdl.c",
+   "line": 558,
+   "expr": "bx>=0 && bx<mm->wid",
+   "func": 32765856,
+   "unit": "btmmdl.c"
+  },
+  {
+   "site": 32765972,
+   "file": "btmmdl.c",
+   "line": 559,
+   "expr": "bz>=0 && bz<mm->hei",
+   "func": 32765856,
+   "unit": "btmmdl.c"
+  },
+  {
+   "site": 32767492,
+   "file": "btmisc.c",
+   "line": 79,
+   "expr": "da>=-HHANGLE_180 && da<HHANGLE_180",
+   "func": 32767432,
+   "unit": "btmisc.c"
+  },
+  {
+   "site": 32767708,
+   "file": "btmisc.c",
+   "line": 108,
+   "expr": "da>=-HHANGLE_180 && da<HHANGLE_180",
+   "func": 32767640,
+   "unit": "btmisc.c"
+  },
+  {
+   "site": 32768668,
+   "file": "btmisc.c",
+   "line": 330,
+   "expr": "ud->str>0",
+   "func": 32768616,
+   "unit": "btmisc.c"
+  },
+  {
+   "site": 32768716,
+   "file": "btmisc.c",
+   "line": 330,
+   "expr": "ud->str>0",
+   "func": 32768704,
+   "unit": "btmisc.c"
+  },
+  {
+   "site": 32768756,
+   "file": "btmisc.c",
+   "line": 343,
+   "expr": "ud->dmg>0",
+   "func": 32768704,
+   "unit": "btmisc.c"
+  },
+  {
+   "site": 32770684,
+   "file": "btattack.c",
+   "line": 174,
+   "expr": "atk>=1 && atk<1+Arraysize(atkdata)",
+   "func": 32770640,
+   "unit": "btattack.c"
+  },
+  {
+   "site": 32770744,
+   "file": "btattack.c",
+   "line": 174,
+   "expr": "atk>=1 && atk<1+Arraysize(atkdata)",
+   "func": 32770736,
+   "unit": "btattack.c"
+  },
+  {
+   "site": 32770776,
+   "file": "btattack.c",
+   "line": 174,
+   "expr": "atk>=1 && atk<1+Arraysize(atkdata)",
+   "func": 32770768,
+   "unit": "btattack.c"
+  },
+  {
+   "site": 32771020,
+   "file": "btattack.c",
+   "line": 246,
+   "expr": "0",
+   "func": 32770944,
+   "unit": "btattack.c"
+  },
+  {
+   "site": 32773580,
+   "file": "btequip.c",
+   "line": 59,
+   "expr": "equ>0 && equ<Arraysize(equipdata)+1",
+   "func": 32773536,
+   "unit": "btequip.c"
+  },
+  {
+   "site": 32773648,
+   "file": "btequip.c",
+   "line": 59,
+   "expr": "equ>0 && equ<Arraysize(equipdata)+1",
+   "func": 32773632,
+   "unit": "btequip.c"
+  },
+  {
+   "site": 32773688,
+   "file": "btequip.c",
+   "line": 59,
+   "expr": "equ>0 && equ<Arraysize(equipdata)+1",
+   "func": 32773672,
+   "unit": "btequip.c"
+  },
+  {
+   "site": 32774028,
+   "file": "btdata.c",
+   "line": 184,
+   "expr": "0",
+   "func": 32773992,
+   "unit": "btdata.c"
+  },
+  {
+   "site": 32774236,
+   "file": "btdata.c",
+   "line": 219,
+   "expr": "ret>0",
+   "func": 32774072,
+   "unit": "btdata.c"
+  },
+  {
+   "site": 32774316,
+   "file": "btdata.c",
+   "line": 219,
+   "expr": "ret>0",
+   "func": 32774272,
+   "unit": "btdata.c"
+  },
+  {
+   "site": 32774328,
+   "file": "btdata.c",
+   "line": 219,
+   "expr": "ret>0",
+   "func": 32774272,
+   "unit": "btdata.c"
+  },
+  {
+   "site": 32776144,
+   "file": "btdebug.c",
+   "line": 47,
+   "expr": "ret<Arraysize(message)-1",
+   "func": 32776024,
+   "unit": "btdebug.c"
+  },
+  {
+   "site": 32781052,
+   "file": "btcity.c",
+   "line": 89,
+   "expr": "city->binfo_num<=NEWTOKYO_BINFO_SIZE",
+   "func": 32780840,
+   "unit": "btcity.c"
+  },
+  {
+   "site": 32781100,
+   "file": "btcity.c",
+   "line": 92,
+   "expr": "city->binfo_num<=GEOFRONT_BINFO_SIZE",
+   "func": 32780840,
+   "unit": "btcity.c"
+  },
+  {
+   "site": 32781464,
+   "file": "btcity.c",
+   "line": 156,
+   "expr": null,
+   "func": 32781224,
+   "unit": "btcity.c"
+  },
+  {
+   "site": 32782044,
+   "file": "btcity.c",
+   "line": 258,
+   "expr": "box->top >=0 && box->top < city->hei",
+   "func": 32781976,
+   "unit": "btcity.c"
+  },
+  {
+   "site": 32782096,
+   "file": "btcity.c",
+   "line": 259,
+   "expr": "box->bottom> 0 && box->bottom<=city->hei",
+   "func": 32781976,
+   "unit": "btcity.c"
+  },
+  {
+   "site": 32782148,
+   "file": "btcity.c",
+   "line": 260,
+   "expr": "box->top<box->bottom",
+   "func": 32781976,
+   "unit": "btcity.c"
+  },
+  {
+   "site": 32782200,
+   "file": "btcity.c",
+   "line": 261,
+   "expr": "box->left >=0 && box->left < city->wid",
+   "func": 32781976,
+   "unit": "btcity.c"
+  },
+  {
+   "site": 32782252,
+   "file": "btcity.c",
+   "line": 262,
+   "expr": "box->right >0 && box->right <=city->wid",
+   "func": 32781976,
+   "unit": "btcity.c"
+  },
+  {
+   "site": 32782304,
+   "file": "btcity.c",
+   "line": 263,
+   "expr": "box->left<box->right",
+   "func": 32781976,
+   "unit": "btcity.c"
+  },
+  {
+   "site": 32783000,
+   "file": "btcity.c",
+   "line": 371,
+   "expr": "dir>=0 && dir<Arraysize(add)",
+   "func": 32782936,
+   "unit": "btcity.c"
+  },
+  {
+   "site": 32783900,
+   "file": "btcity.c",
+   "line": 497,
+   "expr": "0",
+   "func": 32783648,
+   "unit": "btcity.c"
+  },
+  {
+   "site": 32786640,
+   "file": "btarg.c",
+   "line": 39,
+   "expr": "0",
+   "func": 32786536,
+   "unit": "btarg.c"
+  },
+  {
+   "site": 32786904,
+   "file": "btarg.c",
+   "line": 124,
+   "expr": "index>=0 && index<2",
+   "func": 32786864,
+   "unit": "btarg.c"
+  },
+  {
+   "site": 32789596,
+   "file": "btwork.c",
+   "line": 302,
+   "expr": "idx>=0",
+   "func": 32789480,
+   "unit": "btwork.c"
+  },
+  {
+   "site": 32791220,
+   "file": "btulist.c",
+   "line": 41,
+   "expr": "0",
+   "func": 32791080,
+   "unit": "btulist.c"
+  },
+  {
+   "site": 32793028,
+   "file": "btc2work.c",
+   "line": 54,
+   "expr": "sizeofBTC2WORK(wid,hei)<=btC2WORK_SIZE",
+   "func": 32792960,
+   "unit": "btc2work.c"
+  },
+  {
+   "site": 32793808,
+   "file": "btc2work.c",
+   "line": 203,
+   "expr": "0",
+   "func": 32793088,
+   "unit": "btc2work.c"
+  },
+  {
+   "site": 32796956,
+   "file": "btuobj.c",
+   "line": 160,
+   "expr": "free!=FREE_TERM",
+   "func": 32796888,
+   "unit": "btuobj.c"
+  },
+  {
+   "site": 32806276,
+   "file": "btgauge.c",
+   "line": 70,
+   "expr": "bt_gauge_num<btGAUGE_SIZE",
+   "func": 32806208,
+   "unit": "btgauge.c"
+  },
+  {
+   "site": 32807644,
+   "file": "btstat.c",
+   "line": 226,
+   "expr": "btstat_num<btSTAT_SIZE",
+   "func": 32807584,
+   "unit": "btstat.c"
+  },
+  {
+   "site": 32807888,
+   "file": "btstat.c",
+   "line": 264,
+   "expr": "0",
+   "func": 32807776,
+   "unit": "btstat.c"
+  },
+  {
+   "site": 32810616,
+   "file": "btstat.c",
+   "line": 600,
+   "expr": "0",
+   "func": 32810464,
+   "unit": "btstat.c"
+  },
+  {
+   "site": 32813632,
+   "file": "btstat.c",
+   "line": 1077,
+   "expr": "which>=btSTAT_LIFECOL0 && which<=btSTAT_LIFECOL3",
+   "func": 32813576,
+   "unit": "btstat.c"
+  },
+  {
+   "site": 32813784,
+   "file": "btstat.c",
+   "line": 1092,
+   "expr": "which>=btSTAT_LIFECOL0 && which<=btSTAT_LIFECOL3",
+   "func": 32813728,
+   "unit": "btstat.c"
+  },
+  {
+   "site": 32817012,
+   "file": "btsight.c",
+   "line": 188,
+   "expr": "fade>=0",
+   "func": 32816968,
+   "unit": "btsight.c"
+  },
+  {
+   "site": 32817048,
+   "file": "btsight.c",
+   "line": 189,
+   "expr": "fade<=255",
+   "func": 32816968,
+   "unit": "btsight.c"
+  },
+  {
+   "site": 32821088,
+   "file": "btmap.c",
+   "line": 56,
+   "expr": "id>=0 && id<Arraysize(maphar)",
+   "func": 32821048,
+   "unit": "btmap.c"
+  },
+  {
+   "site": 32821096,
+   "file": "btmap.c",
+   "line": 56,
+   "expr": "id>=0 && id<Arraysize(maphar)",
+   "func": 32821048,
+   "unit": "btmap.c"
+  },
+  {
+   "site": 32822864,
+   "file": "btmap.c",
+   "line": 416,
+   "expr": "vmode>=0 && vmode<Arraysize(viewparam)",
+   "func": 32822800,
+   "unit": "btmap.c"
+  },
+  {
+   "site": 32822948,
+   "file": "btmap.c",
+   "line": 416,
+   "expr": "vmode>=0 && vmode<Arraysize(viewparam)",
+   "func": 32822800,
+   "unit": "btmap.c"
+  },
+  {
+   "site": 32822960,
+   "file": "btmap.c",
+   "line": 416,
+   "expr": "vmode>=0 && vmode<Arraysize(viewparam)",
+   "func": 32822800,
+   "unit": "btmap.c"
+  },
+  {
+   "site": 32823220,
+   "file": "btmap.c",
+   "line": 416,
+   "expr": "vmode>=0 && vmode<Arraysize(viewparam)",
+   "func": 32823120,
+   "unit": "btmap.c"
+  },
+  {
+   "site": 32823300,
+   "file": "btmap.c",
+   "line": 416,
+   "expr": "vmode>=0 && vmode<Arraysize(viewparam)",
+   "func": 32823120,
+   "unit": "btmap.c"
+  },
+  {
+   "site": 32823312,
+   "file": "btmap.c",
+   "line": 416,
+   "expr": "vmode>=0 && vmode<Arraysize(viewparam)",
+   "func": 32823120,
+   "unit": "btmap.c"
+  },
+  {
+   "site": 32823560,
+   "file": "btmap.c",
+   "line": 416,
+   "expr": "vmode>=0 && vmode<Arraysize(viewparam)",
+   "func": 32823504,
+   "unit": "btmap.c"
+  },
+  {
+   "site": 32823636,
+   "file": "btmap.c",
+   "line": 416,
+   "expr": "vmode>=0 && vmode<Arraysize(viewparam)",
+   "func": 32823504,
+   "unit": "btmap.c"
+  },
+  {
+   "site": 32823648,
+   "file": "btmap.c",
+   "line": 416,
+   "expr": "vmode>=0 && vmode<Arraysize(viewparam)",
+   "func": 32823504,
+   "unit": "btmap.c"
+  },
+  {
+   "site": 32827452,
+   "file": "btenemy.c",
+   "line": 386,
+   "expr": "0",
+   "func": 32827384,
+   "unit": "btenemy.c"
+  },
+  {
+   "site": 32828748,
+   "file": "btreport.c",
+   "line": 331,
+   "expr": "0",
+   "func": 32828656,
+   "unit": "btreport.c"
+  },
+  {
+   "site": 32830520,
+   "file": "btreport.c",
+   "line": 618,
+   "expr": "rep->mes_num<btREPORT_MES_SIZE",
+   "func": 32830352,
+   "unit": "btreport.c"
+  },
+  {
+   "site": 32830652,
+   "file": "btreport.c",
+   "line": 629,
+   "expr": "rep->mes_num<btREPORT_MES_SIZE",
+   "func": 32830352,
+   "unit": "btreport.c"
+  },
+  {
+   "site": 32831436,
+   "file": "btbattry.c",
+   "line": 90,
+   "expr": "bt_battery_num<btBATTERY_SIZE",
+   "func": 32831376,
+   "unit": "btbattry.c"
+  },
+  {
+   "site": 32833656,
+   "file": "btdemosc.c",
+   "line": 106,
+   "expr": "0",
+   "func": 32833488,
+   "unit": "btdemosc.c"
+  },
+  {
+   "site": 32835676,
+   "file": "btcable.c",
+   "line": 147,
+   "expr": "bt_cable_num<btCABLE_SIZE",
+   "func": 32835616,
+   "unit": "btcable.c"
+  },
+  {
+   "site": 32836848,
+   "file": "btcable.c",
+   "line": 337,
+   "expr": "cable->curve_num<btCABLE_CURVE_SIZE",
+   "func": 32836304,
+   "unit": "btcable.c"
+  },
+  {
+   "site": 32837832,
+   "file": "btcable.c",
+   "line": 520,
+   "expr": "pos_num>=2",
+   "func": 32837776,
+   "unit": "btcable.c"
+  },
+  {
+   "site": 32837872,
+   "file": "btcable.c",
+   "line": 520,
+   "expr": "pos_num>=2",
+   "func": 32837776,
+   "unit": "btcable.c"
+  },
+  {
+   "site": 32841232,
+   "file": "bteff.c",
+   "line": 86,
+   "expr": "0",
+   "func": 32841120,
+   "unit": "bteff.c"
+  },
+  {
+   "site": 32841488,
+   "file": "bteff.c",
+   "line": 116,
+   "expr": "0",
+   "func": 32841400,
+   "unit": "bteff.c"
+  },
+  {
+   "site": 32841832,
+   "file": "bteff.c",
+   "line": 168,
+   "expr": "0",
+   "func": 32841640,
+   "unit": "bteff.c"
+  },
+  {
+   "site": 32842072,
+   "file": "bteff.c",
+   "line": 209,
+   "expr": "0",
+   "func": 32841992,
+   "unit": "bteff.c"
+  },
+  {
+   "site": 32845280,
+   "file": "btdefobj.c",
+   "line": 54,
+   "expr": "free!=NULL",
+   "func": 32845224,
+   "unit": "btdefobj.c"
+  },
+  {
+   "site": 32850504,
+   "file": "btsubtex.c",
+   "line": 55,
+   "expr": "0",
+   "func": 32850440,
+   "unit": "btsubtex.c"
+  },
+  {
+   "site": 32850624,
+   "file": "btsubtex.c",
+   "line": 73,
+   "expr": "0",
+   "func": 32850560,
+   "unit": "btsubtex.c"
+  },
+  {
+   "site": 32850776,
+   "file": "btsubtex.c",
+   "line": 89,
+   "expr": "0",
+   "func": 32850712,
+   "unit": "btsubtex.c"
+  },
+  {
+   "site": 32850896,
+   "file": "btsubtex.c",
+   "line": 100,
+   "expr": "0",
+   "func": 32850832,
+   "unit": "btsubtex.c"
+  },
+  {
+   "site": 32851016,
+   "file": "btsubtex.c",
+   "line": 119,
+   "expr": "0",
+   "func": 32850952,
+   "unit": "btsubtex.c"
+  },
+  {
+   "site": 32851128,
+   "file": "btsubtex.c",
+   "line": 138,
+   "expr": "0",
+   "func": 32851072,
+   "unit": "btsubtex.c"
+  },
+  {
+   "site": 32851256,
+   "file": "btsubtex.c",
+   "line": 156,
+   "expr": "0",
+   "func": 32851192,
+   "unit": "btsubtex.c"
+  },
+  {
+   "site": 32851384,
+   "file": "btsubtex.c",
+   "line": 176,
+   "expr": "0",
+   "func": 32851320,
+   "unit": "btsubtex.c"
+  },
+  {
+   "site": 32851496,
+   "file": "btsubtex.c",
+   "line": 195,
+   "expr": "0",
+   "func": 32851440,
+   "unit": "btsubtex.c"
+  },
+  {
+   "site": 32851616,
+   "file": "btsubtex.c",
+   "line": 214,
+   "expr": "0",
+   "func": 32851552,
+   "unit": "btsubtex.c"
+  },
+  {
+   "site": 32851728,
+   "file": "btsubtex.c",
+   "line": 232,
+   "expr": "0",
+   "func": 32851672,
+   "unit": "btsubtex.c"
+  },
+  {
+   "site": 32851860,
+   "file": "btsubtex.c",
+   "line": 250,
+   "expr": "0",
+   "func": 32851784,
+   "unit": "btsubtex.c"
+  },
+  {
+   "site": 32851988,
+   "file": "btsubtex.c",
+   "line": 272,
+   "expr": "0",
+   "func": 32851896,
+   "unit": "btsubtex.c"
+  },
+  {
+   "site": 32853552,
+   "file": "btsmap.c",
+   "line": 262,
+   "expr": "aglcnt<btSMAP_AGL_SIZE",
+   "func": 32853432,
+   "unit": "btsmap.c"
+  },
+  {
+   "site": 32855276,
+   "file": "btsmap.c",
+   "line": 524,
+   "expr": "0",
+   "func": 32855208,
+   "unit": "btsmap.c"
+  },
+  {
+   "site": 32858608,
+   "file": "btname.c",
+   "line": 51,
+   "expr": "0",
+   "func": 32858552,
+   "unit": "btname.c"
+  },
+  {
+   "site": 32858796,
+   "file": "btname.c",
+   "line": 70,
+   "expr": "0",
+   "func": 32858704,
+   "unit": "btname.c"
+  },
+  {
+   "site": 32858904,
+   "file": "btname.c",
+   "line": 87,
+   "expr": "0",
+   "func": 32858840,
+   "unit": "btname.c"
+  },
+  {
+   "site": 32859056,
+   "file": "btname.c",
+   "line": 106,
+   "expr": "0",
+   "func": 32859000,
+   "unit": "btname.c"
+  },
+  {
+   "site": 32859328,
+   "file": "btname.c",
+   "line": 185,
+   "expr": "0",
+   "func": 32859264,
+   "unit": "btname.c"
+  },
+  {
+   "site": 32859532,
+   "file": "btname.c",
+   "line": 214,
+   "expr": "0",
+   "func": 32859456,
+   "unit": "btname.c"
+  },
+  {
+   "site": 32859728,
+   "file": "btname.c",
+   "line": 248,
+   "expr": "0",
+   "func": 32859664,
+   "unit": "btname.c"
+  },
+  {
+   "site": 32860980,
+   "file": "btname.c",
+   "line": 409,
+   "expr": "0",
+   "func": 32860904,
+   "unit": "btname.c"
+  },
+  {
+   "site": 32861512,
+   "file": "btname.c",
+   "line": 493,
+   "expr": "0",
+   "func": 32861456,
+   "unit": "btname.c"
+  },
+  {
+   "site": 32862352,
+   "file": "btchara.c",
+   "line": 43,
+   "expr": "cid>=PID_BEGIN && cid<=PID_MAX",
+   "func": 32862312,
+   "unit": "btchara.c"
+  },
+  {
+   "site": 32864036,
+   "file": "btprim.c",
+   "line": 182,
+   "expr": "ang<HHANGLE_360",
+   "func": 32863952,
+   "unit": "btprim.c"
+  },
+  {
+   "site": 32873252,
+   "file": "btkira.c",
+   "line": 272,
+   "expr": "btlid>=0",
+   "func": 32873216,
+   "unit": "btkira.c"
+  },
+  {
+   "site": 32873288,
+   "file": "btkira.c",
+   "line": 273,
+   "expr": "btlid<Arraysize(btlpar)",
+   "func": 32873216,
+   "unit": "btkira.c"
+  },
+  {
+   "site": 32873364,
+   "file": "btkira.c",
+   "line": 284,
+   "expr": "btlid>=0",
+   "func": 32873328,
+   "unit": "btkira.c"
+  },
+  {
+   "site": 32873400,
+   "file": "btkira.c",
+   "line": 285,
+   "expr": "btlid<Arraysize(btlpar)",
+   "func": 32873328,
+   "unit": "btkira.c"
+  }
+ ],
+ "prog/FREE.BIN": [
+  {
+   "site": 32511060,
+   "file": "../im/test.c",
+   "line": 606,
+   "expr": "0",
+   "func": 32510680,
+   "unit": "../im/test.c"
+  },
+  {
+   "site": 32532116,
+   "file": "../im/sprite.c",
+   "line": 72,
+   "expr": "arg->sprite.handle[index]==-1",
+   "func": 32532032,
+   "unit": "../im/sprite.c"
+  },
+  {
+   "site": 32532240,
+   "file": "../im/sprite.c",
+   "line": 91,
+   "expr": "arg->sprite.handle[index]!=-1",
+   "func": 32532184,
+   "unit": "../im/sprite.c"
+  },
+  {
+   "site": 32548148,
+   "file": "../im/im0044.c",
+   "line": 230,
+   "expr": "max>0",
+   "func": 32547664,
+   "unit": "../im/im0044.c"
+  },
+  {
+   "site": 32552964,
+   "file": "../im/im0065.c",
+   "line": 18,
+   "expr": "Mystery>=NAZO_TOP&&Mystery<NAZO_MAX",
+   "func": 32552920,
+   "unit": "../im/im0065.c"
+  },
+  {
+   "site": 32553912,
+   "file": "../im/im0096.c",
+   "line": 45,
+   "expr": "size>0",
+   "func": 32553848,
+   "unit": "../im/im0096.c"
+  },
+  {
+   "site": 32563644,
+   "file": "../im/im0239.c",
+   "line": 172,
+   "expr": "cid==chr_Misato",
+   "func": 32563544,
+   "unit": "../im/im0239.c"
+  },
+  {
+   "site": 32568736,
+   "file": "../im/im0331.c",
+   "line": 59,
+   "expr": "0",
+   "func": 32568552,
+   "unit": "../im/im0331.c"
+  },
+  {
+   "site": 32570328,
+   "file": "../im/im0341.c",
+   "line": 26,
+   "expr": "Meal_MAX>=meal",
+   "func": 32570288,
+   "unit": "../im/im0341.c"
+  },
+  {
+   "site": 32570376,
+   "file": "../im/im0341.c",
+   "line": 26,
+   "expr": "Meal_MAX>=meal",
+   "func": 32570368,
+   "unit": "../im/im0341.c"
+  },
+  {
+   "site": 32574032,
+   "file": "../im/im0400.c",
+   "line": 26,
+   "expr": "type!=eREPORT_INVALID",
+   "func": 32573968,
+   "unit": "../im/im0400.c"
+  },
+  {
+   "site": 32574072,
+   "file": "../im/im0400.c",
+   "line": 28,
+   "expr": "size<REPORT_MAX",
+   "func": 32573968,
+   "unit": "../im/im0400.c"
+  },
+  {
+   "site": 32574172,
+   "file": "../im/im0400.c",
+   "line": 50,
+   "expr": "type!=eREPORT_INVALID",
+   "func": 32574128,
+   "unit": "../im/im0400.c"
+  },
+  {
+   "site": 32574520,
+   "file": "../im/im0423.c",
+   "line": 51,
+   "expr": "item!=item_invalid",
+   "func": 32574440,
+   "unit": "../im/im0423.c"
+  },
+  {
+   "site": 32574904,
+   "file": "../im/im0447.c",
+   "line": 51,
+   "expr": "item!=item_invalid",
+   "func": 32574824,
+   "unit": "../im/im0447.c"
+  },
+  {
+   "site": 32576400,
+   "file": "../im/im0492.c",
+   "line": 35,
+   "expr": "0",
+   "func": 32576336,
+   "unit": "../im/im0492.c"
+  },
+  {
+   "site": 32604216,
+   "file": "../im/im0687.c",
+   "line": 135,
+   "expr": "level>=eDESTROY_LEVEL1",
+   "func": 32604144,
+   "unit": "../im/im0687.c"
+  },
+  {
+   "site": 32604252,
+   "file": "../im/im0687.c",
+   "line": 136,
+   "expr": "level<=eDESTROY_LEVEL4",
+   "func": 32604144,
+   "unit": "../im/im0687.c"
+  },
+  {
+   "site": 32604336,
+   "file": "../im/im0687.c",
+   "line": 136,
+   "expr": "level<=eDESTROY_LEVEL4",
+   "func": 32604288,
+   "unit": "../im/im0687.c"
+  },
+  {
+   "site": 32616952,
+   "file": "../im/im0811.c",
+   "line": 51,
+   "expr": "cnt>0",
+   "func": 32616872,
+   "unit": "../im/im0811.c"
+  },
+  {
+   "site": 32627392,
+   "file": "../im/im0915.c",
+   "line": 70,
+   "expr": "0",
+   "func": 32627304,
+   "unit": "../im/im0915.c"
+  },
+  {
+   "site": 32648336,
+   "file": "freedbg.c",
+   "line": 2877,
+   "expr": "spim->player < Arraysize(playerstr)",
+   "func": 32648224,
+   "unit": "freedbg.c"
+  },
+  {
+   "site": 32648376,
+   "file": "freedbg.c",
+   "line": 2878,
+   "expr": "spim->range < Arraysize(rangestr )",
+   "func": 32648224,
+   "unit": "freedbg.c"
+  },
+  {
+   "site": 32648416,
+   "file": "freedbg.c",
+   "line": 2879,
+   "expr": "spim->mode < Arraysize(movemode )",
+   "func": 32648224,
+   "unit": "freedbg.c"
+  },
+  {
+   "site": 32648456,
+   "file": "freedbg.c",
+   "line": 2880,
+   "expr": "spim->mapcond < Arraysize(mapcondstr)",
+   "func": 32648224,
+   "unit": "freedbg.c"
+  },
+  {
+   "site": 32700416,
+   "file": "freedbgc.c",
+   "line": 131,
+   "expr": null,
+   "func": 32700368,
+   "unit": "freedbgc.c"
+  },
+  {
+   "site": 32701744,
+   "file": "freedbgm.c",
+   "line": 89,
+   "expr": "(slot >= FREEDBGPROFILE_SLOT_BEGIN) && (slot < FREEDBGPROFILE_SLOT_MAX)",
+   "func": 32701696,
+   "unit": "freedbgm.c"
+  },
+  {
+   "site": 32701888,
+   "file": "freedbgm.c",
+   "line": 110,
+   "expr": "(slot >= FREEDBGPROFILE_SLOT_BEGIN) && (slot < FREEDBGPROFILE_SLOT_MAX)",
+   "func": 32701848,
+   "unit": "freedbgm.c"
+  },
+  {
+   "site": 32702048,
+   "file": "freedbgm.c",
+   "line": 131,
+   "expr": "(slot >= FREEDBGPROFILE_SLOT_BEGIN) && (slot < FREEDBGPROFILE_SLOT_MAX)",
+   "func": 32702008,
+   "unit": "freedbgm.c"
+  },
+  {
+   "site": 32702136,
+   "file": "freedbgm.c",
+   "line": 144,
+   "expr": "(slot >= FREEDBGPROFILE_SLOT_BEGIN) && (slot < FREEDBGPROFILE_SLOT_MAX)",
+   "func": 32702096,
+   "unit": "freedbgm.c"
+  },
+  {
+   "site": 32702224,
+   "file": "freedbgm.c",
+   "line": 157,
+   "expr": "(slot >= FREEDBGPROFILE_SLOT_BEGIN) && (slot < FREEDBGPROFILE_SLOT_MAX)",
+   "func": 32702184,
+   "unit": "freedbgm.c"
+  },
+  {
+   "site": 32702996,
+   "file": "freedb.c",
+   "line": 220,
+   "expr": "0",
+   "func": 32702952,
+   "unit": "freedb.c"
+  },
+  {
+   "site": 32703084,
+   "file": "freedb.c",
+   "line": 237,
+   "expr": "0",
+   "func": 32703040,
+   "unit": "freedb.c"
+  },
+  {
+   "site": 32703140,
+   "file": "freedb.c",
+   "line": 33178048,
+   "expr": "0",
+   "func": 32703128,
+   "unit": "freedb.c"
+  },
+  {
+   "site": 32703376,
+   "file": "fcyroul.c",
+   "line": 87,
+   "expr": "0",
+   "func": 32703224,
+   "unit": "fcyroul.c"
+  },
+  {
+   "site": 32703664,
+   "file": "fcyroul.c",
+   "line": 154,
+   "expr": "0",
+   "func": 32703552,
+   "unit": "fcyroul.c"
+  },
+  {
+   "site": 32704388,
+   "file": "fcstate.c",
+   "line": 48,
+   "expr": "aienv != NULL",
+   "func": 32704288,
+   "unit": "fcstate.c"
+  },
+  {
+   "site": 32704396,
+   "file": "fcstate.c",
+   "line": 48,
+   "expr": "aienv != NULL",
+   "func": 32704288,
+   "unit": "fcstate.c"
+  },
+  {
+   "site": 32707452,
+   "file": "fcstate.c",
+   "line": 804,
+   "expr": "(cid >= PID_BEGIN) && (cid < PID_MAX)",
+   "func": 32707400,
+   "unit": "fcstate.c"
+  },
+  {
+   "site": 32709632,
+   "file": "fcsp.c",
+   "line": 441,
+   "expr": "spim->range < Arraysize(rangefunclist)",
+   "func": 32709416,
+   "unit": "fcsp.c"
+  },
+  {
+   "site": 32709668,
+   "file": "fcsp.c",
+   "line": 442,
+   "expr": "spim->player < Arraysize(playerfunclist)",
+   "func": 32709416,
+   "unit": "fcsp.c"
+  },
+  {
+   "site": 32709704,
+   "file": "fcsp.c",
+   "line": 443,
+   "expr": "spim->gameflag < Arraysize(_flagfunclist)",
+   "func": 32709416,
+   "unit": "fcsp.c"
+  },
+  {
+   "site": 32709932,
+   "file": "fcsp.c",
+   "line": 450,
+   "expr": "spim->scenario[idx] < Arraysize(scenariofunclist)",
+   "func": 32709416,
+   "unit": "fcsp.c"
+  },
+  {
+   "site": 32709996,
+   "file": "fcsp.c",
+   "line": 453,
+   "expr": "spim->actparam[idx].type < Arraysize(paramfunclist)",
+   "func": 32709416,
+   "unit": "fcsp.c"
+  },
+  {
+   "site": 32710060,
+   "file": "fcsp.c",
+   "line": 456,
+   "expr": "spim->psvparam[idx].type < Arraysize(paramfunclist)",
+   "func": 32709416,
+   "unit": "fcsp.c"
+  },
+  {
+   "site": 32710124,
+   "file": "fcsp.c",
+   "line": 459,
+   "expr": "spim->rel[idx].type < Arraysize(relfunclist)",
+   "func": 32709416,
+   "unit": "fcsp.c"
+  },
+  {
+   "site": 32711148,
+   "file": "fcsp.c",
+   "line": 695,
+   "expr": "func != NULL",
+   "func": 32711072,
+   "unit": "fcsp.c"
+  },
+  {
+   "site": 32721612,
+   "file": "fcnpc.c",
+   "line": 90,
+   "expr": "0",
+   "func": 32721400,
+   "unit": null
+  },
+  {
+   "site": 32731372,
+   "file": "fcnpcrm.c",
+   "line": 113,
+   "expr": "mapno >= 0",
+   "func": 32731176,
+   "unit": "fcnpcrm.c"
+  },
+  {
+   "site": 32731428,
+   "file": "fcnpcrm.c",
+   "line": 113,
+   "expr": "mapno >= 0",
+   "func": 32731408,
+   "unit": "fcnpcrm.c"
+  },
+  {
+   "site": 32731800,
+   "file": "fcnpcrm.c",
+   "line": 195,
+   "expr": "(cid >= PID_BEGIN) && (cid < PID_MAX)",
+   "func": 32731760,
+   "unit": "fcnpcrm.c"
+  },
+  {
+   "site": 32739268,
+   "file": "fcim.c",
+   "line": 186,
+   "expr": "aienv->script_backup_index < FCSTATE_SCRIPT_BACKUP",
+   "func": 32739080,
+   "unit": "fcim.c"
+  },
+  {
+   "site": 32739340,
+   "file": "fcim.c",
+   "line": 195,
+   "expr": "aienv->script_backup_index >= 0",
+   "func": 32739080,
+   "unit": "fcim.c"
+  },
+  {
+   "site": 32743564,
+   "file": "fcimfunc.c",
+   "line": 127,
+   "expr": "imarg->interrupt == PID_None",
+   "func": 32743288,
+   "unit": "fcimfunc.c"
+  },
+  {
+   "site": 32743624,
+   "file": "fcimfunc.c",
+   "line": 127,
+   "expr": "imarg->interrupt == PID_None",
+   "func": 32743608,
+   "unit": "fcimfunc.c"
+  },
+  {
+   "site": 32743640,
+   "file": "fcimfunc.c",
+   "line": 127,
+   "expr": "imarg->interrupt == PID_None",
+   "func": 32743608,
+   "unit": "fcimfunc.c"
+  },
+  {
+   "site": 32750912,
+   "file": "fclocate.c",
+   "line": 218,
+   "expr": "locate!=NULL",
+   "func": 32750760,
+   "unit": "fclocate.c"
+  },
+  {
+   "site": 32751480,
+   "file": "fclocate.c",
+   "line": 322,
+   "expr": "max<MAXLOCATE",
+   "func": 32751384,
+   "unit": "fclocate.c"
+  },
+  {
+   "site": 32752072,
+   "file": "fclocate.c",
+   "line": 416,
+   "expr": "locate!=NULL",
+   "func": 32752016,
+   "unit": "fclocate.c"
+  },
+  {
+   "site": 32753688,
+   "file": "fclocate.c",
+   "line": 672,
+   "expr": "my.locate[cid]!=NULL",
+   "func": 32753632,
+   "unit": "fclocate.c"
+  },
+  {
+   "site": 32753700,
+   "file": "fclocate.c",
+   "line": 672,
+   "expr": "my.locate[cid]!=NULL",
+   "func": 32753632,
+   "unit": "fclocate.c"
+  },
+  {
+   "site": 32762504,
+   "file": "fcangel.c",
+   "line": 101,
+   "expr": "_entrydat!=NULL",
+   "func": 32762448,
+   "unit": "fcangel.c"
+  },
+  {
+   "site": 32762512,
+   "file": "fcangel.c",
+   "line": 101,
+   "expr": "_entrydat!=NULL",
+   "func": 32762448,
+   "unit": "fcangel.c"
+  },
+  {
+   "site": 32762780,
+   "file": "fcangel.c",
+   "line": 176,
+   "expr": "_entrydat!=NULL",
+   "func": 32762728,
+   "unit": "fcangel.c"
+  },
+  {
+   "site": 32770692,
+   "file": "fcdelay.c",
+   "line": 144,
+   "expr": "my.init==1",
+   "func": 32770624,
+   "unit": "fcdelay.c"
+  },
+  {
+   "site": 32770872,
+   "file": "fcdelay.c",
+   "line": 189,
+   "expr": "my.init==1",
+   "func": 32770808,
+   "unit": "fcdelay.c"
+  },
+  {
+   "site": 32779508,
+   "file": "fmmapdb.c",
+   "line": 281,
+   "expr": "cid >= PID_BEGIN && cid <= PID_LAST",
+   "func": 32779456,
+   "unit": "fmmapdb.c"
+  },
+  {
+   "site": 32779568,
+   "file": "fmmapdb.c",
+   "line": 284,
+   "expr": "0",
+   "func": 32779456,
+   "unit": "fmmapdb.c"
+  },
+  {
+   "site": 32779584,
+   "file": "fmmapdb.c",
+   "line": null,
+   "expr": "0",
+   "func": 32779456,
+   "unit": "fmmapdb.c"
+  },
+  {
+   "site": 32780064,
+   "file": "fmmapdb.c",
+   "line": 424,
+   "expr": "0",
+   "func": 32780056,
+   "unit": "fmmapdb.c"
+  },
+  {
+   "site": 32782916,
+   "file": "fmrouter.c",
+   "line": 77,
+   "expr": "nowmap > 0 && nowmap < 255",
+   "func": 32782840,
+   "unit": "fmrouter.c"
+  },
+  {
+   "site": 32782956,
+   "file": "fmrouter.c",
+   "line": 78,
+   "expr": "dstmap > 0 && dstmap < 255",
+   "func": 32782840,
+   "unit": "fmrouter.c"
+  },
+  {
+   "site": 32782996,
+   "file": "fmrouter.c",
+   "line": 79,
+   "expr": "cid >= PID_BEGIN && cid <= PID_LAST",
+   "func": 32782840,
+   "unit": "fmrouter.c"
+  },
+  {
+   "site": 32783104,
+   "file": "fmrouter.c",
+   "line": 99,
+   "expr": "route != NULL",
+   "func": 32782840,
+   "unit": "fmrouter.c"
+  },
+  {
+   "site": 32783444,
+   "file": "fmrouter.c",
+   "line": 162,
+   "expr": "myself >= PID_BEGIN && myself <= PID_LAST",
+   "func": 32783384,
+   "unit": "fmrouter.c"
+  },
+  {
+   "site": 32783472,
+   "file": "fmrouter.c",
+   "line": 163,
+   "expr": "gateway >= 0",
+   "func": 32783384,
+   "unit": "fmrouter.c"
+  },
+  {
+   "site": 32783700,
+   "file": "fmrouter.c",
+   "line": 211,
+   "expr": "myself >= PID_BEGIN && myself <= PID_LAST",
+   "func": 32783656,
+   "unit": "fmrouter.c"
+  },
+  {
+   "site": 32783868,
+   "file": "fmrouter.c",
+   "line": 312,
+   "expr": "mapno > 0 && mapno < 255",
+   "func": 32783824,
+   "unit": "fmrouter.c"
+  },
+  {
+   "site": 32784060,
+   "file": "fmchange.c",
+   "line": 139,
+   "expr": "myself >= PID_BEGIN && myself <= PID_LAST",
+   "func": 32783952,
+   "unit": null
+  },
+  {
+   "site": 32784092,
+   "file": "fmchange.c",
+   "line": 140,
+   "expr": "dstmap >= 0",
+   "func": 32783952,
+   "unit": null
+  },
+  {
+   "site": 32785672,
+   "file": "fmcatgor.c",
+   "line": 103,
+   "expr": "index < Arraysize(gateway_interface_list)",
+   "func": 32785520,
+   "unit": "fmcatgor.c"
+  },
+  {
+   "site": 32785680,
+   "file": "fmcatgor.c",
+   "line": 103,
+   "expr": "index < Arraysize(gateway_interface_list)",
+   "func": 32785520,
+   "unit": "fmcatgor.c"
+  },
+  {
+   "site": 32786348,
+   "file": "fmcatgor.c",
+   "line": 283,
+   "expr": "index < Arraysize(gateway_npc_interface_list)",
+   "func": 32786256,
+   "unit": "fmcatgor.c"
+  },
+  {
+   "site": 32786404,
+   "file": "fmcatgor.c",
+   "line": 33218016,
+   "expr": "index < Arraysize(gateway_npc_interface_list)",
+   "func": 32786384,
+   "unit": "fmcatgor.c"
+  },
+  {
+   "site": 32789960,
+   "file": "fmcatgor.c",
+   "line": 861,
+   "expr": "data!=NULL",
+   "func": 32789872,
+   "unit": "fmcatgor.c"
+  },
+  {
+   "site": 32796856,
+   "file": "fmmotion.c",
+   "line": 337,
+   "expr": "index >= 0 && index < Arraysize(mtnparamlist)",
+   "func": 32796720,
+   "unit": "fmmotion.c"
+  },
+  {
+   "site": 32810716,
+   "file": "fmgimic.c",
+   "line": 422,
+   "expr": "(cid >= PID_BEGIN) && (cid <PID_MAX)",
+   "func": 32810664,
+   "unit": "fmgimic.c"
+  },
+  {
+   "site": 32810844,
+   "file": "fmgimic.c",
+   "line": 439,
+   "expr": "(cid >= PID_BEGIN) && (cid <PID_MAX)",
+   "func": 32810792,
+   "unit": "fmgimic.c"
+  },
+  {
+   "site": 32810996,
+   "file": "fmgimic.c",
+   "line": 464,
+   "expr": "(cid >= PID_BEGIN) && (cid <PID_MAX)",
+   "func": 32810944,
+   "unit": "fmgimic.c"
+  },
+  {
+   "site": 32811116,
+   "file": "fmgimic.c",
+   "line": 481,
+   "expr": "(cid >= PID_BEGIN) && (cid <PID_MAX)",
+   "func": 32811072,
+   "unit": "fmgimic.c"
+  },
+  {
+   "site": 32817052,
+   "file": "fmchara.c",
+   "line": 1184,
+   "expr": "nodename != NULL",
+   "func": 32816992,
+   "unit": "fmchara.c"
+  },
+  {
+   "site": 32817412,
+   "file": "fmchara.c",
+   "line": 1256,
+   "expr": "(myself >= PID_BEGIN) && (myself < PID_MAX)",
+   "func": 32817368,
+   "unit": "fmchara.c"
+  },
+  {
+   "site": 32818980,
+   "file": "fmchmove.c",
+   "line": 269,
+   "expr": "0",
+   "func": 32818688,
+   "unit": "fmchara.c"
+  },
+  {
+   "site": 32819052,
+   "file": "fmchmove.c",
+   "line": 269,
+   "expr": "0",
+   "func": 32819040,
+   "unit": "fmchmove.c"
+  },
+  {
+   "site": 32823412,
+   "file": "fmchrent.c",
+   "line": 396,
+   "expr": "fmMapForbiddenAreaCheck(_entry_list[cnt].mapno, &entries[idx].pos) == 0",
+   "func": 32823264,
+   "unit": "fmchrent.c"
+  },
+  {
+   "site": 32834636,
+   "file": "fm3doff.c",
+   "line": 211,
+   "expr": "cid >= PID_BEGIN && cid < PID_MAX",
+   "func": 32834584,
+   "unit": "fm3doff.c"
+  },
+  {
+   "site": 32853224,
+   "file": "fm3dpath.c",
+   "line": 414,
+   "expr": "env->length <= env->ambdata.trinum",
+   "func": 32853064,
+   "unit": "fm3dpath.c"
+  },
+  {
+   "site": 32853312,
+   "file": "fm3dpath.c",
+   "line": 424,
+   "expr": "env->length < AUTO_PATH_MAX",
+   "func": 32853064,
+   "unit": "fm3dpath.c"
+  },
+  {
+   "site": 32854696,
+   "file": "fm3dpath.c",
+   "line": 662,
+   "expr": "path->length + extpath->pointnum < AUTO_PATH_MAX+1",
+   "func": 32854536,
+   "unit": "fm3dpath.c"
+  },
+  {
+   "site": 32855168,
+   "file": "fm3dpath.c",
+   "line": 715,
+   "expr": "path->length < AUTO_PATH_MAX+1",
+   "func": 32854936,
+   "unit": "fm3dpath.c"
+  },
+  {
+   "site": 32857672,
+   "file": "fm3dpath.c",
+   "line": 1135,
+   "expr": "pathenv.length <= pathenv.ambdata.trinum",
+   "func": 32857408,
+   "unit": "fm3dpath.c"
+  },
+  {
+   "site": 32858188,
+   "file": "fm3dtrce.c",
+   "line": 281,
+   "expr": "path->playmethod<eFM3DAUTOONPLAY_MAX",
+   "func": 32858128,
+   "unit": "fm3dtrce.c"
+  },
+  {
+   "site": 32858612,
+   "file": "fm3dtrce.c",
+   "line": 366,
+   "expr": "path->playmethod<eFM3DAUTOONPLAY_MAX",
+   "func": 32858552,
+   "unit": "fm3dtrce.c"
+  },
+  {
+   "site": 32858988,
+   "file": "fm3dtrce.c",
+   "line": 426,
+   "expr": "path == frShellGeomPathenvGet(cid)",
+   "func": 32858824,
+   "unit": "fm3dtrce.c"
+  },
+  {
+   "site": 32863644,
+   "file": "fm3dtrce.c",
+   "line": 1232,
+   "expr": "env == frShellGeomPathenvGet(cid)",
+   "func": 32863528,
+   "unit": "fm3dtrce.c"
+  },
+  {
+   "site": 32868084,
+   "file": "fvcommon.c",
+   "line": 342,
+   "expr": "Motion %08x is illigal.",
+   "func": 32867760,
+   "unit": "fm3dtrce.c"
+  },
+  {
+   "site": 32871068,
+   "file": "fvmap.c",
+   "line": 880,
+   "expr": "MapModel != NULL",
+   "func": 32870832,
+   "unit": "fvmap.c"
+  },
+  {
+   "site": 32875480,
+   "file": "fvmapcam.c",
+   "line": 430,
+   "expr": "cameraid >= 0 && cameraid < _env.CameraNum",
+   "func": 32875384,
+   "unit": "fvmapcam.c"
+  },
+  {
+   "site": 32906636,
+   "file": "fvchara.c",
+   "line": 570,
+   "expr": "cid >= PID_BEGIN && cid < PID_MAX",
+   "func": 32906552,
+   "unit": "fvchara.c"
+  },
+  {
+   "site": 32908608,
+   "file": "fvchara.c",
+   "line": 1016,
+   "expr": "cid >= PID_BEGIN && cid < PID_MAX",
+   "func": 32908560,
+   "unit": "fvchara.c"
+  },
+  {
+   "site": 32909580,
+   "file": "fvchara.c",
+   "line": 1259,
+   "expr": "cid >= PID_BEGIN && cid < PID_MAX",
+   "func": 32909512,
+   "unit": "fvchara.c"
+  },
+  {
+   "site": 32909756,
+   "file": "fvchara.c",
+   "line": 1313,
+   "expr": "cid >= PID_BEGIN && cid < PID_MAX",
+   "func": 32909704,
+   "unit": "fvchara.c"
+  },
+  {
+   "site": 32909884,
+   "file": "fvchara.c",
+   "line": 1337,
+   "expr": "cid >= PID_BEGIN && cid < PID_MAX",
+   "func": 32909832,
+   "unit": "fvchara.c"
+  },
+  {
+   "site": 32910004,
+   "file": "fvchara.c",
+   "line": 1359,
+   "expr": "cid >= PID_BEGIN && cid < PID_MAX",
+   "func": 32909960,
+   "unit": "fvchara.c"
+  },
+  {
+   "site": 32910064,
+   "file": "fvchara.c",
+   "line": 1359,
+   "expr": "cid >= PID_BEGIN && cid < PID_MAX",
+   "func": 32910048,
+   "unit": "fvchara.c"
+  },
+  {
+   "site": 32922764,
+   "file": "fvchrenv.c",
+   "line": 51,
+   "expr": "cid >= PID_BEGIN && cid < PID_MAX",
+   "func": 32922712,
+   "unit": "fvchrenv.c"
+  },
+  {
+   "site": 32922964,
+   "file": "fvchrenv.c",
+   "line": 86,
+   "expr": "cid >= PID_BEGIN && cid < PID_MAX",
+   "func": 32922904,
+   "unit": "fvchrenv.c"
+  },
+  {
+   "site": 32923084,
+   "file": "fvchrenv.c",
+   "line": 114,
+   "expr": "cid >= PID_BEGIN && cid < PID_MAX",
+   "func": 32923032,
+   "unit": "fvchrenv.c"
+  },
+  {
+   "site": 32923204,
+   "file": "fvchrenv.c",
+   "line": 138,
+   "expr": "cid >= PID_BEGIN && cid < PID_MAX",
+   "func": 32923160,
+   "unit": "fvchrenv.c"
+  },
+  {
+   "site": 32923292,
+   "file": "fvchrenv.c",
+   "line": 159,
+   "expr": "cid >= PID_BEGIN && cid < PID_MAX",
+   "func": 32923240,
+   "unit": "fvchrenv.c"
+  },
+  {
+   "site": 32923412,
+   "file": "fvchrenv.c",
+   "line": 184,
+   "expr": "cid >= PID_BEGIN && cid < PID_MAX",
+   "func": 32923360,
+   "unit": "fvchrenv.c"
+  },
+  {
+   "site": 32923508,
+   "file": "fvchrenv.c",
+   "line": 204,
+   "expr": "cid >= PID_BEGIN && cid < PID_MAX",
+   "func": 32923456,
+   "unit": "fvchrenv.c"
+  },
+  {
+   "site": 32924052,
+   "file": "fvchrenv.c",
+   "line": 353,
+   "expr": "cid >= PID_BEGIN && cid < PID_MAX",
+   "func": 32923992,
+   "unit": "fvchrenv.c"
+  },
+  {
+   "site": 32927660,
+   "file": "fvchrmot.c",
+   "line": 804,
+   "expr": "0",
+   "func": 32926776,
+   "unit": "fvchrmot.c"
+  },
+  {
+   "site": 32927728,
+   "file": "fvchrmot.c",
+   "line": 804,
+   "expr": "0",
+   "func": 32926776,
+   "unit": "fvchrmot.c"
+  },
+  {
+   "site": 32928072,
+   "file": "fvchrjnt.c",
+   "line": 50,
+   "expr": "joint < eFVCHARAJOINTS_MAX",
+   "func": 32928024,
+   "unit": "fvchrjnt.c"
+  },
+  {
+   "site": 32929224,
+   "file": "fvchrjnt.c",
+   "line": 429,
+   "expr": "joint >= 0 && joint < eFVCHARAJOINTS_MAX",
+   "func": 32929176,
+   "unit": "fvchrjnt.c"
+  },
+  {
+   "site": 32929284,
+   "file": "fvchrjnt.c",
+   "line": 433,
+   "expr": "node != NULL",
+   "func": 32929176,
+   "unit": "fvchrjnt.c"
+  },
+  {
+   "site": 32929340,
+   "file": "fvchrjnt.c",
+   "line": 433,
+   "expr": "node != NULL",
+   "func": 32929320,
+   "unit": "fvchrjnt.c"
+  },
+  {
+   "site": 32929400,
+   "file": "fvchrjnt.c",
+   "line": 461,
+   "expr": "0",
+   "func": 32929320,
+   "unit": "fvchrjnt.c"
+  },
+  {
+   "site": 32929432,
+   "file": "fvchrjnt.c",
+   "line": 465,
+   "expr": "constraint != NULL",
+   "func": 32929320,
+   "unit": "fvchrjnt.c"
+  },
+  {
+   "site": 32929476,
+   "file": "fvchrjnt.c",
+   "line": 465,
+   "expr": "constraint != NULL",
+   "func": 32929464,
+   "unit": null
+  },
+  {
+   "site": 32929520,
+   "file": "fvchrjnt.c",
+   "line": 465,
+   "expr": "constraint != NULL",
+   "func": 32929512,
+   "unit": null
+  },
+  {
+   "site": 32931104,
+   "file": "fvchrmk.c",
+   "line": 168,
+   "expr": "PID %d Parts %d Query %d is not defined.\n",
+   "func": 32930936,
+   "unit": null
+  },
+  {
+   "site": 32932196,
+   "file": "fvchrtex.c",
+   "line": 137,
+   "expr": "cid >= PID_BEGIN && cid < PID_MAX",
+   "func": 32932136,
+   "unit": "fvchrtex.c"
+  },
+  {
+   "site": 32932232,
+   "file": "fvchrtex.c",
+   "line": 138,
+   "expr": "subid >= 0 && subid <= FVCHARA_SUBSETID_MAX",
+   "func": 32932136,
+   "unit": "fvchrtex.c"
+  },
+  {
+   "site": 32936640,
+   "file": "fvgimick.c",
+   "line": 908,
+   "expr": "slotid >= 0 && slotid < FVGMKSLOT_MAX",
+   "func": 32936600,
+   "unit": "fvgimick.c"
+  },
+  {
+   "site": 32937336,
+   "file": "fvgimick.c",
+   "line": 1106,
+   "expr": "slotid >= 0 && slotid < FVGMKSLOT_MAX",
+   "func": 32937296,
+   "unit": "fvgimick.c"
+  },
+  {
+   "site": 32937540,
+   "file": "fvgimick.c",
+   "line": 1125,
+   "expr": "slotid >= 0 && slotid < FVGMKSLOT_MAX",
+   "func": 32937496,
+   "unit": "fvgimick.c"
+  },
+  {
+   "site": 32937768,
+   "file": "fvgimick.c",
+   "line": 1175,
+   "expr": "index >= 0 && index < FVGMKSLOT_MAX",
+   "func": 32937728,
+   "unit": "fvgimick.c"
+  },
+  {
+   "site": 32950296,
+   "file": "fvattrib.c",
+   "line": 786,
+   "expr": "mapno >= eFMMAP_FREE_BEGIN && mapno <= eFMMAP_FREE_END",
+   "func": 32950240,
+   "unit": "fvattrib.c"
+  },
+  {
+   "site": 32950344,
+   "file": "fvattrib.c",
+   "line": 786,
+   "expr": "mapno >= eFMMAP_FREE_BEGIN && mapno <= eFMMAP_FREE_END",
+   "func": 32950336,
+   "unit": "fvattrib.c"
+  },
+  {
+   "site": 32953660,
+   "file": "fvattrib.c",
+   "line": 1488,
+   "expr": "cid >= PID_BEGIN && cid < PID_MAX",
+   "func": 32953616,
+   "unit": "fvattrib.c"
+  },
+  {
+   "site": 32969040,
+   "file": "fvdemo.c",
+   "line": 154,
+   "expr": "object != NULL",
+   "func": 32968888,
+   "unit": "fvdemo.c"
+  },
+  {
+   "site": 32969740,
+   "file": "fvdemo.c",
+   "line": 207,
+   "expr": "result == TRUE",
+   "func": 32968888,
+   "unit": "fvdemo.c"
+  }
+ ],
+ "prog/TITLE.BIN": [
+  {
+   "site": 32519776,
+   "file": "scenario.c",
+   "line": 87,
+   "expr": "complete<eCompleteMax",
+   "func": 32519736,
+   "unit": null
+  }
+ ],
+ "prog/ENDING.BIN": [
+  {
+   "site": 32506616,
+   "file": "staff.c",
+   "line": 415,
+   "expr": "starffroll!=NULL",
+   "func": 32506552,
+   "unit": null
+  }
+ ],
+ "prog/MINIGAME.BIN": []
+}

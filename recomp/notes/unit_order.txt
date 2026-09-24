@@ -1,0 +1,12 @@
+SLPS_252.99: 103 units in link order, 70 anchored
+   4902 functions: 1910 narrowed to ONE unit (39%), median window 2, max 20
+prog/BATTLE.BIN: 83 units in link order, 62 anchored
+   2344 functions: 516 narrowed to ONE unit (22%), median window 2, max 5
+prog/FREE.BIN: 61 units in link order, 45 anchored
+   2857 functions: 274 narrowed to ONE unit (10%), median window 2, max 6
+prog/TITLE.BIN: 1 units in link order, 1 anchored
+   72 functions: 72 narrowed to ONE unit (100%), median window 1, max 1
+prog/ENDING.BIN: 1 units in link order, 1 anchored
+   23 functions: 23 narrowed to ONE unit (100%), median window 1, max 1
+
+wrote /home/vasilije/Downloads/nge2_recomp/symbols/unit_order.json

@@ -1,0 +1,42 @@
+SLPS_252.99: 4902 candidates -> 4684 kept, 218 dropped
+   3304 REACHED (jal / stored pointer / address taken)
+   1380 kept but unreferenced -- flagged, not trusted
+   218 dropped: provably branched into from the function above
+prog/BATTLE.BIN: 2344 candidates -> 2285 kept, 59 dropped
+   2114 REACHED (jal / stored pointer / address taken)
+   171 kept but unreferenced -- flagged, not trusted
+   59 dropped: provably branched into from the function above
+prog/FREE.BIN: 2857 candidates -> 2804 kept, 53 dropped
+   2564 REACHED (jal / stored pointer / address taken)
+   240 kept but unreferenced -- flagged, not trusted
+   53 dropped: provably branched into from the function above
+prog/TITLE.BIN: 72 candidates -> 72 kept, 0 dropped
+   63 REACHED (jal / stored pointer / address taken)
+   9 kept but unreferenced -- flagged, not trusted
+   0 dropped: provably branched into from the function above
+prog/ENDING.BIN: 23 candidates -> 23 kept, 0 dropped
+   19 REACHED (jal / stored pointer / address taken)
+   4 kept but unreferenced -- flagged, not trusted
+   0 dropped: provably branched into from the function above
+prog/MINIGAME.BIN: 54 candidates -> 53 kept, 1 dropped
+   51 REACHED (jal / stored pointer / address taken)
+   2 kept but unreferenced -- flagged, not trusted
+   1 dropped: provably branched into from the function above
+
+TOTAL 10252 candidates -> 9921 kept (331 dropped as provable continuations)
+      8115 of those are REACHED and can be trusted as real functions
+wrote /home/vasilije/Downloads/nge2_recomp/symbols/functions_pruned.json
+
+2026-09-04: `j` is now read two ways instead of one.
+
+A `j` whose source lies inside the function above the candidate is an
+intra-function branch, and the candidate is a continuation -- that was the only
+reading before, and it is still right.
+
+A `j` whose source lies OUTSIDE that range is a TAIL CALL, and the candidate is
+its callee: a real function that simply never appears as a `jal` target. Adding
+that reading moved 701 functions from "unreferenced" to "reached".
+
+The two readings are complements of the same test, so nothing had to be
+re-tuned. This only became visible after func_scan learned to end functions at
+tail calls; before that the callees mostly were not in the list at all.

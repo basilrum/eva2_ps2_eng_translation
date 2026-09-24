@@ -1,0 +1,139 @@
+STRUCT FIELDS  (95 across 41 variables)
+  info           ch, cpsm, cw, gClut, gPix, mClut, mPix, psm, stat
+  spim           actparam, gameflag, mapcond, mode, player, psvparam, range, rel, scenario
+  my             file, func, heapadrs, init, locate, maxslot, size, slot
+  env            aglcnt, ambdata, evacnt, length, mmdl, nerv
+  dh             hei, id, psm, wid
+  mm             hei, pvbuf, pvbuf_size, wid
+  box            bottom, left, right, top
+  code           buffer, func, handle
+  ud             dmg, stamina, str
+  build          hei, pow_num, wid
+  city           binfo_num, hei, wid
+  tfr            addr, data
+  self           animeindex, objtype
+  pinfo          buf, size
+  slot           buff, tail
+  text           buffer, handle
+  tabenv         btkaworu, map
+  agl            stamina, uid
+  path           length, playmethod
+  pathenv        ambdata, length
+  tbl            next
+  rec            use
+  mhed           objcount
+  pr             nloop
+  chank          header
+  memlist        count
+  lpparam        kao
+  item           size
+  report         size
+  ew             list_num
+  btim           text
+  pceva          uobj
+  kaworu         flag
+  al             num
+  rep            mes_num
+  cable          curve_num
+  arg            sprite
+  aienv          script_backup_index
+  imarg          interrupt
+  extpath        pointnum
+  _env           CameraNum
+
+CONSTANTS  (57)
+  AUTO_PATH_MAX                      fm3dpath.c
+  DIR_TABLE_MAX                      cddir.c
+  DISKINFO_SIZE                      cddir.c
+  EXTENDSIZE                         bind.c
+  FCSTATE_SCRIPT_BACKUP              fcim.c
+  FILE_TABLE_MAX                     cddir.c
+  FREEDBGPROFILE_SLOT_BEGIN          freedbgm.c
+  FREEDBGPROFILE_SLOT_MAX            freedbgm.c
+  FREE_TERM                          btuobj.c
+  FROM_BEGIN                         btflow.c
+  FVCHARA_SUBSETID_MAX               fvchrtex.c
+  FVGMKSLOT_MAX                      fvgimick.c
+  GEOFRONT_BINFO_SIZE                btcity.c
+  GM_MEMORY_AREA_MAX                 gmchara.c
+  GM_MEMORY_SIZE_MAX                 memfind.c
+  HHANGLE_180                        btmisc.c
+  HHANGLE_360                        btprim.c
+  HHCA_OBJTYPE                       ../hahig/hhcamera.c
+  HHMO_OBJTYPE                       ../hahig/hhmodel.c
+  HHP3_OBJTYPE                       ../hahig/hhprim3d.c
+  HHPA_OBJTYPE                       ../hahig/hhpartic.c
+  ICON1_ICO                          saveload.c
+  ICON2_ICO                          saveload.c
+  ICON3_ICO                          saveload.c
+  IOP                                soundstr.c
+  KF_TERMINAL_DOGUMA                 btkaworu.c
+  MAXBUFF                            choose.c
+  MAXITEM                            choose.c
+  MAXLEVEL                           cpskill.c
+  MAXLOADOBJ                         ../hahig/hhobject.c
+  MAXLOCATE                          fclocate.c
+  MAXSLOT                            bumpu.c
+  MAXWORD                            text.c
+  MEMORY_ALIGN                       malloc.c
+  MINLEVEL                           cpskill.c
+  NAZO_MAX                           ../im/im0065.c
+  NAZO_TOP                           ../im/im0065.c
+  NEWTOKYO_BINFO_SIZE                btcity.c
+  NLOOP_MAX                          texture.c
+  PDHDR_ID                           texture.c
+  PID                                fvchrmk.c
+  PID_BEGIN                          btchara.c, cpconst.c, cpparams.c
+  PID_LAST                           fmchange.c, fmmapdb.c, fmrouter.c
+  PID_MAX                            btchara.c, cpconst.c, cpparams.c
+  PILOT_MAX                          btopera1.c
+  PVBUF_SIZE_LIMIT                   btmmdl.c
+  REPORT_MAX                         ../im/im0400.c, cpreport.c
+  SCE_GS_PSMCT16                     texture.c
+  SCE_GS_PSMCT24                     texture.c
+  SCE_GS_PSMCT32                     texture.c
+  SCE_GS_PSMT4                       texture.c
+  SCE_GS_PSMT8                       texture.c
+  SECTOR_SIZE                        cddir.c
+  SEREC_SIZE                         soundse.c
+  SPU2                               soundstr.c
+  TEXSIZE                            gsbuf.c
+  TEXSTAT_CLUT                       texture.c
+
+ARRAYS named by Arraysize()  (31)
+  _flagfunclist            fcsp.c
+  _gmprintfconf            gmdebug.c
+  add                      btcity.c
+  atkdata                  btattack.c
+  btlmap0                  gmbtlmap.c
+  btlpar                   btkira.c
+  datainitalfunclist       gmsave.c
+  equipdata                btequip.c
+  gateway_interface_list   fmcatgor.c
+  gateway_npc_interface_list fmcatgor.c
+  heapstat                 gmmain.c
+  hhmemstat                gmmain.c
+  imstrlist                btim319.c
+  imtbl                    btkaworu.c
+  mapcondstr               freedbg.c
+  maphar                   btmap.c
+  memdata                  btmemory.c
+  memorysearchlist         memstr.c
+  message                  btdebug.c, gmdebug.c
+  movemode                 freedbg.c
+  mtnparamlist             fmmotion.c
+  paramfunclist            fcsp.c
+  playerfunclist           fcsp.c
+  playerstr                freedbg.c
+  rangefunclist            fcsp.c
+  rangestr                 freedbg.c
+  relfunclist              fcsp.c
+  scenariofunclist         fcsp.c
+  sightparam               btenv.c
+  unitdata                 gmbattle.c
+  viewparam                btmap.c
+
+FUNCTIONS called in assertions  (3)
+  ProfileBegin             ../hahig/hhprofil.c
+  ProfileEnd               ../hahig/hhprofil.c
+  TaskIsRun                adpcm.c

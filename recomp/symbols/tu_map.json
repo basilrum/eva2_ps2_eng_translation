@@ -1,0 +1,1345 @@
+{
+ "SLPS_252.99": {
+  "base": 1044480,
+  "units": [
+   {
+    "file": "kanoh.c",
+    "lo": 1068304,
+    "hi": 1068304,
+    "refs": 1
+   },
+   {
+    "file": "debug.c",
+    "lo": 1069292,
+    "hi": 1070244,
+    "refs": 2
+   },
+   {
+    "file": "pad.c",
+    "lo": 1072436,
+    "hi": 1074572,
+    "refs": 8
+   },
+   {
+    "file": "cdfile.c",
+    "lo": 1078548,
+    "hi": 1079632,
+    "refs": 2
+   },
+   {
+    "file": "cddir.c",
+    "lo": 1080996,
+    "hi": 1081508,
+    "refs": 4
+   },
+   {
+    "file": "pcfile.c",
+    "lo": 1083524,
+    "hi": 1084252,
+    "refs": 4
+   },
+   {
+    "file": "hig.c",
+    "lo": 1085072,
+    "hi": 1085248,
+    "refs": 5
+   },
+   {
+    "file": "higdma.c",
+    "lo": 1086840,
+    "hi": 1086840,
+    "refs": 1
+   },
+   {
+    "file": "dbbuf.c",
+    "lo": 1089672,
+    "hi": 1089968,
+    "refs": 5
+   },
+   {
+    "file": "texture.c",
+    "lo": 1091308,
+    "hi": 1098320,
+    "refs": 29
+   },
+   {
+    "file": "gsmem.c",
+    "lo": 1098860,
+    "hi": 1099436,
+    "refs": 3
+   },
+   {
+    "file": "gsbuf.c",
+    "lo": 1100128,
+    "hi": 1100128,
+    "refs": 1
+   },
+   {
+    "file": "misc.c",
+    "lo": 1101356,
+    "hi": 1101356,
+    "refs": 1
+   },
+   {
+    "file": "sound.c",
+    "lo": 1102244,
+    "hi": 1111168,
+    "refs": 31
+   },
+   {
+    "file": "soundse.c",
+    "lo": 1112132,
+    "hi": 1115028,
+    "refs": 12
+   },
+   {
+    "file": "soundbgm.c",
+    "lo": 1116176,
+    "hi": 1116436,
+    "refs": 3
+   },
+   {
+    "file": "soundstr.c",
+    "lo": 1118604,
+    "hi": 1118760,
+    "refs": 3
+   },
+   {
+    "file": "../hahig/hhcamera.c",
+    "lo": 1121204,
+    "hi": 1126824,
+    "refs": 30
+   },
+   {
+    "file": "../hahig/hhdprint.c",
+    "lo": 1128124,
+    "hi": 1128124,
+    "refs": 1
+   },
+   {
+    "file": "../hahig/hhfile.c",
+    "lo": 1129468,
+    "hi": 1137548,
+    "refs": 22
+   },
+   {
+    "file": "../hahig/hhfont.c",
+    "lo": 1139972,
+    "hi": 1141908,
+    "refs": 6
+   },
+   {
+    "file": "../hahig/hhlight.c",
+    "lo": 1145088,
+    "hi": 1145932,
+    "refs": 7
+   },
+   {
+    "file": "../hahig/hhmem.c",
+    "lo": 1149348,
+    "hi": 1153896,
+    "refs": 15
+   },
+   {
+    "file": "../hahig/hhmodel.c",
+    "lo": 1161608,
+    "hi": 1177328,
+    "refs": 34
+   },
+   {
+    "file": "../hahig/hhobject.c",
+    "lo": 1178572,
+    "hi": 1196196,
+    "refs": 46
+   },
+   {
+    "file": "../hahig/hhobjmot.c",
+    "lo": 1209588,
+    "hi": 1216212,
+    "refs": 9
+   },
+   {
+    "file": "hhprim.c",
+    "lo": 1226208,
+    "hi": 1236224,
+    "refs": 5
+   },
+   {
+    "file": "../hahig/hhprofil.c",
+    "lo": 1238268,
+    "hi": 1241900,
+    "refs": 4
+   },
+   {
+    "file": "../hahig/hhtex.c",
+    "lo": 1245196,
+    "hi": 1248128,
+    "refs": 8
+   },
+   {
+    "file": "../hahig/hhtext.c",
+    "lo": 1249872,
+    "hi": 1255944,
+    "refs": 10
+   },
+   {
+    "file": "../hahig/hhdrawlk.c",
+    "lo": 1263472,
+    "hi": 1263560,
+    "refs": 2
+   },
+   {
+    "file": "../hahig/hhtask.c",
+    "lo": 1273856,
+    "hi": 1275220,
+    "refs": 6
+   },
+   {
+    "file": "../hahig/hhfade.c",
+    "lo": 1277564,
+    "hi": 1279116,
+    "refs": 4
+   },
+   {
+    "file": "../hahig/hhscene.c",
+    "lo": 1280952,
+    "hi": 1281504,
+    "refs": 6
+   },
+   {
+    "file": "../hahig/hhpartic.c",
+    "lo": 1283620,
+    "hi": 1292316,
+    "refs": 7
+   },
+   {
+    "file": "../hahig/hhmesh.c",
+    "lo": 1294972,
+    "hi": 1296132,
+    "refs": 7
+   },
+   {
+    "file": "../hahig/hhprim3d.c",
+    "lo": 1297632,
+    "hi": 1298248,
+    "refs": 3
+   },
+   {
+    "file": "gsprim.c",
+    "lo": 1306516,
+    "hi": 1306516,
+    "refs": 1
+   },
+   {
+    "file": "gsprim2.c",
+    "lo": 1306968,
+    "hi": 1306968,
+    "refs": 1
+   },
+   {
+    "file": "gsenv.c",
+    "lo": 1307588,
+    "hi": 1307588,
+    "refs": 1
+   },
+   {
+    "file": "memcard.c",
+    "lo": 1313696,
+    "hi": 1316508,
+    "refs": 23
+   },
+   {
+    "file": "adpcm.c",
+    "lo": 1316640,
+    "hi": 1319004,
+    "refs": 5
+   },
+   {
+    "file": "inrecv.c",
+    "lo": 1327132,
+    "hi": 1327132,
+    "refs": 1
+   },
+   {
+    "file": "bind.c",
+    "lo": 1337632,
+    "hi": 1338240,
+    "refs": 3
+   },
+   {
+    "file": "text.c",
+    "lo": 1340644,
+    "hi": 1340744,
+    "refs": 2
+   },
+   {
+    "file": "code.c",
+    "lo": 1343760,
+    "hi": 1344636,
+    "refs": 2
+   },
+   {
+    "file": "malloc.c",
+    "lo": 1352424,
+    "hi": 1353644,
+    "refs": 2
+   },
+   {
+    "file": "choose.c",
+    "lo": 1366096,
+    "hi": 1371060,
+    "refs": 9
+   },
+   {
+    "file": "gmmemory.c",
+    "lo": 1382468,
+    "hi": 1382468,
+    "refs": 1
+   },
+   {
+    "file": "cpget.c",
+    "lo": 1388032,
+    "hi": 1388032,
+    "refs": 1
+   },
+   {
+    "file": "cpparams.c",
+    "lo": 1388284,
+    "hi": 1391708,
+    "refs": 3
+   },
+   {
+    "file": "cpconst.c",
+    "lo": 1409980,
+    "hi": 1410676,
+    "refs": 6
+   },
+   {
+    "file": "gmchara.c",
+    "lo": 1414936,
+    "hi": 1414980,
+    "refs": 2
+   },
+   {
+    "file": "gmsave.c",
+    "lo": 1416700,
+    "hi": 1416700,
+    "refs": 1
+   },
+   {
+    "file": "gmdebug.c",
+    "lo": 1422192,
+    "hi": 1423264,
+    "refs": 2
+   },
+   {
+    "file": "gmmain.c",
+    "lo": 1427248,
+    "hi": 1427352,
+    "refs": 2
+   },
+   {
+    "file": "gmbattle.c",
+    "lo": 1428728,
+    "hi": 1430944,
+    "refs": 10
+   },
+   {
+    "file": "memstr.c",
+    "lo": 1432828,
+    "hi": 1432828,
+    "refs": 1
+   },
+   {
+    "file": "memfind.c",
+    "lo": 1436212,
+    "hi": 1436348,
+    "refs": 2
+   },
+   {
+    "file": "face.c",
+    "lo": 1454632,
+    "hi": 1454632,
+    "refs": 1
+   },
+   {
+    "file": "faceplt.c",
+    "lo": 1457908,
+    "hi": 1459400,
+    "refs": 4
+   },
+   {
+    "file": "cpmoney.c",
+    "lo": 1464216,
+    "hi": 1464216,
+    "refs": 1
+   },
+   {
+    "file": "cpskill.c",
+    "lo": 1464536,
+    "hi": 1464816,
+    "refs": 5
+   },
+   {
+    "file": "cpitem.c",
+    "lo": 1465208,
+    "hi": 1468908,
+    "refs": 8
+   },
+   {
+    "file": "cpstate.c",
+    "lo": 1469256,
+    "hi": 1469256,
+    "refs": 1
+   },
+   {
+    "file": "cpmyster.c",
+    "lo": 1470728,
+    "hi": 1470728,
+    "refs": 1
+   },
+   {
+    "file": "cpmess.c",
+    "lo": 1471256,
+    "hi": 1471256,
+    "refs": 1
+   },
+   {
+    "file": "cpflag.c",
+    "lo": 1471512,
+    "hi": 1471512,
+    "refs": 1
+   },
+   {
+    "file": "cpreport.c",
+    "lo": 1472680,
+    "hi": 1473068,
+    "refs": 3
+   },
+   {
+    "file": "bumpu.c",
+    "lo": 1475656,
+    "hi": 1475656,
+    "refs": 1
+   },
+   {
+    "file": "im.c",
+    "lo": 1476388,
+    "hi": 1476736,
+    "refs": 4
+   },
+   {
+    "file": "window.c",
+    "lo": 1487712,
+    "hi": 1487712,
+    "refs": 1
+   },
+   {
+    "file": "restore.c",
+    "lo": 1496628,
+    "hi": 1496628,
+    "refs": 1
+   },
+   {
+    "file": "evseq.c",
+    "lo": 1505892,
+    "hi": 1505892,
+    "refs": 1
+   },
+   {
+    "file": "option.c",
+    "lo": 1553684,
+    "hi": 1557976,
+    "refs": 5
+   },
+   {
+    "file": "saveload.c",
+    "lo": 1568172,
+    "hi": 1568496,
+    "refs": 3
+   },
+   {
+    "file": "gmbtlmap.c",
+    "lo": 1570900,
+    "hi": 1571700,
+    "refs": 7
+   },
+   {
+    "file": "cprecord.c",
+    "lo": 1573224,
+    "hi": 1573224,
+    "refs": 1
+   },
+   {
+    "file": "cpsatis.c",
+    "lo": 1573544,
+    "hi": 1573544,
+    "refs": 1
+   },
+   {
+    "file": "gmaround.c",
+    "lo": 1584068,
+    "hi": 1584488,
+    "refs": 3
+   },
+   {
+    "file": "daysdisp.c",
+    "lo": 1586100,
+    "hi": 1586100,
+    "refs": 1
+   },
+   {
+    "file": "chara.c",
+    "lo": 1597272,
+    "hi": 1597272,
+    "refs": 1
+   }
+  ]
+ },
+ "prog/BATTLE.BIN": {
+  "base": 32505856,
+  "units": [
+   {
+    "file": "btflow.c",
+    "lo": 32508352,
+    "hi": 32510124,
+    "refs": 6
+   },
+   {
+    "file": "btopera1.c",
+    "lo": 32515616,
+    "hi": 32515616,
+    "refs": 1
+   },
+   {
+    "file": "btopera2.c",
+    "lo": 32519428,
+    "hi": 32523668,
+    "refs": 7
+   },
+   {
+    "file": "btopera3.c",
+    "lo": 32525312,
+    "hi": 32525312,
+    "refs": 1
+   },
+   {
+    "file": "btoperat.c",
+    "lo": 32526132,
+    "hi": 32527348,
+    "refs": 2
+   },
+   {
+    "file": "btplay.c",
+    "lo": 32531856,
+    "hi": 32533460,
+    "refs": 3
+   },
+   {
+    "file": "btgeofro.c",
+    "lo": 32535676,
+    "hi": 32537052,
+    "refs": 3
+   },
+   {
+    "file": "btvirtua.c",
+    "lo": 32537588,
+    "hi": 32537632,
+    "refs": 2
+   },
+   {
+    "file": "btauto1.c",
+    "lo": 32540236,
+    "hi": 32540792,
+    "refs": 2
+   },
+   {
+    "file": "btauto3.c",
+    "lo": 32543044,
+    "hi": 32544712,
+    "refs": 2
+   },
+   {
+    "file": "btviewer.c",
+    "lo": 32550688,
+    "hi": 32550688,
+    "refs": 1
+   },
+   {
+    "file": "btenv.c",
+    "lo": 32557696,
+    "hi": 32559096,
+    "refs": 5
+   },
+   {
+    "file": "btenv2.c",
+    "lo": 32561116,
+    "hi": 32563148,
+    "refs": 2
+   },
+   {
+    "file": "btenv3.c",
+    "lo": 32563704,
+    "hi": 32564652,
+    "refs": 3
+   },
+   {
+    "file": "btenv4.c",
+    "lo": 32566900,
+    "hi": 32566900,
+    "refs": 1
+   },
+   {
+    "file": "btenv8.c",
+    "lo": 32569768,
+    "hi": 32569768,
+    "refs": 1
+   },
+   {
+    "file": "btenv9.c",
+    "lo": 32570112,
+    "hi": 32570112,
+    "refs": 1
+   },
+   {
+    "file": "btenv11.c",
+    "lo": 32571212,
+    "hi": 32571212,
+    "refs": 1
+   },
+   {
+    "file": "btenv12.c",
+    "lo": 32571404,
+    "hi": 32571404,
+    "refs": 1
+   },
+   {
+    "file": "bttabris.c",
+    "lo": 32577204,
+    "hi": 32577204,
+    "refs": 1
+   },
+   {
+    "file": "bttabenv.c",
+    "lo": 32582456,
+    "hi": 32583524,
+    "refs": 7
+   },
+   {
+    "file": "btgendou.c",
+    "lo": 32586240,
+    "hi": 32586240,
+    "refs": 1
+   },
+   {
+    "file": "btpcmis.c",
+    "lo": 32590632,
+    "hi": 32591880,
+    "refs": 3
+   },
+   {
+    "file": "btpcgen.c",
+    "lo": 32595424,
+    "hi": 32595424,
+    "refs": 1
+   },
+   {
+    "file": "btim319.c",
+    "lo": 32608896,
+    "hi": 32610976,
+    "refs": 2
+   },
+   {
+    "file": "btim.c",
+    "lo": 32612116,
+    "hi": 32612280,
+    "refs": 2
+   },
+   {
+    "file": "btim003.c",
+    "lo": 32614448,
+    "hi": 32614632,
+    "refs": 2
+   },
+   {
+    "file": "btevent1.c",
+    "lo": 32625888,
+    "hi": 32628552,
+    "refs": 2
+   },
+   {
+    "file": "btevent2.c",
+    "lo": 32629640,
+    "hi": 32634704,
+    "refs": 4
+   },
+   {
+    "file": "btevfunc.c",
+    "lo": 32641140,
+    "hi": 32647272,
+    "refs": 7
+   },
+   {
+    "file": "btdemot.c",
+    "lo": 32650536,
+    "hi": 32650536,
+    "refs": 1
+   },
+   {
+    "file": "btdemo.c",
+    "lo": 32661400,
+    "hi": 32667764,
+    "refs": 4
+   },
+   {
+    "file": "btdemoc.c",
+    "lo": 32672640,
+    "hi": 32672640,
+    "refs": 1
+   },
+   {
+    "file": "btmemory.c",
+    "lo": 32675320,
+    "hi": 32679984,
+    "refs": 5
+   },
+   {
+    "file": "btkaworu.c",
+    "lo": 32683516,
+    "hi": 32685000,
+    "refs": 4
+   },
+   {
+    "file": "btim660.c",
+    "lo": 32689136,
+    "hi": 32689136,
+    "refs": 1
+   },
+   {
+    "file": "btinfo.c",
+    "lo": 32693588,
+    "hi": 32693588,
+    "refs": 1
+   },
+   {
+    "file": "btinfo2.c",
+    "lo": 32694056,
+    "hi": 32696616,
+    "refs": 5
+   },
+   {
+    "file": "btangel.c",
+    "lo": 32700388,
+    "hi": 32703656,
+    "refs": 3
+   },
+   {
+    "file": "btangel2.c",
+    "lo": 32704456,
+    "hi": 32705472,
+    "refs": 2
+   },
+   {
+    "file": "btangel3.c",
+    "lo": 32706576,
+    "hi": 32708368,
+    "refs": 6
+   },
+   {
+    "file": "btunitwk.c",
+    "lo": 32708596,
+    "hi": 32708596,
+    "refs": 1
+   },
+   {
+    "file": "btnpceva.c",
+    "lo": 32715272,
+    "hi": 32717104,
+    "refs": 2
+   },
+   {
+    "file": "btnpcmis.c",
+    "lo": 32724068,
+    "hi": 32724068,
+    "refs": 1
+   },
+   {
+    "file": "btisrafe.c",
+    "lo": 32726384,
+    "hi": 32726384,
+    "refs": 1
+   },
+   {
+    "file": "btunit.c",
+    "lo": 32728568,
+    "hi": 32731056,
+    "refs": 2
+   },
+   {
+    "file": "btbuild.c",
+    "lo": 32741612,
+    "hi": 32742724,
+    "refs": 7
+   },
+   {
+    "file": "bteva.c",
+    "lo": 32750464,
+    "hi": 32753424,
+    "refs": 7
+   },
+   {
+    "file": "bteva2.c",
+    "lo": 32756816,
+    "hi": 32758208,
+    "refs": 4
+   },
+   {
+    "file": "btflag.c",
+    "lo": 32761284,
+    "hi": 32761284,
+    "refs": 1
+   },
+   {
+    "file": "btmmdl.c",
+    "lo": 32762408,
+    "hi": 32765956,
+    "refs": 8
+   },
+   {
+    "file": "btmisc.c",
+    "lo": 32767380,
+    "hi": 32768728,
+    "refs": 5
+   },
+   {
+    "file": "btattack.c",
+    "lo": 32770668,
+    "hi": 32771004,
+    "refs": 3
+   },
+   {
+    "file": "btequip.c",
+    "lo": 32773564,
+    "hi": 32773564,
+    "refs": 1
+   },
+   {
+    "file": "btdata.c",
+    "lo": 32774012,
+    "hi": 32774220,
+    "refs": 2
+   },
+   {
+    "file": "btdebug.c",
+    "lo": 32776120,
+    "hi": 32776120,
+    "refs": 1
+   },
+   {
+    "file": "btcity.c",
+    "lo": 32781036,
+    "hi": 32783884,
+    "refs": 11
+   },
+   {
+    "file": "btarg.c",
+    "lo": 32786624,
+    "hi": 32786888,
+    "refs": 2
+   },
+   {
+    "file": "btwork.c",
+    "lo": 32789568,
+    "hi": 32789568,
+    "refs": 1
+   },
+   {
+    "file": "btc2work.c",
+    "lo": 32793016,
+    "hi": 32793792,
+    "refs": 2
+   },
+   {
+    "file": "btuobj.c",
+    "lo": 32796944,
+    "hi": 32796944,
+    "refs": 1
+   },
+   {
+    "file": "btgauge.c",
+    "lo": 32806264,
+    "hi": 32806264,
+    "refs": 1
+   },
+   {
+    "file": "btstat.c",
+    "lo": 32807628,
+    "hi": 32813772,
+    "refs": 5
+   },
+   {
+    "file": "btsight.c",
+    "lo": 32817000,
+    "hi": 32817032,
+    "refs": 2
+   },
+   {
+    "file": "btmap.c",
+    "lo": 32821072,
+    "hi": 32823548,
+    "refs": 4
+   },
+   {
+    "file": "btenemy.c",
+    "lo": 32827436,
+    "hi": 32827436,
+    "refs": 1
+   },
+   {
+    "file": "btreport.c",
+    "lo": 32828708,
+    "hi": 32830504,
+    "refs": 2
+   },
+   {
+    "file": "btbattry.c",
+    "lo": 32831420,
+    "hi": 32832444,
+    "refs": 2
+   },
+   {
+    "file": "btdemosc.c",
+    "lo": 32833640,
+    "hi": 32833640,
+    "refs": 1
+   },
+   {
+    "file": "btcable.c",
+    "lo": 32835660,
+    "hi": 32837816,
+    "refs": 3
+   },
+   {
+    "file": "bteff.c",
+    "lo": 32841216,
+    "hi": 32842056,
+    "refs": 4
+   },
+   {
+    "file": "btdefobj.c",
+    "lo": 32845264,
+    "hi": 32845264,
+    "refs": 1
+   },
+   {
+    "file": "bticeff.c",
+    "lo": 32846480,
+    "hi": 32846480,
+    "refs": 1
+   },
+   {
+    "file": "btsubtex.c",
+    "lo": 32850488,
+    "hi": 32851972,
+    "refs": 13
+   },
+   {
+    "file": "btsmap.c",
+    "lo": 32853500,
+    "hi": 32855236,
+    "refs": 2
+   },
+   {
+    "file": "btname.c",
+    "lo": 32858592,
+    "hi": 32861496,
+    "refs": 9
+   },
+   {
+    "file": "btchara.c",
+    "lo": 32862336,
+    "hi": 32862336,
+    "refs": 1
+   },
+   {
+    "file": "btprim.c",
+    "lo": 32864020,
+    "hi": 32864020,
+    "refs": 1
+   },
+   {
+    "file": "btkira.c",
+    "lo": 32873236,
+    "hi": 32873384,
+    "refs": 4
+   }
+  ]
+ },
+ "prog/FREE.BIN": {
+  "base": 32505856,
+  "units": [
+   {
+    "file": "../im/init.c",
+    "lo": 32506640,
+    "hi": 32506640,
+    "refs": 1
+   },
+   {
+    "file": "../im/test.c",
+    "lo": 32511044,
+    "hi": 32511044,
+    "refs": 1
+   },
+   {
+    "file": "../im/sprite.c",
+    "lo": 32532104,
+    "hi": 32532228,
+    "refs": 2
+   },
+   {
+    "file": "../im/im0044.c",
+    "lo": 32548132,
+    "hi": 32548132,
+    "refs": 1
+   },
+   {
+    "file": "../im/im0050.c",
+    "lo": 32552100,
+    "hi": 32552100,
+    "refs": 1
+   },
+   {
+    "file": "../im/im0065.c",
+    "lo": 32552948,
+    "hi": 32552948,
+    "refs": 1
+   },
+   {
+    "file": "../im/im0096.c",
+    "lo": 32553896,
+    "hi": 32553896,
+    "refs": 1
+   },
+   {
+    "file": "../im/im0239.c",
+    "lo": 32563616,
+    "hi": 32563616,
+    "refs": 1
+   },
+   {
+    "file": "../im/im0331.c",
+    "lo": 32568720,
+    "hi": 32568720,
+    "refs": 1
+   },
+   {
+    "file": "../im/im0341.c",
+    "lo": 32570312,
+    "hi": 32570312,
+    "refs": 1
+   },
+   {
+    "file": "../im/im0400.c",
+    "lo": 32574008,
+    "hi": 32574148,
+    "refs": 3
+   },
+   {
+    "file": "../im/im0423.c",
+    "lo": 32574480,
+    "hi": 32574480,
+    "refs": 1
+   },
+   {
+    "file": "../im/im0447.c",
+    "lo": 32574864,
+    "hi": 32574864,
+    "refs": 1
+   },
+   {
+    "file": "../im/im0492.c",
+    "lo": 32576368,
+    "hi": 32576368,
+    "refs": 1
+   },
+   {
+    "file": "../im/im0501.c",
+    "lo": 32578144,
+    "hi": 32578144,
+    "refs": 1
+   },
+   {
+    "file": "../im/im0687.c",
+    "lo": 32604192,
+    "hi": 32604236,
+    "refs": 2
+   },
+   {
+    "file": "../im/im0809.c",
+    "lo": 32616448,
+    "hi": 32616448,
+    "refs": 1
+   },
+   {
+    "file": "../im/im0811.c",
+    "lo": 32616936,
+    "hi": 32616936,
+    "refs": 1
+   },
+   {
+    "file": "../im/im0915.c",
+    "lo": 32627376,
+    "hi": 32627376,
+    "refs": 1
+   },
+   {
+    "file": "freedbg.c",
+    "lo": 32648320,
+    "hi": 32667936,
+    "refs": 6
+   },
+   {
+    "file": "freedbgc.c",
+    "lo": 32700340,
+    "hi": 32700340,
+    "refs": 1
+   },
+   {
+    "file": "freedbgm.c",
+    "lo": 32701732,
+    "hi": 32702208,
+    "refs": 5
+   },
+   {
+    "file": "freedb.c",
+    "lo": 32702980,
+    "hi": 32703068,
+    "refs": 2
+   },
+   {
+    "file": "fcyroul.c",
+    "lo": 32703264,
+    "hi": 32703616,
+    "refs": 3
+   },
+   {
+    "file": "fcstate.c",
+    "lo": 32704348,
+    "hi": 32707436,
+    "refs": 2
+   },
+   {
+    "file": "fcsp.c",
+    "lo": 32709584,
+    "hi": 32711132,
+    "refs": 6
+   },
+   {
+    "file": "fcnpcrm.c",
+    "lo": 32731356,
+    "hi": 32731788,
+    "refs": 2
+   },
+   {
+    "file": "fcim.c",
+    "lo": 32739252,
+    "hi": 32739300,
+    "refs": 2
+   },
+   {
+    "file": "fcimfunc.c",
+    "lo": 32743548,
+    "hi": 32743548,
+    "refs": 1
+   },
+   {
+    "file": "fclocate.c",
+    "lo": 32750836,
+    "hi": 32753672,
+    "refs": 6
+   },
+   {
+    "file": "fcangel.c",
+    "lo": 32762488,
+    "hi": 32762764,
+    "refs": 2
+   },
+   {
+    "file": "fcdebug.c",
+    "lo": 32765952,
+    "hi": 32765952,
+    "refs": 1
+   },
+   {
+    "file": "fcdelay.c",
+    "lo": 32770680,
+    "hi": 32770856,
+    "refs": 2
+   },
+   {
+    "file": "fmmapdb.c",
+    "lo": 32779492,
+    "hi": 32779552,
+    "refs": 2
+   },
+   {
+    "file": "fmrouter.c",
+    "lo": 32782900,
+    "hi": 32783852,
+    "refs": 8
+   },
+   {
+    "file": "fmchange.c",
+    "lo": 32784044,
+    "hi": 32784076,
+    "refs": 2
+   },
+   {
+    "file": "fmcatgor.c",
+    "lo": 32785656,
+    "hi": 32789944,
+    "refs": 3
+   },
+   {
+    "file": "fmmotion.c",
+    "lo": 32796784,
+    "hi": 32796784,
+    "refs": 1
+   },
+   {
+    "file": "fmgimic.c",
+    "lo": 32810704,
+    "hi": 32811100,
+    "refs": 4
+   },
+   {
+    "file": "fmchara.c",
+    "lo": 32817040,
+    "hi": 32817396,
+    "refs": 2
+   },
+   {
+    "file": "fmchmove.c",
+    "lo": 32818964,
+    "hi": 32818964,
+    "refs": 1
+   },
+   {
+    "file": "fmchrent.c",
+    "lo": 32823368,
+    "hi": 32823368,
+    "refs": 1
+   },
+   {
+    "file": "fm3doff.c",
+    "lo": 32834620,
+    "hi": 32834620,
+    "refs": 1
+   },
+   {
+    "file": "fm3dpath.c",
+    "lo": 32853208,
+    "hi": 32854680,
+    "refs": 3
+   },
+   {
+    "file": "fm3dtrce.c",
+    "lo": 32858156,
+    "hi": 32863632,
+    "refs": 4
+   },
+   {
+    "file": "fvmap.c",
+    "lo": 32871052,
+    "hi": 32871052,
+    "refs": 1
+   },
+   {
+    "file": "fvmapcam.c",
+    "lo": 32875464,
+    "hi": 32875464,
+    "refs": 1
+   },
+   {
+    "file": "fvchara.c",
+    "lo": 32906620,
+    "hi": 32909988,
+    "refs": 8
+   },
+   {
+    "file": "fvchrenv.c",
+    "lo": 32922752,
+    "hi": 32924036,
+    "refs": 8
+   },
+   {
+    "file": "fvchrmot.c",
+    "lo": 32927644,
+    "hi": 32927644,
+    "refs": 1
+   },
+   {
+    "file": "fvchrjnt.c",
+    "lo": 32928060,
+    "hi": 32929416,
+    "refs": 5
+   },
+   {
+    "file": "fvchrtex.c",
+    "lo": 32932184,
+    "hi": 32932216,
+    "refs": 2
+   },
+   {
+    "file": "fvgimick.c",
+    "lo": 32936624,
+    "hi": 32937752,
+    "refs": 4
+   },
+   {
+    "file": "fvattrib.c",
+    "lo": 32950264,
+    "hi": 32953644,
+    "refs": 2
+   },
+   {
+    "file": "fvdemo.c",
+    "lo": 32969024,
+    "hi": 32969724,
+    "refs": 2
+   },
+   {
+    "file": "f2status.c",
+    "lo": 32993100,
+    "hi": 32993100,
+    "refs": 1
+   }
+  ]
+ },
+ "prog/TITLE.BIN": {
+  "base": 32505856,
+  "units": [
+   {
+    "file": "scenario.c",
+    "lo": 32519760,
+    "hi": 32519760,
+    "refs": 1
+   }
+  ]
+ },
+ "prog/ENDING.BIN": {
+  "base": 32505856,
+  "units": [
+   {
+    "file": "staff.c",
+    "lo": 32506600,
+    "hi": 32506600,
+    "refs": 1
+   }
+  ]
+ },
+ "prog/MINIGAME.BIN": {
+  "base": 32505856,
+  "units": []
+ }
+}
